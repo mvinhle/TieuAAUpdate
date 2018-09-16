@@ -6,6 +6,7 @@ public class KeyAA {
 
     public static String KEY_NAME_INFORMATION = "NAME_OF_USER";
     public static String KEY_SEX_INFORMATION  = "SEX_OF_USER";
+    public static String KEY_POINT_TRUST      = "POINT_TRUST";
 
     public static String KEY_LOG = "LeMV";
 
@@ -15,4 +16,6 @@ public class KeyAA {
     public static String ALIAS_BOY  = "anh";
     public static String ALIAS_AA   = "em";
     public static String NAME_AA    = "Ami";
+
+    public static int POINT_TRUST_DEFAULT = 100;
 }
