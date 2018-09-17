@@ -17,5 +17,9 @@ public class KeyAA {
     public static String ALIAS_AA   = "em";
     public static String NAME_AA    = "Ami";
 
-    public static int POINT_TRUST_DEFAULT = 100;
+    public static long POINT_TRUST_DEFAULT = 140;
+    public static String KEY_NAME_USER  = "[nyou]";
+    public static String KEY_ALIAS_USER = "[you]";
+    public static String KEY_NAME_AA    = "[ni]";
+    public static String KEY_ALIAS_AA   = "[i]";
 }

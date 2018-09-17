@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
+    <string-array name="ami_HelloWorld">
+        <item>[def]Def, hello world ([you], [nyou]), dòng 0</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 1</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 2</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 3</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 4</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 5</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 6</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 7</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 8</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 9</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 10</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 11</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 12</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 13</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 14</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 15</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 16</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 17</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 18</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 19</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 20</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 21</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 22</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 23</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 24</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 25</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 26</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 27</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 28</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 29</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 30</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 31</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 32</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 33</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 34</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 53</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 36</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 37</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 38</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 39</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 40</item>
+
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 51</item>
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 52</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 53</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 54</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 55</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 56</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 57</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 58</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 59</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 60</item>
+
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 61</item>
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 62</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 63</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 64</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 65</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 66</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 67</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 68</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 69</item>
+        <item>[ang]giận, hello world ([you], [nyou]), dòng 70</item>
+    </string-array>
+    <string-array name="ami_chat">
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 0</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 1</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 2</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 3</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 4</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 5</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 6</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 7</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 8</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 9</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 10</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 11</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 12</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 13</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 14</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 15</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 16</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 17</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 18</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 19</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 20</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 21</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 22</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 23</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 24</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 25</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 26</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 27</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 28</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 29</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 30</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 31</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 32</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 33</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 34</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 53</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 36</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 37</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 38</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 39</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 40</item>
+
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 51</item>
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 52</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 53</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 54</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 55</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 56</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 57</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 58</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 59</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 60</item>
+
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 61</item>
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 62</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 63</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 64</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 65</item>
+
+        <item>[fun]Vui, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 66</item>
+        <item>[sad]Buồn, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 67</item>
+        <item>[def]Def, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 68</item>
+        <item>[sud]bất ngờ, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 69</item>
+        <item>[ang]giận, [i] [ni] biết [you] [nyou] ấn vào trò chuyện , dòng 70</item>
+    </string-array>
+    <string-array name="move_class">
+        <item>[def]Def, đổi ngữ cảnh sang class nha [you], dòng 0</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang class nha [you], dòng 1</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang class nha [you], dòng 2</item>
+        <item>[def]Def, đổi ngữ cảnh sang class nha [you], dòng 3</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang class nha [you], dòng 4</item>
+        <item>[ang]giận, đổi ngữ cảnh sang class nha [you], dòng 5</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang class nha [you], dòng 6</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang class nha [you], dòng 7</item>
+        <item>[def]Def, đổi ngữ cảnh sang class nha [you], dòng 8</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang class nha [you], dòng 9</item>
+        <item>[ang]giận, đổi ngữ cảnh sang class nha [you], dòng 10</item>
+    </string-array>
+    <string-array name="move_home">
+        <item>[def]Def, đổi ngữ cảnh sang home nha [you], dòng 0</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang home nha [you], dòng 1</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang home nha [you], dòng 2</item>
+        <item>[def]Def, đổi ngữ cảnh sang home nha [you], dòng 3</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang home nha [you], dòng 4</item>
+        <item>[ang]giận, đổi ngữ cảnh sang home nha [you], dòng 5</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang home nha [you], dòng 6</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang home nha [you], dòng 7</item>
+        <item>[def]Def, đổi ngữ cảnh sang home nha [you], dòng 8</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang home nha [you], dòng 9</item>
+        <item>[ang]giận, đổi ngữ cảnh sang home nha [you], dòng 10</item>
+    </string-array>
+</resources>

@@ -5,12 +5,12 @@ import android.content.SharedPreferences;
 import android.util.Log;
 
 public class SaveAndLoadData{
-    SaveAndLoadData(Activity activity){
+    public SaveAndLoadData(Activity activity){
         if (switchContractor){
             information = activity.getSharedPreferences(KeyAA.NAME_INFORMATION, activity.MODE_PRIVATE);
             trust = activity.getSharedPreferences(KeyAA.NAME_TRUST, activity.MODE_PRIVATE);
             restartUser();
-            SaveAndLoadData.pointTrust = trust.getInt(KeyAA.KEY_POINT_TRUST, KeyAA.POINT_TRUST_DEFAULT);
+            SaveAndLoadData.pointTrust = trust.getLong(KeyAA.KEY_POINT_TRUST, KeyAA.POINT_TRUST_DEFAULT);
             switchContractor = false;
             Log.d(KeyAA.KEY_LOG, "SaveAndLoadData: khởi tạo shared preferences vào static xong");
         }
@@ -23,8 +23,8 @@ public class SaveAndLoadData{
     private static long pointTrust;
 
 //    hàm lưu trust vào sharedPrefeerences sau đó truyền dữ liệu vào static.
-    public void addPointTrust(int i){
-        pointTrust += i;
+    public void addPointTrust(float f){
+        pointTrust += (int) f;
         SharedPreferences.Editor editor = trust.edit();
         editor.putLong(KeyAA.KEY_POINT_TRUST, pointTrust);
         editor.apply();
@@ -40,9 +40,9 @@ public class SaveAndLoadData{
                     String.valueOf(nameUser.split(" ")[i].trim().charAt(0))
                             .toUpperCase()
                             .concat(nameUser.split(" ")[i].trim().substring(1).toLowerCase());
-            nameChange = nameChange.concat(" ");
+            nameChange += " ";
         }
-        nameChange.trim();
+        nameChange = nameChange.trim();
         SharedPreferences.Editor editor = information.edit();
         editor.putString(KeyAA.KEY_NAME_INFORMATION, nameChange);
         editor.putBoolean(KeyAA.KEY_SEX_INFORMATION, sexUserIsBoy);
@@ -54,7 +54,6 @@ public class SaveAndLoadData{
     public void restartUser(){
         String nameUser = information.getString(KeyAA.KEY_NAME_INFORMATION, KeyAA.KEY_FIX_BUG_INFORMARTION);
         boolean sexUserIsBoy = information.getBoolean(KeyAA.KEY_SEX_INFORMATION, true);
-
         SaveAndLoadData.nameUser = nameUser;
         SaveAndLoadData.sexUserIsBoy = sexUserIsBoy;
         if (sexUserIsBoy){
@@ -81,7 +80,7 @@ public class SaveAndLoadData{
     public String getAliasAA(){
         return KeyAA.ALIAS_AA;
     }
-    public long getPointTrust(){
+    public static long getPointTrust(){
         return SaveAndLoadData.pointTrust;
     }
 }

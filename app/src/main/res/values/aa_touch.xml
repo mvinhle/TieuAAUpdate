@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stringTouchHair">
+        <item>[def]Def, chạm đầu, dòng 0</item>
+
+        <item>[fun]Vui, chạm đầu, dòng 1</item>
+        <item>[sad]Buồn, chạm đầu, dòng 2</item>
+        <item>[def]Def, chạm đầu, dòng 3</item>
+        <item>[sud]bất ngờ, chạm đầu, dòng 4</item>
+        <item>[ang]giận, chạm đầu, dòng 5</item>
+
+        <item>[fun]Vui, chạm đầu, dòng 6</item>
+        <item>[sad]Buồn, chạm đầu, dòng 7</item>
+        <item>[def]Def, chạm đầu, dòng 8</item>
+        <item>[sud]bất ngờ, chạm đầu, dòng 9</item>
+        <item>[ang]giận, chạm đầu, dòng 10</item>
+
+        <item>[fun]Vui, chạm đầu, dòng 11</item>
+        <item>[sad]Buồn, chạm đầu, dòng 12</item>
+        <item>[def]Def, chạm đầu, dòng 13</item>
+        <item>[sud]bất ngờ, chạm đầu, dòng 14</item>
+        <item>[ang]giận, chạm đầu, dòng 15</item>
+
+        <item>[fun]Vui, chạm đầu, dòng 16</item>
+        <item>[sad]Buồn, chạm đầu, dòng 17</item>
+        <item>[def]Def, chạm đầu, dòng 18</item>
+        <item>[sud]bất ngờ, chạm đầu, dòng 19</item>
+        <item>[ang]giận, chạm đầu, dòng 20</item>
+    </string-array>
+    <string-array name="stringTouchFace">
+        <item>[fun]Vui, chạm mặt, dòng 0</item>
+
+        <item>[sad]Buồn, chạm mặt, dòng 1</item>
+        <item>[def]Def, chạm mặt, dòng 3</item>
+        <item>[sud]bất ngờ, chạm mặt, dòng 4</item>
+        <item>[ang]giận, chạm mặt, dòng 5</item>
+
+        <item>[fun]Vui, chạm mặt, dòng 6</item>
+        <item>[sad]Buồn, chạm mặt, dòng 7</item>
+        <item>[def]Def, chạm mặt, dòng 8</item>
+        <item>[sud]bất ngờ, chạm mặt, dòng 9</item>
+        <item>[ang]giận, chạm mặt, dòng 10</item>
+
+        <item>[fun]Vui, chạm mặt, dòng 11</item>
+        <item>[sad]Buồn, chạm mặt, dòng 12</item>
+        <item>[def]Def, chạm mặt, dòng 13</item>
+        <item>[sud]bất ngờ, chạm mặt, dòng 14</item>
+        <item>[ang]giận, chạm mặt, dòng 15</item>
+
+        <item>[fun]Vui, chạm mặt, dòng 16</item>
+        <item>[sad]Buồn, chạm mặt, dòng 17</item>
+        <item>[def]Def, chạm mặt, dòng 18</item>
+        <item>[sud]bất ngờ, chạm mặt, dòng 19</item>
+        <item>[ang]giận, chạm mặt, dòng 20</item>
+    </string-array>
+    <string-array name="stringTouchShoulder">
+        <item>[fun]Vui, chạm vai, dòng 0</item>
+
+        <item>[sad]Buồn, chạm vai, dòng 1</item>
+        <item>[def]Def, chạm vai, dòng 3</item>
+        <item>[sud]bất ngờ, chạm vai, dòng 4</item>
+        <item>[ang]giận, chạm vai, dòng 5</item>
+
+        <item>[fun]Vui, chạm vai, dòng 6</item>
+        <item>[sad]Buồn, chạm vai, dòng 7</item>
+        <item>[def]Def, chạm vai, dòng 8</item>
+        <item>[sud]bất ngờ, chạm vai, dòng 9</item>
+        <item>[ang]giận, chạm vai, dòng 10</item>
+
+        <item>[fun]Vui, chạm vai, dòng 11</item>
+        <item>[sad]Buồn, chạm vai, dòng 12</item>
+        <item>[def]Def, chạm vai, dòng 13</item>
+        <item>[sud]bất ngờ, chạm vai, dòng 14</item>
+        <item>[ang]giận, chạm vai, dòng 15</item>
+
+        <item>[fun]Vui, chạm vai, dòng 16</item>
+        <item>[sad]Buồn, chạm vai, dòng 17</item>
+        <item>[def]Def, chạm vai, dòng 18</item>
+        <item>[sud]bất ngờ, chạm vai, dòng 19</item>
+        <item>[ang]giận, chạm vai, dòng 20</item>
+    </string-array>
+    <string-array name="stringTouchBodyB">
+        <item>[fun]Vui, chạm ngực (phản ứng với nam), dòng 0</item>
+
+        <item>[sad]Buồn, chạm ngực (phản ứng với nam), dòng 1</item>
+        <item>[def]Def, chạm ngực (phản ứng với nam), dòng 3</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nam), dòng 4</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nam), dòng 5</item>
+
+        <item>[fun]Vui, chạm ngực (phản ứng với nam), dòng 6</item>
+        <item>[sad]Buồn, chạm ngực (phản ứng với nam), dòng 7</item>
+        <item>[def]Def, chạm ngực (phản ứng với nam), dòng 8</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nam), dòng 9</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nam), dòng 10</item>
+
+        <item>[fun]Vui, chạm ngực (phản ứng với nam), dòng 11</item>
+        <item>[sad]Buồn, chạm ngực (phản ứng với nam), dòng 12</item>
+        <item>[def]Def, chạm ngực (phản ứng với nam), dòng 13</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nam), dòng 14</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nam), dòng 15</item>
+
+        <item>[fun]Vui, chạm ngực (phản ứng với nam), dòng 16</item>
+        <item>[sad]Buồn, chạm ngực (phản ứng với nam), dòng 17</item>
+        <item>[def]Def, chạm ngực (phản ứng với nam), dòng 18</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nam), dòng 19</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nam), dòng 20</item>
+    </string-array>
+    <string-array name="stringTouchBodyG">
+        <item>[fun]Vui, chạm ngực (phản ứng với nữ), dòng 0</item>
+
+        <item>[sad]Buồn, chạm ngực (phản ứng với nữ), dòng 1</item>
+        <item>[def]Def, chạm ngực (phản ứng với nữ), dòng 3</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nữ), dòng 4</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nữ), dòng 5</item>
+
+        <item>[fun]Vui, chạm ngực (phản ứng với nữ), dòng 6</item>
+        <item>[sad]Buồn, chạm ngực (phản ứng với nữ), dòng 7</item>
+        <item>[def]Def, chạm ngực (phản ứng với nữ), dòng 8</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nữ), dòng 9</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nữ), dòng 10</item>
+
+        <item>[fun]Vui, chạm ngực (phản ứng với nữ), dòng 11</item>
+        <item>[sad]Buồn, chạm ngực (phản ứng với nữ), dòng 12</item>
+        <item>[def]Def, chạm ngực (phản ứng với nữ), dòng 13</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nữ), dòng 14</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nữ), dòng 15</item>
+
+        <item>[fun]Vui, chạm ngực (phản ứng với nữ), dòng 16</item>
+        <item>[sad]Buồn, chạm ngực (phản ứng với nữ), dòng 17</item>
+        <item>[def]Def, chạm ngực (phản ứng với nữ), dòng 18</item>
+        <item>[sud]bất ngờ, chạm ngực (phản ứng với nữ), dòng 19</item>
+        <item>[ang]giận, chạm ngực (phản ứng với nữ), dòng 20</item>
+    </string-array>
+</resources>
