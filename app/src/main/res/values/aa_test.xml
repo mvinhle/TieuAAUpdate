@@ -3,74 +3,74 @@
     <!-- câu hỏi support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
     <!-- câu trả lời không hổ trợ -->
     <string-array name="ami_test">
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 0</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 0</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 1</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 1</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 2</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 2</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 3</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 3</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 3</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 3</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 4</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 4</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 5</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 5</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 6</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 6</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 7</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 7</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 8</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 8</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 9</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 9</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
         <item>Sai 3</item>
 
-        <item>[fun]Vui, [you] ấn kiểm tra và [i] random ra câu hỏi, dòng 10</item>
+        <item>[fun]Vui, [you] ấn kiểm tra và [i] lấy ra câu hỏi thứ 10</item>
         <item>Đúng</item>
         <item>Sai 1</item>
         <item>Sai 2</item>
@@ -109,25 +109,25 @@
     </string-array>
     <!-- support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
     <string-array name="ami_win">
-        <item>[def]Def, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 0</item>
+        <item>[def]Def, [you] trả lời đúng, dòng 0</item>
 
-        <item>[sad]Buồn, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 1</item>
-        <item>[fun]Vui, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 2</item>
-        <item>[def]Def, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 3</item>
-        <item>[sud]bất ngờ, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 4</item>
-        <item>[ang]giận, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 5</item>
+        <item>[sad]Buồn, [you] trả lời đúng, dòng 1</item>
+        <item>[fun]Vui, [you] trả lời đúng, dòng 2</item>
+        <item>[def]Def, [you] trả lời đúng, dòng 3</item>
+        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 4</item>
+        <item>[ang]ang, [you] trả lời đúng, dòng 5</item>
 
-        <item>[fun]Vui, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 6</item>
-        <item>[sad]Buồn, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 7</item>
-        <item>[def]Def, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 8</item>
-        <item>[sud]bất ngờ, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 9</item>
-        <item>[ang]giận, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 10</item>
+        <item>[fun]Vui, [you] trả lời đúng, dòng 6</item>
+        <item>[sad]Buồn, [you] trả lời đúng, dòng 7</item>
+        <item>[def]Def, [you] trả lời đúng, dòng 8</item>
+        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 9</item>
+        <item>[ang]ang, [you] trả lời đúng, dòng 10</item>
 
-        <item>[fun]Vui, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 11</item>
-        <item>[sad]Buồn, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 12</item>
-        <item>[def]Def, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 13</item>
-        <item>[sud]bất ngờ, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 14</item>
-        <item>[ang]giận, [you] trả lời đúng rồi ([you] [nyou] ^^), dòng 15</item>
+        <item>[fun]Vui, [you] trả lời đúng, dòng 11</item>
+        <item>[sad]Buồn, [you] trả lời đúng, dòng 12</item>
+        <item>[def]Def, [you] trả lời đúng, dòng 13</item>
+        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 14</item>
+        <item>[ang]ang, [you] trả lời đúng, dòng 15</item>
     </string-array>
     <!-- hổ trợ thêm \"[result]\" -->
     <string-array name="ami_lost">
@@ -137,18 +137,18 @@
         <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 2</item>
         <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 3</item>
         <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 4</item>
-        <item>[ang]giận, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 5</item>
+        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 5</item>
 
         <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 6</item>
         <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 7</item>
         <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 8</item>
         <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 9</item>
-        <item>[ang]giận, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 10</item>
+        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 10</item>
 
         <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 11</item>
         <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 12</item>
         <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 13</item>
         <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 14</item>
-        <item>[ang]giận, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 15</item>
+        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 15</item>
     </string-array>
 </resources>
