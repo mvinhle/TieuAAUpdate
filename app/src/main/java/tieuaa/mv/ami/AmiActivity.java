@@ -15,7 +15,7 @@ import java.util.Collections;
 
 public class AmiActivity extends AppCompatActivity {
 
-    int changeRoom = 4;
+    int changeRoom = 3;
     boolean atHome = true;
     int eyeChange,  eyebrowChange, featureChange,   mouthChange;
     int result = 0;
@@ -59,20 +59,20 @@ public class AmiActivity extends AppCompatActivity {
     final int MOUTH_ANGRY       = MOUTH_FUN + 6; 		    // [MOUTH_FUN, 44] = 45
     final int MOUTH_SAD         = MOUTH_ANGRY + 6; 	    // [MOUTH_ANGRY, 50] = 51
     final int MOUTH_SUDDENT     = MOUTH_SAD + 6; 		    // [MOUTH_SAD, 56] = 57
-    final int TL_CHAT           = 400;
-    final int CHAT_ABOUT        = 20;
+    final int CHANGE_ROOM       = 3;
+    final int CHAT_ABOUT        = 7;
+    final int TEST_ABOUT        = 35; // chia cho 5
+    final int HELLO_WORLD_ABOUT = 3;
+    final int TEST_CODE_ABOUT   = 14; // chia cho 2
     final int CHAT_WIN          = 10;
-    final int TL_TEST           = 200;
-    final int TEST_ABOUT        = 20; // 4
-    final int TEST_CODE_ABOUT   = 8; // 4
     final int TEST_WIN          = 100;
     final int TEST_LOST         = -70;
-    final int TL_HELLO_WORLD    = 3000;
-    final int HELLO_WORLD_ABOUT = 3;
-    final int TL_TOUCH          = 700;
-    final int TOUCH_ABOUT       = 5;
-    final int TL_CLOTHES        = 600;
-    final int CHANGE_ROOM       = 3;
+    final int TOUCH_ABOUT       = 7;
+    final int TL_CLOTHES        = 1000;
+    final int TL_CHAT           = 800;
+    final int TL_TEST           = 800;
+    final int TL_HELLO_WORLD    = 1000;
+    final int TL_TOUCH          = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

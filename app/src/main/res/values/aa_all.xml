@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
+<resources>
+    <string-array name="ami_HelloWorld">
+        <item>[def]Def, hello world ([you], [nyou]), dòng 0</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 1</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 2</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 3</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 4</item>
+        <item>[ang]ang, hello world ([you], [nyou]), dòng 5</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 6</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 7</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 8</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 9</item>
+        <item>[ang]ang, hello world ([you], [nyou]), dòng 10</item>
+
+        <item>[fun]Vui, hello world ([you], [nyou]), dòng 11</item>
+        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 12</item>
+        <item>[def]Def, hello world ([you], [nyou]), dòng 13</item>
+        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 14</item>
+        <item>[ang]ang, hello world ([you], [nyou]), dòng 15</item>
+    </string-array>
+    <string-array name="move_class">
+        <item>[def]Def, đổi ngữ cảnh sang class ! [you], dòng 0</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang class ! [you], dòng 1</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang class ! [you], dòng 2</item>
+        <item>[def]Def, đổi ngữ cảnh sang class ! [you], dòng 3</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang class ! [you], dòng 4</item>
+        <item>[ang]ang, đổi ngữ cảnh sang class ! [you], dòng 5</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang class ! [you], dòng 6</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang class ! [you], dòng 7</item>
+        <item>[def]Def, đổi ngữ cảnh sang class ! [you], dòng 8</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang class ! [you], dòng 9</item>
+        <item>[ang]ang, đổi ngữ cảnh sang class ! [you], dòng 10</item>
+    </string-array>
+    <string-array name="move_home">
+        <item>[def]Def, đổi ngữ cảnh sang home ! [you], dòng 0</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang home ! [you], dòng 1</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang home ! [you], dòng 2</item>
+        <item>[def]Def, đổi ngữ cảnh sang home ! [you], dòng 3</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang home ! [you], dòng 4</item>
+        <item>[ang]ang, đổi ngữ cảnh sang home ! [you], dòng 5</item>
+
+        <item>[fun]Vui, đổi ngữ cảnh sang home ! [you], dòng 6</item>
+        <item>[sad]Buồn, đổi ngữ cảnh sang home ! [you], dòng 7</item>
+        <item>[def]Def, đổi ngữ cảnh sang home ! [you], dòng 8</item>
+        <item>[sud]bất ngờ, đổi ngữ cảnh sang home ! [you], dòng 9</item>
+        <item>[ang]ang, đổi ngữ cảnh sang home ! [you], dòng 10</item>
+    </string-array>
+    <string-array name="ami_win">
+        <item>[def]Def, [you] trả lời đúng, dòng 0</item>
+
+        <item>[sad]Buồn, [you] trả lời đúng, dòng 1</item>
+        <item>[fun]Vui, [you] trả lời đúng, dòng 2</item>
+        <item>[def]Def, [you] trả lời đúng, dòng 3</item>
+        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 4</item>
+        <item>[ang]ang, [you] trả lời đúng, dòng 5</item>
+
+        <item>[fun]Vui, [you] trả lời đúng, dòng 6</item>
+        <item>[sad]Buồn, [you] trả lời đúng, dòng 7</item>
+        <item>[def]Def, [you] trả lời đúng, dòng 8</item>
+        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 9</item>
+        <item>[ang]ang, [you] trả lời đúng, dòng 10</item>
+
+        <item>[fun]Vui, [you] trả lời đúng, dòng 11</item>
+        <item>[sad]Buồn, [you] trả lời đúng, dòng 12</item>
+        <item>[def]Def, [you] trả lời đúng, dòng 13</item>
+        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 14</item>
+        <item>[ang]ang, [you] trả lời đúng, dòng 15</item>
+    </string-array>
+    <!-- hổ trợ thêm \"[result]\" -->
+    <string-array name="ami_lost">
+        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 0</item>
+
+        <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 1</item>
+        <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 2</item>
+        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 3</item>
+        <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 4</item>
+        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 5</item>
+
+        <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 6</item>
+        <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 7</item>
+        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 8</item>
+        <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 9</item>
+        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 10</item>
+
+        <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 11</item>
+        <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 12</item>
+        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 13</item>
+        <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 14</item>
+        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 15</item>
+    </string-array>
+</resources>

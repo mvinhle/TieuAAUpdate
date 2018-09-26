@@ -102,7 +102,7 @@
                         android:id="@+id/button_Touch_Hair"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="25"
+                        android:layout_weight="20"
                         android:layout_margin="0dp"
                         android:background="@null"/>
                     <LinearLayout
@@ -115,7 +115,7 @@
                         <Button
                             android:id="@+id/button_Touch_Face"
                             android:layout_width="0dp"
-                            android:layout_weight="65"
+                            android:layout_weight="63"
                             android:layout_height="match_parent"
                             android:layout_margin="0dp"
                             android:background="@null"/>
@@ -124,12 +124,12 @@
                         android:id="@+id/button_Touch_Body_Up"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="12"
+                        android:layout_weight="14"
                         android:background="@null"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="18"
+                        android:layout_weight="15"
                         android:weightSum="100"
                         android:gravity="center"
                         android:layout_margin="0dp">
@@ -173,18 +173,20 @@
                     <EditText
                         android:id="@+id/editText_Chat_To_Ami"
                         android:visibility="gone"
-                        android:padding="7dp"
-                        android:hint="Chú ý dấu ngoặc, chấm, chấm phẩy khi viết code."
-                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:hint="chú ý viết chử có dấu."
                         android:layout_width="0dp"
-                        android:layout_weight="80"
-                        android:layout_height="wrap_content" />
+                        android:layout_weight="70"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_textview_chat"/>
                     <Button
                         android:id="@+id/button_Chat_To_Ami"
+                        android:padding="3dp"
                         android:visibility="gone"
+                        android:textSize="18sp"
                         android:layout_width="0dp"
-                        android:layout_weight="20"
-                        android:text="@string/continueExit"
+                        android:layout_weight="30"
+                        android:text="@string/ClickYes"
                         android:layout_height="match_parent" />
                 </LinearLayout>
             </LinearLayout>

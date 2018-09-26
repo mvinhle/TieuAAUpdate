@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ami_test_code">
+        <item>[fun][vui] kết quả: \"dong 0\"</item>
+        <item>dong 0</item>
+
+        <item>[fun][vui] kết quả: \"dong 1\"</item>
+        <item>dong 1</item>
+
+        <item>[fun][vui] kết quả: \"dong 2\"</item>
+        <item>dong 2</item>
+
+        <item>[fun][vui] kết quả: \"dong 3\"</item>
+        <item>dong 3</item>
+
+        <item>[fun][vui] kết quả: \"dong 5\"</item>
+        <item>dong 5</item>
+
+        <item>[fun][vui] kết quả: \"dong 6\"</item>
+        <item>dong 6</item>
+
+        <item>[fun][vui] kết quả: \"dong 7\"</item>
+        <item>dong 7</item>
+
+        <item>[fun][vui] kết quả: \"dong\"8\"</item>
+        <item>dong\"8</item>
+
+        <item>[fun][vui] kết quả: \"dong\"9\"</item>
+        <item>dong\"9</item>
+
+        <item>[fun][vui] kết quả: \"dong\"10\"</item>
+        <item>dong\"10</item>
+    </string-array>
+</resources>

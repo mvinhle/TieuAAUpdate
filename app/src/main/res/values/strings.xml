@@ -49,10 +49,7 @@
     <string name="editMenu">Sửa thông tin cá nhân</string>
     <string name="deleteDataMenu">Xóa tất cả dử liệu</string>
     <string name="messengerExit">
-        Cảm ơn vì đã tin dùng Ami - phần mềm hổ trợ học tập\n
-        ấn vào tiếp tục để thoát khỏi phầm mềm.
+        Cảm ơn vì đã tin dùng Tiểu AA - phần mềm hổ trợ học tập
     </string>
-    <string name="exitMenu">Thoát</string>
-    <string name="continueExit">Tiếp tục</string>
     <string name="cancelExit">Quay lại</string>
 </resources>
