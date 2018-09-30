@@ -64,6 +64,17 @@ public class SaveAndLoadData{
         }
         Log.d(KeyAA.KEY_LOG, "restartUser: đưa TT vào static với: "+aliasUser+nameUser);
     }
+//    hàm xóa dữ liệu
+    public void resetData(){
+        SharedPreferences.Editor editorInfor = information.edit();
+        SharedPreferences.Editor editorTrust = trust.edit();
+        editorInfor.remove(KeyAA.KEY_NAME_INFORMATION);
+        editorInfor.remove(KeyAA.KEY_SEX_INFORMATION);
+        editorInfor.apply();
+        editorTrust.remove(KeyAA.KEY_POINT_TRUST);
+        editorTrust.apply();
+        restartUser();
+    }
 //    hàm get các giá trị
     public String getNameUser(){
         return SaveAndLoadData.nameUser;

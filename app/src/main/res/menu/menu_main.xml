@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/iconedit"
+        android:title="Cài đặt"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_edit"
+                android:title="@string/editMenu" />
+            <item
+                android:id="@+id/menu_reset"
+                android:title="@string/deleteData"/>
+            <item
+                android:id="@+id/menu_exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+</menu>

@@ -26,8 +26,12 @@
     <string name="jobGirl">Nữ</string>
     <string name="ok">Đăng ký</string>
     <string name="restartOk">Đăng ký lại</string>
-    <string name="noteInformationError">Vui lòng điền <b>đầy đủ</b> thông tin</string>
+    <string name="noteInformationError">Vui lòng điền <u><b>đầy đủ</b></u> thông tin</string>
     <string name="noteInformationComplete">Đăng ký thành công!!!\nChúc bạn có một thời gian học tập giải trí vui vẻ cùng Ami</string>
+    <string name="errorSignName">
+        chú ý:\n\t\t>|-<u>Vui lòng điền đầy đủ thông tin.</u>\n
+        \t\t>|-Thông tin <u>có thể chỉnh sửa</u> trong tương lai.\n
+        \t\t>|-Tên vui lòng <u>không dùng</u> các kí tự đặc biệt</string>
 
     <string name="Chat">Trò chuyện</string>
     <string name="Test">Bài tập</string>
@@ -39,7 +43,7 @@
 
     <string name="deleteData">Xóa toàn bộ dữ liệu</string>
     <string name="deleteDataComplete">Đã xóa toàn bộ dữ liệu</string>
-    <string name="deleteDataError">Đã hủy xóa dữ liệu</string>
+    <string name="deleteDataError">Đã hủy xóa</string>
     <string name="deleteDataCompletess">bạn đã click đồng ý [n] lần</string>
     <string name="noteDeleteData">
         \tBạn thật sự muốn xóa <b>tất cả dữ liệu</b> trong trò chơi ??\n
@@ -47,9 +51,8 @@
         \tẤn vào \"Không đồng ý\" để quay trở lại</string>
 
     <string name="editMenu">Sửa thông tin cá nhân</string>
-    <string name="deleteDataMenu">Xóa tất cả dử liệu</string>
     <string name="messengerExit">
         Cảm ơn vì đã tin dùng Tiểu AA - phần mềm hổ trợ học tập
     </string>
-    <string name="cancelExit">Quay lại</string>
+    <string name="exit">Thoát</string>
 </resources>

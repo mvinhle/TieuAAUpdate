@@ -60,19 +60,19 @@ public class AmiActivity extends AppCompatActivity {
     final int MOUTH_SAD         = MOUTH_ANGRY + 6; 	    // [MOUTH_ANGRY, 50] = 51
     final int MOUTH_SUDDENT     = MOUTH_SAD + 6; 		    // [MOUTH_SAD, 56] = 57
     final int CHANGE_ROOM       = 3;
-    final int CHAT_ABOUT        = 7;
-    final int TEST_ABOUT        = 35; // chia cho 5
+    final int CHAT_ABOUT        = 5;
     final int HELLO_WORLD_ABOUT = 3;
-    final int TEST_CODE_ABOUT   = 14; // chia cho 2
+    final int TEST_ABOUT        = 25; // chia cho 5
+    final int TEST_CODE_ABOUT   = 10; // chia cho 2
     final int CHAT_WIN          = 10;
     final int TEST_WIN          = 100;
     final int TEST_LOST         = -70;
     final int TOUCH_ABOUT       = 7;
-    final int TL_CLOTHES        = 1000;
-    final int TL_CHAT           = 800;
-    final int TL_TEST           = 800;
+    final int TL_CLOTHES        = 500;
+    final int TL_CHAT           = 200;
+    final int TL_TEST           = 60; // nhân cho 5
     final int TL_HELLO_WORLD    = 1000;
-    final int TL_TOUCH          = 2000;
+    final int TL_TOUCH          = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

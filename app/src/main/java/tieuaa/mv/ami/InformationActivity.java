@@ -2,11 +2,13 @@ package tieuaa.mv.ami;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class InformationActivity extends AppCompatActivity {
@@ -19,6 +21,7 @@ public class InformationActivity extends AppCompatActivity {
     private Button buttonOk;
 
     private boolean sexUserIsBoy;
+    private boolean bErrorName = false;
     private String  nameUser;
 
     @Override
@@ -40,8 +43,12 @@ public class InformationActivity extends AppCompatActivity {
         }
         else {
             editTextName.setText(saveAndLoadData.getNameUser());
-            radioButtonGirl.setChecked(!saveAndLoadData.getSexUser());
-            radioButtonBoy.setChecked(saveAndLoadData.getSexUser());
+            if (saveAndLoadData.getSexUser()){
+                radioButtonBoy.setChecked(true);
+            }
+            else {
+                radioButtonGirl.setChecked(true);
+            }
             buttonOk.setText(getResources().getString(R.string.restartOk));
         }
 
@@ -62,7 +69,20 @@ public class InformationActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 nameUser = editTextName.getText().toString().trim();
-                if ((nameUser.length() < 1) ||
+                String errorName[] = {"\n", "\t", "\\", "\"", "/", ".", ",", "<", ">", "(", ")", "|", ";", ":", "{", "}", "?",
+                        "!", "@", "#", "$", "%", "^", "&", "*", "-", "=", "_", "+"};
+                for (String s : errorName){
+                    bErrorName = nameUser.contains(s);
+                    if (bErrorName){
+                        Log.d(KeyAA.KEY_LOG,"error name!"+s+bErrorName);
+                        break;
+                    }
+                }
+                if (bErrorName){
+                    TextView textView = findViewById(R.id.note_informartion_error);
+                    textView.setText(getResources().getString(R.string.errorSignName));
+                }
+                else if ((nameUser.length() < 1) ||
                         (!radioButtonBoy.isChecked() && !radioButtonGirl.isChecked())){
                     Toast.makeText(
                             InformationActivity.this,
