@@ -16,12 +16,19 @@ public class MainActivity extends AppCompatActivity {
     byte clickDeleteData = 0;
 
     @Override
+    protected void onRestart() {
+        super.onRestart();
+        SoundInGame soundInGame = new SoundInGame(this,R.raw.rawmain);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle(getResources().getString(R.string.titleMain));
 
-        saveAndLoadData = new SaveAndLoadData(this);
+        saveAndLoadData = new SaveAndLoadData(MainActivity.this);
+        SoundInGame soundInGame = new SoundInGame(this,R.raw.rawmain);
 
         Button buttonYes = findViewById(R.id.ButtonYes);
         buttonYes.setOnClickListener(new View.OnClickListener() {

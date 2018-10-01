@@ -15,7 +15,7 @@ import java.util.Collections;
 
 public class AmiActivity extends AppCompatActivity {
 
-    int changeRoom = 3;
+    int changeRoom = 4;
     boolean atHome = true;
     int eyeChange,  eyebrowChange, featureChange,   mouthChange;
     int result = 0;
@@ -32,6 +32,7 @@ public class AmiActivity extends AppCompatActivity {
 
     HelpData helpData;
     SaveAndLoadData saveAndLoadData;
+    SoundInGame soundInGame;
 
     ImageView imageBody, imageHair, imageClothes, imageEye, imageGlass, imageEyebrow, imageMouth, imageFeature;
     TextView textViewAmiChat;
@@ -59,7 +60,7 @@ public class AmiActivity extends AppCompatActivity {
     final int MOUTH_ANGRY       = MOUTH_FUN + 6; 		    // [MOUTH_FUN, 44] = 45
     final int MOUTH_SAD         = MOUTH_ANGRY + 6; 	    // [MOUTH_ANGRY, 50] = 51
     final int MOUTH_SUDDENT     = MOUTH_SAD + 6; 		    // [MOUTH_SAD, 56] = 57
-    final int CHANGE_ROOM       = 3;
+    final int CHANGE_ROOM       = 4;
     final int CHAT_ABOUT        = 5;
     final int HELLO_WORLD_ABOUT = 3;
     final int TEST_ABOUT        = 25; // chia cho 5
@@ -79,6 +80,7 @@ public class AmiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ami);
 
+        soundInGame = new SoundInGame(this,R.raw.rawhome);
         helpData        = new HelpData();
         saveAndLoadData = new SaveAndLoadData(this);
         imageBody       = findViewById(R.id.image_body);
@@ -422,6 +424,9 @@ public class AmiActivity extends AppCompatActivity {
                 buttonTestCode.setVisibility(View.GONE);
                 final String[] textAmiMoveHome = getResources().getStringArray(R.array.move_home);
                 textViewAmiChat.setText(chatWithAmi(textAmiMoveHome[helpData.randomRange(textAmiMoveHome.length)]));
+
+                soundInGame = new SoundInGame(this,R.raw.rawhome);
+
                 return false;
             }
             else {
@@ -437,6 +442,9 @@ public class AmiActivity extends AppCompatActivity {
                 buttonTestCode.setVisibility(View.VISIBLE);
                 final String[] textAmiMoveClass = getResources().getStringArray(R.array.move_class);
                 textViewAmiChat.setText(chatWithAmi(textAmiMoveClass[helpData.randomRange(textAmiMoveClass.length)]));
+
+                soundInGame = new SoundInGame(this,R.raw.rawclass);
+
                 return false;
             }
             else {
