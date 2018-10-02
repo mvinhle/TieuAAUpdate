@@ -2,97 +2,70 @@
 <!-- support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
 <resources>
     <string-array name="ami_HelloWorld">
-        <item>[def]Def, hello world ([you], [nyou]), dòng 0</item>
-
-        <item>[fun]Vui, hello world ([you], [nyou]), dòng 1</item>
-        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 2</item>
-        <item>[def]Def, hello world ([you], [nyou]), dòng 3</item>
-        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 4</item>
-        <item>[ang]ang, hello world ([you], [nyou]), dòng 5</item>
-
-        <item>[fun]Vui, hello world ([you], [nyou]), dòng 6</item>
-        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 7</item>
-        <item>[def]Def, hello world ([you], [nyou]), dòng 8</item>
-        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 9</item>
-        <item>[ang]ang, hello world ([you], [nyou]), dòng 10</item>
-
-        <item>[fun]Vui, hello world ([you], [nyou]), dòng 11</item>
-        <item>[sad]Buồn, hello world ([you], [nyou]), dòng 12</item>
-        <item>[def]Def, hello world ([you], [nyou]), dòng 13</item>
-        <item>[sud]bất ngờ, hello world ([you], [nyou]), dòng 14</item>
-        <item>[ang]ang, hello world ([you], [nyou]), dòng 15</item>
+        <item>[ang]hứ, tưởng ai đến, thì ra là [you], [i] không biêt [you] có điểm nào tốt nữa.</item>
+        <item>[def]Chào [you]!!!</item>
+        <item>[fun]Chào [you]!!!</item>
+        <item>[def]Xin chào [you]</item>
+        <item>[ful]Xin chào [you]</item>
+        <item>[fun]chào [you].. [nyou].. ạ, thời gian làm [i] gần quên tên [you] luôn rồi.</item>
+        <item>[fun]Xin chào [you]</item>
+        <item>[def]Chào [you] ạ</item>
+        <item>[ful]Chào [you] ạ</item>
+        <item>[def]Xin chào [you] ạ</item>
+        <item>[fun][you] đã quay trở lại rồi</item>
+        <item>[fun][i] đang chờ [you] rất lâu,..</item>
+        <item>[sad][i] đang chờ [you] rất lâu,..</item>
+        <item>[fun][you] đã đến rồi, hôm nay chúng ta sẽ làm gì ??</item>
+        <item>[sad][you] đã,.. à,.. ừ,.. xin chào [you]. [you] đã đi đâu vậy.</item>
+        <item>[ful]Xin chào [you]. [you] đã đi đâu vậy.</item>
+        <item>[fun]Hôm nay [i] muốn [you] làm bài tập,..</item>
+        <item>[fun][you] đến rồi, mỗi khi [you] đến [i] cảm giác rất vui,.. rất vui,..</item>
+        <item>[sud]aaa, [you] đến rồi,.. vậy mà [i] lại sợ rằng [you] sẽ không đến nữa,..</item>
+        <item>[def]hôm nay [you] làm bài tập với [i] lâu hơn một tí nhé</item>
+        <item>[ful]hôm nay [you] làm bài tập với [i] lâu hơn một tí nhé</item>
     </string-array>
     <string-array name="move_class">
-        <item>[def]Def, đổi ngữ cảnh sang class ! [you], dòng 0</item>
-
-        <item>[fun]Vui, đổi ngữ cảnh sang class ! [you], dòng 1</item>
-        <item>[sad]Buồn, đổi ngữ cảnh sang class ! [you], dòng 2</item>
-        <item>[def]Def, đổi ngữ cảnh sang class ! [you], dòng 3</item>
-        <item>[sud]bất ngờ, đổi ngữ cảnh sang class ! [you], dòng 4</item>
-        <item>[ang]ang, đổi ngữ cảnh sang class ! [you], dòng 5</item>
-
-        <item>[fun]Vui, đổi ngữ cảnh sang class ! [you], dòng 6</item>
-        <item>[sad]Buồn, đổi ngữ cảnh sang class ! [you], dòng 7</item>
-        <item>[def]Def, đổi ngữ cảnh sang class ! [you], dòng 8</item>
-        <item>[sud]bất ngờ, đổi ngữ cảnh sang class ! [you], dòng 9</item>
-        <item>[ang]ang, đổi ngữ cảnh sang class ! [you], dòng 10</item>
+        <item>[fun]Cứ ở nhà làm bài tập thì chán quá, [you] đến trường vào phòng thực hành với [i] đi.</item>
+        <item>[def][you] làm bài thực hành để quen với code đi [you]</item>
+        <item>[fun][i] Thích làm bài tập ở trường hơn, ở nhà hoài chán lắm,..</item>
     </string-array>
     <string-array name="move_home">
-        <item>[def]Def, đổi ngữ cảnh sang home ! [you], dòng 0</item>
-
-        <item>[fun]Vui, đổi ngữ cảnh sang home ! [you], dòng 1</item>
-        <item>[sad]Buồn, đổi ngữ cảnh sang home ! [you], dòng 2</item>
-        <item>[def]Def, đổi ngữ cảnh sang home ! [you], dòng 3</item>
-        <item>[sud]bất ngờ, đổi ngữ cảnh sang home ! [you], dòng 4</item>
-        <item>[ang]ang, đổi ngữ cảnh sang home ! [you], dòng 5</item>
-
-        <item>[fun]Vui, đổi ngữ cảnh sang home ! [you], dòng 6</item>
-        <item>[sad]Buồn, đổi ngữ cảnh sang home ! [you], dòng 7</item>
-        <item>[def]Def, đổi ngữ cảnh sang home ! [you], dòng 8</item>
-        <item>[sud]bất ngờ, đổi ngữ cảnh sang home ! [you], dòng 9</item>
-        <item>[ang]ang, đổi ngữ cảnh sang home ! [you], dòng 10</item>
+        <item>[sad]Xin lỗi vì [i] muốn về nhà, ở trường lâu quá làm [i] bị choáng.</item>
+        <item>[fun][you] cứ nói chuyện ở phòng học mãi như vậy là không tốt đâu, [i] và [you] nên ở nhà tâm sự ^^</item>
+        <item>[fun]Ở nhà luôn thoải mái, [you] có cảm thấy giống [i] không ??</item>
     </string-array>
     <string-array name="ami_win">
-        <item>[def]Def, [you] trả lời đúng, dòng 0</item>
+        <item>[fun][you] hay quá, [you] trả lời đúng rồi</item>
+        <item>[sud][i] không tin, câu hỏi khó đến vậy sao [you] trả lời đúng được chứ.</item>
+        <item>[fun][i] hừm,.. [i] sẽ tìm câu hỏi khó hơn.</item>
+        <item>[sud][you] trả lời đúng rồi ?, tại sao vậy nhỉ. Câu hỏi khó vậy mà,..</item>
+        <item>[fun]cách [you] trả lời câu hỏi thật tuyệt vời.</item>
 
-        <item>[sad]Buồn, [you] trả lời đúng, dòng 1</item>
-        <item>[fun]Vui, [you] trả lời đúng, dòng 2</item>
-        <item>[def]Def, [you] trả lời đúng, dòng 3</item>
-        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 4</item>
-        <item>[ang]ang, [you] trả lời đúng, dòng 5</item>
+        <item>[fun][you] tiếp tục trả lời đúng chắc [i] sẽ yêu [you] mất.</item>
+        <item>[def][you] luôn giỏi làm [i] hết bất ngờ khi [you] trả lời đúng luôn rồi.</item>
+        <item>[fun]woaa, [you] lại trả lời đúng nữa rồi.</item>
+        <item>[ang][i] phải kiếm câu hỏi khó hơn mới được, không thể để [you] lên mặt được.</item>
+        <item>[sud]câu hỏi này [i] cũng không rỏ nhưng [you] lại trả lời đúng ??, [you] có ăn gian không vậy ?</item>
 
-        <item>[fun]Vui, [you] trả lời đúng, dòng 6</item>
-        <item>[sad]Buồn, [you] trả lời đúng, dòng 7</item>
-        <item>[def]Def, [you] trả lời đúng, dòng 8</item>
-        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 9</item>
-        <item>[ang]ang, [you] trả lời đúng, dòng 10</item>
-
-        <item>[fun]Vui, [you] trả lời đúng, dòng 11</item>
-        <item>[sad]Buồn, [you] trả lời đúng, dòng 12</item>
-        <item>[def]Def, [you] trả lời đúng, dòng 13</item>
-        <item>[sud]bất ngờ, [you] trả lời đúng, dòng 14</item>
-        <item>[ang]ang, [you] trả lời đúng, dòng 15</item>
+        <item>[def]Mỗi ngày đến trường là những niềm vui,.. nhưng mà thật ra thấy [you] trả lời đúng, [i] cảm thấy rất vui.</item>
+        <item>[def]binnh bonnn, [you] trả lời đúng rồi.</item>
+        <item>[fun]Từ giờ [i] có thể tự hào khoe rằng [i] đang giúp đỡ một [you] tên là [nyou], [you] ấy rất giỏi, rất rất giỏi.</item>
+        <item>[def][you] nói đúng rồi.. nếu [you] trả lời đúng thêm câu nữa thì [i] sẽ không thể quên được tài năng của [you],..</item>
     </string-array>
     <!-- hổ trợ thêm \"[result]\" -->
     <string-array name="ami_lost">
-        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 0</item>
+        <item>[ang][you] trả lời sai rồi, câu đúng là: \"[result]\".</item>
+        <item>[fun]Câu trả lời phải là \"[result]\", câu dể như vậy mà [you] cũng có thể sai, haha </item>
+        <item>[fun]\"[result]\" mới đúng nhỉ, [you] thật là,.. đồ ngốc</item>
+        <item>[sad][you] có cảm thấy khó chịu ở đâu không ?. câu trả lời đúng phải là \"[result]\".</item>
+        <item>[fun][i] xin lỗi, câu trả lời làm [i] không nhịn cười được. \"[result]\" mới là kết quả, [you]</item>
 
-        <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 1</item>
-        <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 2</item>
-        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 3</item>
-        <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 4</item>
-        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 5</item>
+        <item>[ang][i] nghe senpai của [i] nói có hình phạt khi [you] trả lời sai,.. <i>câu sấu</i> nhỉ ^^, câu trả lời phải là \"[result]\"</item>
+        <item>[ang]Khác biệt của [i] và [you] là gì ? - [i] thì nhanh và đúng còn [you] là chậm và sai, hườmm, kết quả là \"[result]\", [you] nhớ chưa ?</item>
+        <item>[ang]\"[result]\" mới đúng [you] ạ.</item>
+        <item>[sud]Lúc mới gặp [i] cứ nghĩ [you] có tài năng ẩn. Giờ [i] mới biết, dù kết quả là \"[result]\" rỏ như ban ngày thế mà [you] cũng sai, [you] luôn làm [i] bất ngờ</item>
+        <item>[sad]Ôi~ [you] của [i] ơi, kết quả là \"[result]\", [you] có cảm giác đau lòng không ?</item>
 
-        <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 6</item>
-        <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 7</item>
-        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 8</item>
-        <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 9</item>
-        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 10</item>
-
-        <item>[fun]Vui, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 11</item>
-        <item>[sad]Buồn, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 12</item>
-        <item>[def]Def, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 13</item>
-        <item>[sud]bất ngờ, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 14</item>
-        <item>[ang]ang, [you] trả lời sai rồi, câu trả lời đúng là \"[result]\", dòng 15</item>
+        <item>[def]GM ơi, [i] muốn chửi [you] này một trận,.. GM mà cho phép là [you] tiêu với [i] rồi, kết quả là \"[result]\", [you] ạ.</item>
     </string-array>
 </resources>
