@@ -1,1311 +1,1311 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- câu hỏi support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
-    <!-- câu trả lời không hổ trợ -->
+    <!-- câu trả lời đừng dại mà sài càm xúc, sập project đó! -->
     <string-array name="ami_test">
-        <item>Tổ chức sống nào sau đây có cấp thấp nhất so với các tổ chức còn lại ?</item>
+        <item>[def]Tổ chức sống nào sau đây có cấp thấp nhất so với các tổ chức còn lại ?</item>
         <item>Cơ thể</item>
         <item>Quần thể</item>
         <item>Quần xã</item>
         <item>Hệ sinh thái</item>
 
-        <item>Cấp tổ chức cao nhất và lớn nhất của hệ sống là:</item>
+        <item>[def]Cấp tổ chức cao nhất và lớn nhất của hệ sống là:</item>
         <item>Sinh quyến</item>
         <item>Hệ sinh thái</item>
         <item>Loài</item>
         <item>Hệ cơ quan</item>
 
-        <item>Tập hợp nhiều tế bào cùng loại và cùng thực hiện một chức năng nhất định tạo thành</item>
+        <item>[def]Tập hợp nhiều tế bào cùng loại và cùng thực hiện một chức năng nhất định tạo thành</item>
         <item>Mô</item>
         <item>Hệ cơ quan</item>
         <item>Cơ thể</item>
         <item>Cơ quan</item>
 
-        <item>Tổ chức sống nào sau đây là bào quan?</item>
+        <item>[def]Tổ chức sống nào sau đây là bào quan?</item>
         <item>Ribôxôm</item>
         <item>Tim</item>
         <item>Phổi</item>
         <item>Não bộ</item>
 
-        <item>Tổ chức nào sau đây là đơn vị phân loại của sinh vật trong tự nhiên ?</item>
+        <item>[def]Tổ chức nào sau đây là đơn vị phân loại của sinh vật trong tự nhiên ?</item>
         <item>Loài</item>
         <item>Quần thể</item>
         <item>Quần xã</item>
         <item>Sinh quyển</item>
 
-        <item>Hoạt động nào sau đây xảy ra ở tế bào sống ? \n\t(1) Trao đổi chất \n\t(2) Sinh trưởng và phát triển \n\t(3) Cảm ứng và sinh trưởng</item>
+        <item>[def]Hoạt động nào sau đây xảy ra ở tế bào sống ? \n\t(1) Trao đổi chất \n\t(2) Sinh trưởng và phát triển \n\t(3) Cảm ứng và sinh trưởng</item>
         <item>(1), (2), (3)</item>
         <item>(1), (2)</item>
         <item>(1), (3)</item>
         <item>(2), (3)</item>
 
-        <item>Điều nào dưới đây là sai khi nói về tế bào ?</item>
+        <item>[def]Điều nào dưới đây là sai khi nói về tế bào ?</item>
         <item>Được cấu tạo từ các mô</item>
         <item>Là đơn vị cấu tạo cơ bản của sự sống</item>
         <item>Là đơn vị chức năng của tế bào sống</item>
         <item>Được cấu tạo từ các phân tử, đại phân tử vào bào quan</item>
 
-        <item>Tập hợp các cơ quan, bộ phận của cơ thể cùng thực hiện một chức năng được gọi là:</item>
+        <item>[def]Tập hợp các cơ quan, bộ phận của cơ thể cùng thực hiện một chức năng được gọi là:</item>
         <item>Hệ cơ quan</item>
         <item>Bào quan</item>
         <item>Đại phân tử</item>
         <item>Mô</item>
 
-        <item>Hệ thống các nhóm mô được sắp xếp để thực hiện một loại chức năng thành lập nên..... và nhiều....... tạo thành hệ....…\n\tTừ đúng để điền vào chố trống của câu trên là:</item>
+        <item>[def]Hệ thống các nhóm mô được sắp xếp để thực hiện một loại chức năng thành lập nên..... và nhiều....... tạo thành hệ....…\n\tTừ đúng để điền vào chố trống của câu trên là:</item>
         <item>Cơ quan</item>
         <item>Tê bào</item>
         <item>Cơ thể</item>
         <item>Bào quan</item>
 
-        <item>Đặc điểm chung của trùng roi, a mip, vi khuẩn là:</item>
+        <item>[def]Đặc điểm chung của trùng roi, a mip, vi khuẩn là:</item>
         <item>Đều có cấu tạo đơn bào</item>
         <item>Đều thuộc giới động vật</item>
         <item>Đều thuộc giới thực vật</item>
         <item>Đều là những cơ thể đa bào</item>
 
-        <item>Tập hợp các cá thể cùng loài, cùng sống trong một vùng địa lý nhất định ở một thời điểm xác định và cơ quan hệ sinh sản với nhau được gọi là:</item>
+        <item>[def]Tập hợp các cá thể cùng loài, cùng sống trong một vùng địa lý nhất định ở một thời điểm xác định và cơ quan hệ sinh sản với nhau được gọi là:</item>
         <item>Quần thể</item>
         <item>Quần xã</item>
         <item>Nhóm quần thể</item>
         <item>Hệ sinh thái</item>
 
-        <item>Một hệ thống tương đối hoàn chỉnh bao gồm quần xã sinh vật và môi trường sống của nó được gọi là:</item>
+        <item>[def]Một hệ thống tương đối hoàn chỉnh bao gồm quần xã sinh vật và môi trường sống của nó được gọi là:</item>
         <item>Hệ sinh thái</item>
         <item>Quần thể</item>
         <item>Loài sinh vật</item>
         <item>Nhóm quần xã</item>
 
-        <item>Hãy chọn câu sau đây có thứ tự sắp xếp các cấp độ tổ chức sống từ thấp đến cao:</item>
+        <item>[def]Hãy chọn câu sau đây có thứ tự sắp xếp các cấp độ tổ chức sống từ thấp đến cao:</item>
         <item>Cơ thể, quần thể, quần xã, hệ sinh thái.</item>
         <item>Cơ thể, quần thể, hệ sinh thái, quần xã</item>
         <item>Quần xã, quần thể, hệ sinh thái, cơ thể</item>
         <item>Quần thể, quần xã, cơ thể, hệ sinh thái</item>
 
-        <item>Ở sinh vật, đơn vị quần xã dùng để chỉ tập hợp của:</item>
+        <item>[def]Ở sinh vật, đơn vị quần xã dùng để chỉ tập hợp của:</item>
         <item>Các quần thể sinh vật khác loài trong 1 khu vực sống</item>
         <item>Toàn bộ các sinh vật cùng loài</item>
         <item>Toàn bộ các sinh vật khác loài</item>
         <item>Các quần thể sinh vật cùng loài.</item>
 
-        <item>Câu 15: Tập hợp các sinh vật và hệ sinh thái trên trái đất được gọi là:</item>
+        <item>[def]Câu 15: Tập hợp các sinh vật và hệ sinh thái trên trái đất được gọi là:</item>
         <item>Sinh quyển</item>
         <item>Thuỷ Quyển</item>
         <item>Khí quyển</item>
         <item>Thạch quyển</item>
 
-        <item>Điều dưới đây đúng khi nói về một hệ thống sống:\n\t(1) Một hệ thống mở\n\t(2) Có khả năng tự điều chỉnh\n\t(3) Thường xuyên trao đổi chất với môi trường\n\t(4) Được tổ chức theo nguyên tắc thứ bậc</item>
+        <item>[def]Điều dưới đây đúng khi nói về một hệ thống sống:\n\t(1) Một hệ thống mở\n\t(2) Có khả năng tự điều chỉnh\n\t(3) Thường xuyên trao đổi chất với môi trường\n\t(4) Được tổ chức theo nguyên tắc thứ bậc</item>
         <item>(1), (2), (3), (4)</item>
         <item>(1), (2), (3)</item>
         <item>(1), (3), (4)</item>
         <item>(2), (3), (4)</item>
 
-        <item>Bậc phân loại cao nhất trong các đơn vị phân loại sinh vật là:</item>
+        <item>[def]Bậc phân loại cao nhất trong các đơn vị phân loại sinh vật là:</item>
         <item>Giới</item>
         <item>Loài</item>
         <item>Ngành</item>
         <item>Chi</item>
 
-        <item>Trong các đơn vị phân loại sinh vật dưới đây, đơn vị thấp nhất so với các đơn vị còn lại là:</item>
+        <item>[def]Trong các đơn vị phân loại sinh vật dưới đây, đơn vị thấp nhất so với các đơn vị còn lại là:</item>
         <item>Loài</item>
         <item>Họ</item>
         <item>Lớp</item>
         <item>Bộ</item>
 
-        <item>Đặc điểm nào đúng của sinh vật thuộc giới khởi sinh là:\n\t(2) Tế bào nhân sơ\n\t(1) Chưa có cấu tạo tế bào\n\t(3) Là những có thể có cấu tạo đa bào</item>
+        <item>[def]Đặc điểm nào đúng của sinh vật thuộc giới khởi sinh là:\n\t(2) Tế bào nhân sơ\n\t(1) Chưa có cấu tạo tế bào\n\t(3) Là những có thể có cấu tạo đa bào</item>
         <item>(2)</item>
         <item>(1), (2)</item>
         <item>(1), (3)</item>
         <item>(1)</item>
 
-        <item>Sinh vật thuộc giới nào sau đây có đặc điểm cấu tạo nhân tế bào khác hẳn với các giới còn lại ?</item>
+        <item>[def]Sinh vật thuộc giới nào sau đây có đặc điểm cấu tạo nhân tế bào khác hẳn với các giới còn lại ?</item>
         <item>Giới khởi sinh</item>
         <item>Giới nấm</item>
         <item>Giới động vật</item>
         <item>C Giới thực vật</item>
 
-        <item>Vi khuẩn là dạng sinh vật được xếp vào giới nào sau đây ?</item>
+        <item>[def]Vi khuẩn là dạng sinh vật được xếp vào giới nào sau đây ?</item>
         <item>Giới khởi sinh</item>
         <item>Giới nguyên sinh</item>
         <item>Giới thực vật</item>
         <item>Giới động vật</item>
 
-        <item>Điểm giống nhau của các sinh vật thuộc giới Nguyên sinh, giới thực vật và giới động vật là:</item>
+        <item>[def]Điểm giống nhau của các sinh vật thuộc giới Nguyên sinh, giới thực vật và giới động vật là:</item>
         <item>Tế bào cơ thể đều có nhân thực</item>
         <item>Cơ thể đều có cấu tạo đa bào</item>
         <item>Tế bào cơ thể đều có nhân sơ</item>
         <item>Cơ thể đều có cấu tạo đơn bào</item>
 
-        <item>Điểm giống nhau của các sinh vật thuộc giới nấm và giới thực vật là:</item>
+        <item>[def]Điểm giống nhau của các sinh vật thuộc giới nấm và giới thực vật là:</item>
         <item>sống hoại sinh</item>
         <item>sống tự dưỡng</item>
         <item>sống cố định</item>
         <item>cấu tạo đơn bào hay đa bào</item>
 
-        <item>Sinh vật nào sau đây có cấu tạo cơ thể đơn bào và có nhân thực?\n\t(1)Động vật nguyên sinh \n\t(2) Virut\n\t(3) Vi khuẩn</item>
+        <item>[def]Sinh vật nào sau đây có cấu tạo cơ thể đơn bào và có nhân thực?\n\t(1)Động vật nguyên sinh \n\t(2) Virut\n\t(3) Vi khuẩn</item>
         <item>(1)</item>
         <item>(1), (2)</item>
         <item>(1), (3)</item>
         <item>(2)</item>
 
-        <item>Những giới sinh vật có đặc điểm cấu tạo cơ thể đa bào và có nhân thực là:</item>
+        <item>[def]Những giới sinh vật có đặc điểm cấu tạo cơ thể đa bào và có nhân thực là:</item>
         <item>Thực vật, nấm, động vật</item>
         <item>Nguyên sinh, khởi sinh, động vật</item>
         <item>Thực vật, nguyên sinh, khởi sinh</item>
         <item>Nấm, khởi sinh, thực vật</item>
 
-        <item>Đặc điểm của động vật khác biệt so với thực vật là:\n\t(1) Có cấu tạo cơ thể đa bào\n\t(2) Có phương thức sống dị dưỡng\n\t(3) Được cấu tạo từ các tế bào có nhân thực</item>
+        <item>[def]Đặc điểm của động vật khác biệt so với thực vật là:\n\t(1) Có cấu tạo cơ thể đa bào\n\t(2) Có phương thức sống dị dưỡng\n\t(3) Được cấu tạo từ các tế bào có nhân thực</item>
         <item>(2)</item>
         <item>(1), (3)</item>
         <item>(1), (2)</item>
         <item>(1)</item>
 
-        <item>Phát biểu nào sau đây đúng với giới Nấm ?\n\t(1) Là những sinh vật đa bào\n\t(2) Cấu tạo tế bào có chứa nhân thực\n\t(3) Sống dị dưỡng theo lối hoại sinh</item>
+        <item>[def]Phát biểu nào sau đây đúng với giới Nấm ?\n\t(1) Là những sinh vật đa bào\n\t(2) Cấu tạo tế bào có chứa nhân thực\n\t(3) Sống dị dưỡng theo lối hoại sinh</item>
         <item>(1), (2), (3)</item>
         <item>(2), (3)</item>
         <item>(1), (2)</item>
         <item>(1)</item>
 
-        <item>Câu có nội dung đúng trong các câu sau đây là:</item>
+        <item>[def]Câu có nội dung đúng trong các câu sau đây là:</item>
         <item>Giới động vật gồm các cơ thể đa bào và cùng có cơ thể đơn bào</item>
         <item>Chỉ có thực vật mới sống tự dưỡng quang hợp</item>
         <item>Chỉ có động vật theo lối dị dưỡng</item>
         <item>Vi khuẩn không có lối sống cộng sinh.</item>
 
-        <item>Sống tự dưỡng quang hợp có ở:</item>
+        <item>[def]Sống tự dưỡng quang hợp có ở:</item>
         <item>Thực vật, tảo</item>
         <item>Thực vật, nấm</item>
         <item>Động vật, tảo</item>
         <item>Động vật, nấm</item>
 
-        <item>Nhóm nào sau đây có cấu tạo cơ thể đơn bào ?</item>
+        <item>[def]Nhóm nào sau đây có cấu tạo cơ thể đơn bào ?</item>
         <item>Động vật nguyên sinh</item>
         <item>Thực vật bậc nhất</item>
         <item>C Thực vật bậc cao</item>
         <item>Động vật có xương sống</item>
 
-        <item>Điều sau đây đúng khi nói về đặc điểm của vi khuẩn là:</item>
+        <item>[def]Điều sau đây đúng khi nói về đặc điểm của vi khuẩn là:</item>
         <item>Có tốc độ sinh sản rất nhanh</item>
         <item>Tế bào có nhân thực</item>
         <item>Cơ thể chưa có cấu tạo tế bào</item>
         <item>Cơ thể đa bào</item>
 
-        <item>Đặc điểm có ở giới nguyên sinh là:</item>
+        <item>[def]Đặc điểm có ở giới nguyên sinh là:</item>
         <item>Cơ thể đa bào</item>
         <item>Cơ thể đơn bào</item>
         <item>Thành tế bào có chứa chất kitin</item>
         <item>Có lối sống dị đưỡng</item>
 
-        <item>Đặc điểm cấu tạo có ở giới thực vật mà không có ở giới nấm là:</item>
+        <item>[def]Đặc điểm cấu tạo có ở giới thực vật mà không có ở giới nấm là:</item>
         <item>Tế bào có thành xenlulôzơ và chức nhiều lục lạp</item>
         <item>Cơ thể đa bào</item>
         <item>Tế bào có nhân thực</item>
         <item>Tế bào có thành phần là chất kitin</item>
 
-        <item>Đặc điểm nào dưới đây không phải là của giới thực vật</item>
+        <item>[def]Đặc điểm nào dưới đây không phải là của giới thực vật</item>
         <item>Có lối sống dị dưỡng</item>
         <item>Sống cố định</item>
         <item>Tự dưỡng theo lối quang tổng hợp</item>
         <item>Cảm ứng chậm trước tác dụng môi trường</item>
 
-        <item>Điểm đặc trưng của thực vật phân biệt với động vật là:</item>
+        <item>[def]Điểm đặc trưng của thực vật phân biệt với động vật là:</item>
         <item>Sống tự dưỡng</item>
         <item>Có nhân thực</item>
         <item>Cơ thể đa bào phức tạp</item>
         <item>Có các mô phân hoá</item>
 
-        <item>Đặc điểm nào sau đây không phải của giới động vât ?</item>
+        <item>[def]Đặc điểm nào sau đây không phải của giới động vât ?</item>
         <item>Phản ứng chậm trước môi trường</item>
         <item>Cơ thể đa bào phức tạp</item>
         <item>Tế bào có nhân thực</item>
         <item>Có khả năng di chuyển tích cực trong môi trường</item>
 
-        <item>Đặc điểm nào sau đây ở động vật mà không có ở thực vật ?</item>
+        <item>[def]Đặc điểm nào sau đây ở động vật mà không có ở thực vật ?</item>
         <item>Không tự tổng hợp được chất hữu cơ</item>
         <item>Tế bào có chứa chất xenlucôzơ</item>
         <item>Có các mô phát triển</item>
         <item>Có khả năng cảm ứng trước môi trường</item>
 
-        <item>Đặc điểm nào sau đây được dùng để phân biệt giữa động vật với thực vật ?\n\t(1) Khả năng tự di chuyển\n\t(2) Tế bào có thành xenlulôzơ\n\t(3) Khả năng tự tổng hợp chất hữu cơ</item>
+        <item>[def]Đặc điểm nào sau đây được dùng để phân biệt giữa động vật với thực vật ?\n\t(1) Khả năng tự di chuyển\n\t(2) Tế bào có thành xenlulôzơ\n\t(3) Khả năng tự tổng hợp chất hữu cơ</item>
         <item>(1), (2), (3)</item>
         <item>(1), (3)</item>
         <item>(2), (3)</item>
         <item>(3)</item>
 
-        <item>Động vật kiểu dinh dưỡng hoặc lối sống nào sau đây ?</item>
+        <item>[def]Động vật kiểu dinh dưỡng hoặc lối sống nào sau đây ?</item>
         <item>Dị dưỡng</item>
         <item>Tự dưỡng</item>
         <item>Luôn hoại sinh</item>
         <item>Luôn ký sinh</item>
 
-        <item>Nhóm các nguyên tố nào sau đây là nhóm nguyên tố chính cấu tạo nên chất sống ?</item>
+        <item>[def]Nhóm các nguyên tố nào sau đây là nhóm nguyên tố chính cấu tạo nên chất sống ?</item>
         <item>C, H, O, N</item>
         <item>C, Na, Mg, N</item>
         <item>H, Na, P, Cl</item>
         <item>C, H, Mg, Na</item>
 
-        <item>Các nguyên tố hoá học chiếm lượng lớn trong khối lượng khô của cơ thể được gọi là:</item>
+        <item>[def]Các nguyên tố hoá học chiếm lượng lớn trong khối lượng khô của cơ thể được gọi là:</item>
         <item>Các nguyên tố đại lượng</item>
         <item>Các hợp chất vô cơ</item>
         <item>Các hợp chất hữu cơ</item>
         <item>Các nguyên tố vi lượng</item>
 
-        <item>Nguyên tố nào dưới đây là nguyên tố đại lượng ?</item>
+        <item>[def]Nguyên tố nào dưới đây là nguyên tố đại lượng ?</item>
         <item>Photpho</item>
         <item>Mangan</item>
         <item>Kẽm</item>
         <item>Đồng</item>
 
-        <item>Nguyên tố nào sau đây là nguyên tố vi lượng ?</item>
+        <item>[def]Nguyên tố nào sau đây là nguyên tố vi lượng ?</item>
         <item>Sắt</item>
         <item>Canxi</item>
         <item>Lưu huỳnh</item>
         <item>Photpho</item>
 
-        <item>Nguyên tố hoá học đặc biệt quan trọng tham gia cấu tạo nên các đại phân tử hữu cơ là:</item>
+        <item>[def]Nguyên tố hoá học đặc biệt quan trọng tham gia cấu tạo nên các đại phân tử hữu cơ là:</item>
         <item>Cacbon</item>
         <item>Hidrô</item>
         <item>Ôxi</item>
         <item>Nitơ</item>
 
-        <item>Nguyên tố Fe là thành phần của cấu trúc nào sau đây ?</item>
+        <item>[def]Nguyên tố Fe là thành phần của cấu trúc nào sau đây ?</item>
         <item>Hêmôglôbin trong hồng cầu của động vật</item>
         <item>Diệp lục tố trong lá cây</item>
         <item>Sắc tố mêlanin trong lớp da</item>
         <item>Sắc tố của hoa, quả ở thực vật</item>
 
-        <item>Trong các cơ thể sống, thành phần chủ yếu là:</item>
+        <item>[def]Trong các cơ thể sống, thành phần chủ yếu là:</item>
         <item>Nước</item>
         <item>Chất hữu cơ</item>
         <item>Chất vô cơ</item>
         <item>Vitamin</item>
 
-        <item>Trong tế bào, nước phân bố chủ yếu ở thành phần nào sau đây?</item>
+        <item>[def]Trong tế bào, nước phân bố chủ yếu ở thành phần nào sau đây?</item>
         <item>Chất nguyên sinh</item>
         <item>Màng tế bào</item>
         <item>Nhân tế bào</item>
         <item>Nhiễm sắc thể</item>
 
-        <item>Nước có bao nhiêu vai trò sau đây?\n\t(1) Dung môi hoà tan của nhiều chất\n\t(2) Thành phần cấu tạo của tế bào\n\t(3) Là môi trường xảy ra các phản ứng sinh hoá của cơ thể\n\t(4) Tham gia vào các phản ứng sinh hóa</item>
+        <item>[def]Nước có bao nhiêu vai trò sau đây?\n\t(1) Dung môi hoà tan của nhiều chất\n\t(2) Thành phần cấu tạo của tế bào\n\t(3) Là môi trường xảy ra các phản ứng sinh hoá của cơ thể\n\t(4) Tham gia vào các phản ứng sinh hóa</item>
         <item>4</item>
         <item>2</item>
         <item>3</item>
         <item>1</item>
 
-        <item>Khi nhiệt độ môi trường tăng cao, có hiện tượng nước bốc hơi khỏi cơ thể. Điều này có ý nghĩa:</item>
+        <item>[def]Khi nhiệt độ môi trường tăng cao, có hiện tượng nước bốc hơi khỏi cơ thể. Điều này có ý nghĩa:</item>
         <item>Tạo ra sự cân bằng nhiệt cho tế bào và cơ thể</item>
         <item>Làm tăng các phản ứng sinh hóa trong tế bào</item>
         <item>Giảm bớt sự toả nhiệt từ cơ thể ra môi trường</item>
         <item>Tăng sự sinh nhiệt cho cơ thể</item>
 
-        <item>Cacbohiđrat là tên gọi dùng để chỉ nhóm chất nào sau đây?</item>
+        <item>[def]Cacbohiđrat là tên gọi dùng để chỉ nhóm chất nào sau đây?</item>
         <item>Đường</item>
         <item>Đạm</item>
         <item>Mỡ</item>
         <item>Dầu</item>
 
-        <item>Các nguyên tố hoá học cấu tạo của Cacbohiđrat là:</item>
+        <item>[def]Các nguyên tố hoá học cấu tạo của Cacbohiđrat là:</item>
         <item>C, H, O</item>
         <item>C, H</item>
         <item>H, O</item>
         <item>C, O</item>
 
-        <item>Thuật ngữ nào dưới đây bao gồm các thuật ngữ còn lại ?</item>
+        <item>[def]Thuật ngữ nào dưới đây bao gồm các thuật ngữ còn lại ?</item>
         <item>Cacbohidrat</item>
         <item>Đường đơn</item>
         <item>Đường đa</item>
         <item>Đường đôi</item>
 
-        <item>Chất sau đây thuộc loại đường Pentôzơ</item>
+        <item>[def]Chất sau đây thuộc loại đường Pentôzơ</item>
         <item>Ribôzơ và đêôxiribôzơ</item>
         <item>Ribôzơ và Fructôzơ</item>
         <item>Glucôzơ và đêôxiribôzơ</item>
         <item>Fructôzơ và Glucôzơ</item>
 
-        <item>Chất nào dưới đây thuộc loại đường đa</item>
+        <item>[def]Chất nào dưới đây thuộc loại đường đa</item>
         <item>Tinh bột</item>
         <item>Mantôzơ</item>
         <item>Điaccarit</item>
         <item>Hêxôzơ</item>
 
-        <item>Loại đường nào sau đây không cùng nhóm với những chất còn lại?</item>
+        <item>[def]Loại đường nào sau đây không cùng nhóm với những chất còn lại?</item>
         <item>Saccarôzơ</item>
         <item>Pentôzơ</item>
         <item>Glucôzơ</item>
         <item>Fructôzơ</item>
 
-        <item>Đường mía do hai phân tử đường nào sau đây kết hợp lại ?</item>
+        <item>[def]Đường mía do hai phân tử đường nào sau đây kết hợp lại ?</item>
         <item>Glucôzơ và Fructôzơ</item>
         <item>Xenlucôzơ và galactôzơ</item>
         <item>Galactôzơ và tinh bột</item>
         <item>Tinh bột và mantôzơ</item>
 
-        <item>Khi phân giải phân tử đường Lactôzơ, có thể thu được kết quả nào sau đây?</item>
+        <item>[def]Khi phân giải phân tử đường Lactôzơ, có thể thu được kết quả nào sau đây?</item>
         <item>1 phân tử glucôzơ và 1 phân tử galactôzơ</item>
         <item>Hai phân tử đường glucôzơ</item>
         <item>Hai phân tử đường Pentôzơ</item>
         <item>Hai phân tử đường galactôzơ</item>
 
-        <item>Nhóm chất nào sau đây là những chất đường có chứa 6 nguyên tử các bon ?</item>
+        <item>[def]Nhóm chất nào sau đây là những chất đường có chứa 6 nguyên tử các bon ?</item>
         <item>Fructôzơ, galactôzơ, glucôzơ</item>
         <item>Glucôzơ, fructôzơ, pentôzơ</item>
         <item>Galactôzơ, xenlucôzơ, tinh bột</item>
         <item>Tinh bột, lactôzơ, pentôzơ</item>
 
-        <item>Phát biểu nào sau đây có nôi dung đúng ?</item>
+        <item>[def]Phát biểu nào sau đây có nôi dung đúng ?</item>
         <item>Galactôzơ, còn được gọi là đường sữa</item>
         <item>Glucôzơ thuộc loại đường đa</item>
         <item>Glicôgen là đường đơn</item>
         <item>Đường đơn có cấu trúc phức tạp hơn đường đôi</item>
 
-        <item>Trong cấu tạo tế bào, đường xenlulôzơ có tập trung ở:</item>
+        <item>[def]Trong cấu tạo tế bào, đường xenlulôzơ có tập trung ở:</item>
         <item>Thành tế bào</item>
         <item>Chất nguyên sinh</item>
         <item>Nhân tế bào</item>
         <item>Mang nhân</item>
 
-        <item>Chức năng chủ yếu của đường glucôzơ là:</item>
+        <item>[def]Chức năng chủ yếu của đường glucôzơ là:</item>
         <item>Cung cấp năng lượng cho hoạt động tế bào</item>
         <item>Tham gia cấu tạo thành tế bào</item>
         <item>Tham gia cấu tạo nhiễm sắc thể</item>
         <item>Là thành phần của phân tử ADN</item>
 
-        <item>Lipit là chất có đặc tính</item>
+        <item>[def]Lipit là chất có đặc tính</item>
         <item>Không tan trong nước</item>
         <item>Tan rất ít trong nước</item>
         <item>Tan nhiều trong nước</item>
         <item>Có ái lực rất mạnh với nước</item>
 
-        <item>Thành phần cấu tạo của lipit là:</item>
+        <item>[def]Thành phần cấu tạo của lipit là:</item>
         <item>Axit béo và Glixêrol</item>
         <item>Axit béo và rượu</item>
         <item>Đường và rượu</item>
         <item>Gliêrol và đường</item>
 
-        <item>Phát biểu sau đây có nội dung đúng là:</item>
+        <item>[def]Phát biểu sau đây có nội dung đúng là:</item>
         <item>Trong mỡ chứa nhiều axít no</item>
         <item>Phân tử dầu có chứa 1glixêrol</item>
         <item>Trong mỡ có chứa 1glixêrol và 2 axit béo</item>
         <item>Dầu hoà tan không giới hạn trong nước.</item>
 
-        <item>Photpholipit có chức năng chủ yếu là:</item>
+        <item>[def]Photpholipit có chức năng chủ yếu là:</item>
         <item>Là thành phần cấu tạo của màng tế bào</item>
         <item>Tham gia cấu tạo nhân của tế bào.</item>
         <item>Là thành phần của máu ở động vật</item>
         <item>Cấu tạo nên chất diệp lục ở lá cây</item>
 
-        <item>Chất dưới đây tham gia cấu tạo hoocmôn là:</item>
+        <item>[def]Chất dưới đây tham gia cấu tạo hoocmôn là:</item>
         <item>Stêroit</item>
         <item>Dầu</item>
         <item>Phôtpholipit</item>
         <item>Mỡ</item>
 
-        <item>Chất dưới đây không phải lipit là:</item>
+        <item>[def]Chất dưới đây không phải lipit là:</item>
         <item>Xenlulôzơ</item>
         <item>Côlestêron</item>
         <item>Hoocmon ostrôgen</item>
         <item>Sáp</item>
 
-        <item>Chất nào sau đây tan được trong nước?</item>
+        <item>[def]Chất nào sau đây tan được trong nước?</item>
         <item>Vitamin C</item>
         <item>Vi tamin A</item>
         <item>Phôtpholipit</item>
         <item>Stêrôit</item>
 
-        <item>Đặc điểm chung của prôtêtin và axit nuclêic là:</item>
+        <item>[def]Đặc điểm chung của prôtêtin và axit nuclêic là:</item>
         <item>Đại phân tử có cấu trúc đa phân</item>
         <item>Là thành phần cấu tạo của màng tế bào</item>
         <item>Đều được cấu tạo từ các đơn phân axít a min</item>
         <item>Đều được cấu tạo từ các nuclêit</item>
 
-        <item>Đơn phân cấu tạo của Prôtêin là:</item>
+        <item>[def]Đơn phân cấu tạo của Prôtêin là:</item>
         <item>axit amin</item>
         <item>Mônôsaccarit</item>
         <item>Photpholipit</item>
         <item>Stêrôit</item>
 
-        <item>Số loại axit amin có ở cơ thể sinh vật là:</item>
+        <item>[def]Số loại axit amin có ở cơ thể sinh vật là:</item>
         <item>20</item>
         <item>15</item>
         <item>13</item>
         <item>10</item>
 
-        <item>Loại liên kết hoá học chủ yếu giữa các đơn phân trong phân tử Prôtêin là:</item>
+        <item>[def]Loại liên kết hoá học chủ yếu giữa các đơn phân trong phân tử Prôtêin là:</item>
         <item>Liên kết peptit</item>
         <item>Liên kết hoá trị</item>
         <item>Liên kết este</item>
         <item>Liên kết hidrô</item>
 
-        <item>Tính đa dạng và đặc thù của prôtêin được qui định bởi</item>
+        <item>[def]Tính đa dạng và đặc thù của prôtêin được qui định bởi</item>
         <item>Thành phần, số lượng và trật tự axit amin trong phân tử prôtêin</item>
         <item>Nhóm amin của các axit amin</item>
         <item>Nhóm R của các axit amin</item>
         <item>Liên kết peptit</item>
 
-        <item>Cấu trúc của phân tử prôtêtin có thể bị biến tính bởi:</item>
+        <item>[def]Cấu trúc của phân tử prôtêtin có thể bị biến tính bởi:</item>
         <item>Nhiệt độ</item>
         <item>Liên kết phân cực của các phân tử nước</item>
         <item>Sự có mặt của khí oxi</item>
         <item>Sự có mặt của khí CO2</item>
 
-        <item>Bậc cấu trúc nào của prôtêtin ít bị ảnh hưởng nhất khi các liên kết hidrô trong prôtêin bị phá vỡ ?</item>
+        <item>[def]Bậc cấu trúc nào của prôtêtin ít bị ảnh hưởng nhất khi các liên kết hidrô trong prôtêin bị phá vỡ ?</item>
         <item>Bậc 1</item>
         <item>Bậc 3</item>
         <item>Bậc 2</item>
         <item>Bậc 4</item>
 
-        <item>Chuỗi pôlipeptit xoắn α hay gấp nếp β là của cấu trúc prôtêin:</item>
+        <item>[def]Chuỗi pôlipeptit xoắn α hay gấp nếp β là của cấu trúc prôtêin:</item>
         <item>Bậc 2</item>
         <item>Bậc 1</item>
         <item>Bậc 3</item>
         <item>Bậc 4</item>
 
-        <item>Điểm giống nhau của prôtêin bậc 1, prôtêin bậc 2 và prôtêin bậc 3 là:</item>
+        <item>[def]Điểm giống nhau của prôtêin bậc 1, prôtêin bậc 2 và prôtêin bậc 3 là:</item>
         <item>Chỉ có cấu trúc 1 chuỗi pôlipeptit</item>
         <item>Chuỗi pôlipeptit ở dạng mạch thẳng</item>
         <item>Chuỗi pôlipeptit xoắn lò xo hay gấp lại</item>
         <item>Chuỗi pôlipeptit xoắn cuộn tạo dạng khối cầu</item>
 
-        <item>Prôtêin không có đặc điểm nào sau đây ?</item>
+        <item>[def]Prôtêin không có đặc điểm nào sau đây ?</item>
         <item>Có khả năng tự sao chép</item>
         <item>Dễ biến tính khi nhiệt độ tăng cao</item>
         <item>Có tính đa dạng</item>
         <item>Là đại phân tử có cấu trúc đa phân</item>
 
-        <item>Prôtêin thực hiện được chức năng của nó chủ yếu ở những bậc cấu trúc nào sau đây</item>
+        <item>[def]Prôtêin thực hiện được chức năng của nó chủ yếu ở những bậc cấu trúc nào sau đây</item>
         <item>Cấu trúc bậc 3 và bậc 4</item>
         <item>Cấu trúc bậc 1 và bậc 4</item>
         <item>Cấu trúc bậc 1 và bậc 2</item>
         <item>Cấu trúc bậc 2 và bậc 3</item>
 
-        <item>Loại Prôtêin sau đây có chức năng điều hoà các quá trình trao đổi chất trong tế bào và cơ thể là:</item>
+        <item>[def]Loại Prôtêin sau đây có chức năng điều hoà các quá trình trao đổi chất trong tế bào và cơ thể là:</item>
         <item>Prôtêin hoomôn</item>
         <item>Prôtêin cấu trúc</item>
         <item>Prôtêin kháng thể</item>
         <item>Prôtêin vận động</item>
 
-        <item>Prôtêin tham gia trong thành phần của enzim có chức năng:</item>
+        <item>[def]Prôtêin tham gia trong thành phần của enzim có chức năng:</item>
         <item>Xúc tác các phản ứng trao đổi chất</item>
         <item>Điều hoà các hoạt động trao đổi chất</item>
         <item>Xây dựng các mô và cơ quan của cơ thể</item>
         <item>Cung cấp năng lượng cho hoạt động tế bào.</item>
 
-        <item>Cấu trúc nào sau đây có chứa Prôtêin thực hiện chức năng vận chuyển các chất trong cơ thể ?</item>
+        <item>[def]Cấu trúc nào sau đây có chứa Prôtêin thực hiện chức năng vận chuyển các chất trong cơ thể ?</item>
         <item>Hêmôglôbin</item>
         <item>Nhiễm sắc thể</item>
         <item>Xương</item>
         <item>Cơ</item>
 
-        <item>Axit nuclêic bao gồm những chất nào sau đây?</item>
+        <item>[def]Axit nuclêic bao gồm những chất nào sau đây?</item>
         <item>ADN và ARN</item>
         <item>ARN và Prôtêin</item>
         <item>Prôtêin và ADN</item>
         <item>ADN và lipit</item>
 
-        <item>Đặc điểm chung của ADN và ARN là:</item>
+        <item>[def]Đặc điểm chung của ADN và ARN là:</item>
         <item>Đều được cấu tạo theo nguyên tắc đa phân</item>
         <item>Đều có cấu trúc một mạch</item>
         <item>Đều có cấu trúc hai mạch</item>
         <item>Đều được cấu tạo từ các đơn phân axit amin</item>
 
-        <item>Đơn phân cấu tạo của phân tử ADN là:</item>
+        <item>[def]Đơn phân cấu tạo của phân tử ADN là:</item>
         <item>Nuclêotit</item>
         <item>Axit amin</item>
         <item>Polinuclêotit</item>
         <item>glixerol</item>
 
-        <item>Các thành phần cấu tạo của mỗi Nuclêotit là:</item>
+        <item>[def]Các thành phần cấu tạo của mỗi Nuclêotit là:</item>
         <item>Đường, bazơ nitơ và axit photphoric</item>
         <item>Đường, axit và Prôtêin</item>
         <item>Axit, Prôtêin và lipit</item>
         <item>Lipit, đường và Prôtêin</item>
 
-        <item>Đường tham gia cấu tạo phân tử ADN là:</item>
+        <item>[def]Đường tham gia cấu tạo phân tử ADN là:</item>
         <item>Đêôxiribôzơ</item>
         <item>Glucôzơ</item>
         <item>Xenlulôzơ</item>
         <item>Saccarôzơ</item>
 
-        <item>ADN được cấu tạo từ bao nhiêu loại đơn phân ?</item>
+        <item>[def]ADN được cấu tạo từ bao nhiêu loại đơn phân ?</item>
         <item>4 loại</item>
         <item>3 loại</item>
         <item>5 loại</item>
         <item>6 loại</item>
 
-        <item>Các loại Nuclêotit trong phân tử ADN là:</item>
+        <item>[def]Các loại Nuclêotit trong phân tử ADN là:</item>
         <item>Guanin, xitôzin, timin và Ađênin</item>
         <item>Ađênin, uraxin, timin và guanin</item>
         <item>Uraxin, timin, Ađênin, xi tôzin và guanin</item>
         <item>Uraxin, timin, xi tôzin và Ađênin</item>
 
-        <item>Đặc điểm cấu tạo của phân tử ADN là:</item>
+        <item>[def]Đặc điểm cấu tạo của phân tử ADN là:</item>
         <item>Có hai mạch pôlinuclêôtit</item>
         <item>Có một mạch pôlinuclêôtit</item>
         <item>Có ba mạch pôlinuclêôtit</item>
         <item>Có một hay nhiều mạch pôlinuclêôtit</item>
 
-        <item>Giữa các Nuclêotit kế tiếp nhau trong cùng một mạch của ADN xuất hiện kiên kết hoá học nối giữa:</item>
+        <item>[def]Giữa các Nuclêotit kế tiếp nhau trong cùng một mạch của ADN xuất hiện kiên kết hoá học nối giữa:</item>
         <item>Đường và axít</item>
         <item>axít và bazơ</item>
         <item>Bazơ và đường</item>
         <item>Đường và đường</item>
 
-        <item>Chức năng của ADN là:</item>
+        <item>[def]Chức năng của ADN là:</item>
         <item>Bảo quản và truyền đạt thông tin di truyền</item>
         <item>Cung cấp năng lượng cho hoạt động tế bào</item>
         <item>Trực tiếp tổng hợp Prôtêin</item>
         <item>Là thành phần cấu tạo của màng tế bào</item>
 
-        <item>Trong phân tử ADN, liên kết hiđrô có tác dụng:</item>
+        <item>[def]Trong phân tử ADN, liên kết hiđrô có tác dụng:</item>
         <item>Liên kết 2 mạch polinuclêotit lại với nhau</item>
         <item>Liên kết giữa đường với axit trên mỗi mạch</item>
         <item>Nối giữa đường và bazơ nitơ trên 2 mạch lại với nhau</item>
         <item>C Tạo tính đặc thù cho phân tử ADN</item>
 
-        <item>Đặc điểm cấu tạo của ARN khác với ADN là:</item>
+        <item>[def]Đặc điểm cấu tạo của ARN khác với ADN là:</item>
         <item>Có cấu trúc một mạch</item>
         <item>Đại phân tử, có cấu trúc đa phân</item>
         <item>Có liên kết hiđrô giữa các nuclêôtit</item>
         <item>Được cấu tạo từ nhiều đơn phân</item>
 
-        <item>Loại bazơ nitơ nào sau đây chỉ có trong ARN mà không có trong ADN?</item>
+        <item>[def]Loại bazơ nitơ nào sau đây chỉ có trong ARN mà không có trong ADN?</item>
         <item>Uraxin</item>
         <item>A đênin</item>
         <item>Guanin</item>
         <item>Xitôzin</item>
 
-        <item>Đơn phân cấu tạo của phân tử ARN có 3 thành phần là:</item>
+        <item>[def]Đơn phân cấu tạo của phân tử ARN có 3 thành phần là:</item>
         <item>Đường có 5C, axit phôtphoric và bazơ nitơ</item>
         <item>Đường có 6C, axit phôtphoric và bazơ ni tơ</item>
         <item>Đường có 5C, axit phôtphoric và liên kết hoá học</item>
         <item>Axit phôtphoric, bazơ ni tơ và liên kết hoá học</item>
 
-        <item>Loại đường tham gia cấu tạo đơn phân của ARN là (I) và công thức của nó là (II).\n\tsố(I) và số (II) lần lượt là:</item>
+        <item>[def]Loại đường tham gia cấu tạo đơn phân của ARN là (I) và công thức của nó là (II).\n\tsố(I) và số (II) lần lượt là:</item>
         <item>Ribôzơ - C5H10O5</item>
         <item>Đêôxiribôzơ - C5H10O4</item>
         <item>Glucôzơ - C6H12O6</item>
         <item>Fructôzơ - C6H12O6</item>
 
-        <item>Số loại ARN trong tế bào là:</item>
+        <item>[def]Số loại ARN trong tế bào là:</item>
         <item>3 loại</item>
         <item>2 loại</item>
         <item>4 loại</item>
         <item>5 loại</item>
 
-        <item>Kí hiệu của các loại ARN thông tin, ARN vận chuyển, ARN ribôxôm lần lượt là:</item>
+        <item>[def]Kí hiệu của các loại ARN thông tin, ARN vận chuyển, ARN ribôxôm lần lượt là:</item>
         <item>mARN, tARN và rARN</item>
         <item>tARN, rARN và mARN</item>
         <item>rARN, tARN và mARN</item>
         <item>mARN, rARN và tARN</item>
 
-        <item>Chức năng của ARN thông tin là:</item>
+        <item>[def]Chức năng của ARN thông tin là:</item>
         <item>Truyền thông tin di truyền từ ADN đến ribôxôm</item>
         <item>Qui định cấu trúc của phân tử prôtêin</item>
         <item>Tổng hợp phân tử ADN</item>
         <item>Quy định cấu trúc đặc thù của ADN</item>
 
-        <item>Chức năng của ARN vận chuyển là:</item>
+        <item>[def]Chức năng của ARN vận chuyển là:</item>
         <item>Vận chuyển axit amin đến ribôxôm</item>
         <item>Vận chuyển các nguyên liệu để tổng hợp các bào quan</item>
         <item>Chuyên chở các chất bài tiết của tế bào</item>
         <item>Cả 3 chức năng trên</item>
 
-        <item>Là thành phần cấu tạo của một loại bào quan là chức năng của loại ARN nào sau đây?</item>
+        <item>[def]Là thành phần cấu tạo của một loại bào quan là chức năng của loại ARN nào sau đây?</item>
         <item>ARN ribôxôm</item>
         <item>ARN thông tin</item>
         <item>ARN vận chuyển</item>
         <item>Tất cả các loại ARN</item>
 
-        <item>Câu có nội dung đúng trong các câu sau đây là:</item>
+        <item>[def]Câu có nội dung đúng trong các câu sau đây là:</item>
         <item>Trong các ARN không có chứa bazơ nitơ loại timin</item>
         <item>Các loại ARN đều có chứa 4 loại đơn phaan A, T, G, X</item>
         <item>ARN vận chuyển là thành phần cấu tạo của ribôxôm</item>
         <item>tARN là kí hiệu của phân tử ARN thông tin</item>
 
-        <item>Câu có nội dung sai trong các câu sau đây là:</item>
+        <item>[def]Câu có nội dung sai trong các câu sau đây là:</item>
         <item>Kích thước phân tử của ARN lớn hơn ADN</item>
         <item>ADN và ARN đều là các đại phân tử</item>
         <item>Trong tế bào có 2 loại axit nuclêic là ADN và ARN</item>
         <item>Đơn phân của ADN và ARN đều gồm có đường, axit, bazơ nitơ</item>
 
-        <item>Điều không đúng khi nói về phân tử ARN là:</item>
+        <item>[def]Điều không đúng khi nói về phân tử ARN là:</item>
         <item>Gồm 2 mạch xoắn</item>
         <item>Có cấu tạo từ các đơn phân ribônuclêôtit</item>
         <item>Thực hiện các chức năng trong tế bào chất</item>
         <item>Đều có vai trò trong tổng hợp prôtêin</item>
 
-        <item>Đặc điểm nào sau đây không phải của tế bào nhân sơ?</item>
+        <item>[def]Đặc điểm nào sau đây không phải của tế bào nhân sơ?</item>
         <item>Nhân có màng bọc</item>
         <item>Có kích thước nhỏ</item>
         <item>Không có các bào quan như bộ máy Gôngi, lưới nội chất</item>
         <item>Không có chứa phân tử ADN</item>
 
-        <item>Đặc điểm của tế bào nhân sơ là:</item>
+        <item>[def]Đặc điểm của tế bào nhân sơ là:</item>
         <item>Chưa có màng nhân</item>
         <item>Tế bào chất đã phân hoá chứa đủ các loại bào quan</item>
         <item>Màng nhân giúp trao đổi chất giữa nhân với tế bào chất</item>
         <item>Có ti thể và lục lạp với màng kép</item>
 
-        <item>Cấu trúc nào sau đây thuộc loại tế bào nhân sơ?</item>
+        <item>[def]Cấu trúc nào sau đây thuộc loại tế bào nhân sơ?</item>
         <item>Vi khuẩn</item>
         <item>Virut</item>
         <item>Tế bào thực vật</item>
         <item>Tế bào động vật</item>
 
-        <item>Tế bào nhân sơ được cấu tạo bởi 3 thành phần chính là:</item>
+        <item>[def]Tế bào nhân sơ được cấu tạo bởi 3 thành phần chính là:</item>
         <item>Màng sinh chất, tế bào chất, vùng nhân</item>
         <item>Tế bào chất, vùng nhân, các bào quan</item>
         <item>Màng sinh chất, các bào quan, vùng nhân</item>
         <item>Nhân phân hoá, các bào quan, màng sinh chất</item>
 
-        <item>Thành phần nào sau đây không có ở cấu tạo của tế bào vi khuẩn?</item>
+        <item>[def]Thành phần nào sau đây không có ở cấu tạo của tế bào vi khuẩn?</item>
         <item>Mạng lưới nội chất</item>
         <item>Màng sinh chất</item>
         <item>Vỏ nhày</item>
         <item>Lông roi</item>
 
-        <item>Phát biểu sau đây không đúng khi nói về vi khuẩn là:</item>
+        <item>[def]Phát biểu sau đây không đúng khi nói về vi khuẩn là:</item>
         <item>Dạng sống chưa có cấu tạo tế bào</item>
         <item>Cơ thể đơn bào, tế bào có nhân sơ</item>
         <item>Bên ngòai tế bào có lớp vỏ nhày và có tác dụng bảo vệ</item>
         <item>Trong tế bào chất có chứa ribôxôm</item>
 
-        <item>Nhận định nào sau đây đúng với tế bào vi khuẩn</item>
+        <item>[def]Nhận định nào sau đây đúng với tế bào vi khuẩn</item>
         <item>Vật chất di truyền là ADN không kết hợp với prôtêin histon.</item>
         <item>Nhân được phân cách với phần còn lại của tế bào bởi màng nhân</item>
         <item>Nhân có chứa phân tử ADN dạng vòng</item>
         <item>Ở vùng nhân không chứa nguyên liệu di truyền</item>
 
-        <item>Ở vi khuẩn, cấu trúc plasmit là:</item>
+        <item>[def]Ở vi khuẩn, cấu trúc plasmit là:</item>
         <item>Phân tử ADN nằm trong tế bào chất, có dạng vòng</item>
         <item>Phân tử ADN nằm trong nhân tế bào có dạng thẳng</item>
         <item>Phân tử ADN có dạng vòng nằm trong nhân</item>
         <item>Phân tử ADN thẳng nằm trong tế bào chất</item>
 
-        <item>Trong tế bào vi khuẩn, nguyên liệu di truyền là ADN có ở:</item>
+        <item>[def]Trong tế bào vi khuẩn, nguyên liệu di truyền là ADN có ở:</item>
         <item>Tế bào chất và vùng nhân</item>
         <item>Màng sinh chất và màng ngăn</item>
         <item>Màng sinh chất và nhân</item>
         <item>Màng nhân và tế bào chất</item>
 
-        <item>Hình thái của vi khuẩn được ổn định nhờ cấu trúc nào sau đây?</item>
+        <item>[def]Hình thái của vi khuẩn được ổn định nhờ cấu trúc nào sau đây?</item>
         <item>Thành tế bào</item>
         <item>Vỏ nhày</item>
         <item>Màng sinh chất</item>
         <item>Tế bào chất</item>
 
-        <item>Thành phần hoá học cấu tạo nên thành tế bào vi khuẩn:</item>
+        <item>[def]Thành phần hoá học cấu tạo nên thành tế bào vi khuẩn:</item>
         <item>Peptiđôglican</item>
         <item>Xenlulôzơ</item>
         <item>Kitin</item>
         <item>Silic</item>
 
-        <item>Người ta chia làm 2 loại vi khuẩn, vi khuẩn gram âm và vi khuẩn gram dương dựa vào yếu tố sau đây?</item>
+        <item>[def]Người ta chia làm 2 loại vi khuẩn, vi khuẩn gram âm và vi khuẩn gram dương dựa vào yếu tố sau đây?</item>
         <item>Cấu trúc và thành phần hoá học của thành tế bào</item>
         <item>Cấu trúc của phân tử ADN trong nhân</item>
         <item>Cấu trúc của plasmit</item>
         <item>Số lượng nhiễm sắc thể trong nhân hay vùng nhân</item>
 
-        <item>Cụm từ "tế bào nhân sơ" dùng để chỉ</item>
+        <item>[def]Cụm từ "tế bào nhân sơ" dùng để chỉ</item>
         <item>Tế bào chưa có màng ngăn cách giữa vùng nhân với tế bào chất</item>
         <item>Tế bào không có nhân</item>
         <item>Tế bào có nhân phân hoá</item>
         <item>Tế bào nhiều nhân</item>
 
-        <item>Sinh vật nào dưới đây có cấu tạo tế bào nhân sơ là:</item>
+        <item>[def]Sinh vật nào dưới đây có cấu tạo tế bào nhân sơ là:</item>
         <item>Vi khuẩn lam</item>
         <item>Nấm</item>
         <item>Tảo</item>
         <item>Động vật nguyên sinh</item>
 
-        <item>Trong tế bào vi khuẩn, ribôxôm có chức năng nào sau đây?</item>
+        <item>[def]Trong tế bào vi khuẩn, ribôxôm có chức năng nào sau đây?</item>
         <item>Tiến hành tổng hợp prôtêin cho tế bào</item>
         <item>Hấp thụ các chất dinh dưỡng cho tế bào</item>
         <item>Giúp trao đổi chất giữa tế bào và môi trường sống</item>
         <item>Tiến hành hô hấp</item>
 
-        <item>Chức năng di truyền ở vi khuẩn được thực hiện bởi:</item>
+        <item>[def]Chức năng di truyền ở vi khuẩn được thực hiện bởi:</item>
         <item>Vùng nhân</item>
         <item>Màng sinh chất</item>
         <item>Chất tế bào</item>
         <item>Ribôxôm</item>
 
-        <item>Tế bào nhân thực không có ở:</item>
+        <item>[def]Tế bào nhân thực không có ở:</item>
         <item>Vi khuẩn</item>
         <item>Động vật</item>
         <item>Người</item>
         <item>Thực vật</item>
 
-        <item>Đặc điểm cấu tạo của tế bào nhân thực khác với tế bào nhân sơ là:</item>
+        <item>[def]Đặc điểm cấu tạo của tế bào nhân thực khác với tế bào nhân sơ là:</item>
         <item>Có các bào quan như bộ máy Gôngi, lưới nội chất, màng nhân</item>
         <item>Có màng sinh chất, ribôxôm</item>
         <item>Có màng nhân, ADN mạch kép</item>
         <item>Vùng nhân, ti thể và không bào</item>
 
-        <item>Ở tế bào nhân thực, tế bào chất được xoang hoá là do:</item>
+        <item>[def]Ở tế bào nhân thực, tế bào chất được xoang hoá là do:</item>
         <item>Có các bào quan có màng bọc phân cách với tế bào chất</item>
         <item>Có màng nhân ngăn cách chất nhân với tế bào chất</item>
         <item>Có hệ thống mạng lưới nội chất</item>
         <item>Có các ti thể.</item>
 
-        <item>Đặc điểm của cấu trúc màng nhân là:\n\tI. Không có ở tế bào nhân sơ \n\tII. Có cấu tạo gồm 2 lớp\n\tIII. Có nhiều lỗ nhỏ giúp trao đổi chất giữa nhân và tế bào chất</item>
+        <item>[def]Đặc điểm của cấu trúc màng nhân là:\n\tI. Không có ở tế bào nhân sơ \n\tII. Có cấu tạo gồm 2 lớp\n\tIII. Có nhiều lỗ nhỏ giúp trao đổi chất giữa nhân và tế bào chất</item>
         <item>I, II, III</item>
         <item>I, II</item>
         <item>II, III</item>
         <item>I, III</item>
 
-        <item>Cấu trúc dưới đây không có trong nhân của tế bào là:</item>
+        <item>[def]Cấu trúc dưới đây không có trong nhân của tế bào là:</item>
         <item>Bộ máy Gôngi</item>
         <item>Chất dịch nhân</item>
         <item>Nhân con</item>
         <item>Chất nhiễm sắc</item>
 
-        <item>Thành phần hoá học của chất nhiễm sắc trong nhân tế bào là:</item>
+        <item>[def]Thành phần hoá học của chất nhiễm sắc trong nhân tế bào là:</item>
         <item>ADN và prôtêin</item>
         <item>ARN và gluxit</item>
         <item>Prôtêin và lipit</item>
         <item>ADN và ARN</item>
 
-        <item>Trong dịch nhân có chứa:</item>
+        <item>[def]Trong dịch nhân có chứa:</item>
         <item>Chất nhiễm sắc và nhân con</item>
         <item>Ti thể và tế bào chất</item>
         <item>Tế bào chất và chất nhiễm sắc</item>
         <item>Nhân con và mạng lưới nội chất</item>
 
-        <item>Chất nào sau đây có chứa nhiều trong thành phần của nhân con?</item>
+        <item>[def]Chất nào sau đây có chứa nhiều trong thành phần của nhân con?</item>
         <item>axit ribônuclêic</item>
         <item>axit đêôxiribônuclêic</item>
         <item>axit Photphoric</item>
         <item>axit Nitơric</item>
 
-        <item>Đường kính của nhân tế bào vào khoảng</item>
+        <item>[def]Đường kính của nhân tế bào vào khoảng</item>
         <item>5 micrômet</item>
         <item>0, 5 micrômet</item>
         <item>50 micrômet</item>
         <item>5 ăngstron</item>
 
-        <item>Chất nhiễm sắc khi co xoắn lại sẽ hình thành cấu trúc nào sau đây?</item>
+        <item>[def]Chất nhiễm sắc khi co xoắn lại sẽ hình thành cấu trúc nào sau đây?</item>
         <item>Nhiễm sắc thể</item>
         <item>Phân tử ADN</item>
         <item>Phân tử prôtêin</item>
         <item>Ribôxôm</item>
 
-        <item>Điều sau đây sai khi nói về nhân con:</item>
+        <item>[def]Điều sau đây sai khi nói về nhân con:</item>
         <item>Có rất nhiều trong mỗi tế bào</item>
         <item>Cấu trúc nằm trong dịch nhân của tế bào</item>
         <item>Có chứa nhiều phân tử ARN</item>
         <item>Thường chỉ có 1 trong mỗi nhân tế bào</item>
 
-        <item>Hoạt động nào sau đây là chức năng của nhân tế bào?</item>
+        <item>[def]Hoạt động nào sau đây là chức năng của nhân tế bào?</item>
         <item>Chứa đựng thông tin di truyền</item>
         <item>Cung cấp năng lượng cho các hoạt động của tế bào</item>
         <item>Vận chuyển các chất bài tiết cho tế bào</item>
         <item>Duy trì sự trao đổi chất giữa tế bào và môi trường</item>
 
-        <item>Trong tế bào, ribôxôm có thể tìm thấy ở trạng thái nào sau đây:</item>
+        <item>[def]Trong tế bào, ribôxôm có thể tìm thấy ở trạng thái nào sau đây:</item>
         <item>Tự do trong tế bào chất và liên kết trên lưới nội chất</item>
         <item>Đính trên màng sinh chất</item>
         <item>Tự do trong tế bào chất</item>
         <item>Liên kết trên lưới nội chất</item>
 
-        <item>Thành phần hoá học của Ribôxôm gồm:</item>
+        <item>[def]Thành phần hoá học của Ribôxôm gồm:</item>
         <item>Prôtêin, ARN</item>
         <item>ADN, ARN và prôtêin</item>
         <item>Lipit, ADN và ARN</item>
         <item>ADN, ARN và nhiễm sắc thể</item>
 
-        <item>Điều không đúng khi nói về ribôxôm?</item>
+        <item>[def]Điều không đúng khi nói về ribôxôm?</item>
         <item>Có chứa nhiều phân tử ADN</item>
         <item>Là bào quan không có màng bọc</item>
         <item>Gồm hai hạt: một to, một nhỏ</item>
         <item>Được tạo bởi hai thành phần hoá học là prôtêin và ARN</item>
 
-        <item>Trong tế bào, hoạt động tổng hợp prôtêin xảy ra ở:</item>
+        <item>[def]Trong tế bào, hoạt động tổng hợp prôtêin xảy ra ở:</item>
         <item>Ribôxôm</item>
         <item>Nhân</item>
         <item>Lưới nội chất</item>
         <item>Nhân con</item>
 
-        <item>Đặc điểm có ở tế bào thưc vật mà không có ở tế bào động vật là:</item>
+        <item>[def]Đặc điểm có ở tế bào thưc vật mà không có ở tế bào động vật là:</item>
         <item>Có thành tế bào bằng chất xenlulôzơ</item>
         <item>Trong tế bào chất có nhiều loại bào quan</item>
         <item>Nhân có màng bọc</item>
         <item>Cả A, B, C đều đúng</item>
 
-        <item>Cấu trúc nào sau đây có ở tế bào động vật</item>
+        <item>[def]Cấu trúc nào sau đây có ở tế bào động vật</item>
         <item>Ti thể</item>
         <item>Không bào lớn</item>
         <item>Thành xenlulôzơ</item>
         <item>Lục lạp</item>
 
-        <item>Cấu trúc nào sau đây có ở tế bào động vật</item>
+        <item>[def]Cấu trúc nào sau đây có ở tế bào động vật</item>
         <item>Lưới nội chất</item>
         <item>Thành xenlulôzơ</item>
         <item>Không bào lớn</item>
         <item>Lục lạp</item>
 
-        <item>Cấu trúc dưới đây không có ở tế bào thực vật bậc cao là:</item>
+        <item>[def]Cấu trúc dưới đây không có ở tế bào thực vật bậc cao là:</item>
         <item>Trung thể</item>
         <item>Nhân thực</item>
         <item>Ribôxôm</item>
         <item>Nhân con</item>
 
-        <item>Một loại bào quan nằm ở gần nhân, chỉ có ở tế bào động vật và tế bào thực vật bậc thấp là:</item>
+        <item>[def]Một loại bào quan nằm ở gần nhân, chỉ có ở tế bào động vật và tế bào thực vật bậc thấp là:</item>
         <item>Trung thể</item>
         <item>Lục lạp</item>
         <item>Không bào</item>
         <item>Ti thể</item>
 
-        <item>Ở tế bào động vật số lượng trung tử có trong bào quan trung thể là:</item>
+        <item>[def]Ở tế bào động vật số lượng trung tử có trong bào quan trung thể là:</item>
         <item>2</item>
         <item>1</item>
         <item>3</item>
         <item>4</item>
 
-        <item>Trong tế bào trung thể có chức năng:</item>
+        <item>[def]Trong tế bào trung thể có chức năng:</item>
         <item>Tham gia hình thành thoi vô sắc khi tế bào phân chia</item>
         <item>Chứa chất dự trữ cho tế bào</item>
         <item>Là nơi ôxi hoá các chất tạo năng lượng cho tế bào</item>
         <item>Bảo vệ tế bào</item>
 
-        <item>Bào quan có chức năng cung cấp năng lượng cho hoạt động tế bào là</item>
+        <item>[def]Bào quan có chức năng cung cấp năng lượng cho hoạt động tế bào là</item>
         <item>Ti thể</item>
         <item>Không bào</item>
         <item>Nhân con</item>
         <item>Trung thể</item>
 
-        <item>Trong tế bào sinh vật, ti thể có thể tìm thấy ở hình dạng nào sau đây?</item>
+        <item>[def]Trong tế bào sinh vật, ti thể có thể tìm thấy ở hình dạng nào sau đây?</item>
         <item>Nhiều hình dạng</item>
         <item>Hình cầu</item>
         <item>Hình hạt</item>
         <item>Hình que</item>
 
-        <item>Ở lớp màng trong của ti thể có chứa nhiều chất nào sau đây?</item>
+        <item>[def]Ở lớp màng trong của ti thể có chứa nhiều chất nào sau đây?</item>
         <item>Enzim hô hấp</item>
         <item>Kháng thể</item>
         <item>Hoocmon</item>
         <item>Sắc tố</item>
 
-        <item>Chất được chứa đựng trong lớp màng đôi của ti thể được gọi là:</item>
+        <item>[def]Chất được chứa đựng trong lớp màng đôi của ti thể được gọi là:</item>
         <item>Chất nền</item>
         <item>Chất vô cơ</item>
         <item>Nước</item>
         <item>Muối khoáng</item>
 
-        <item>Chất sau đây không có trong thành phần của ti thể là:</item>
+        <item>[def]Chất sau đây không có trong thành phần của ti thể là:</item>
         <item>axit đêôxiribooniclêic</item>
         <item>Prôtêin</item>
         <item>axit photphoric</item>
         <item>Peptiđôglican</item>
 
-        <item>Loại bào quan có thể tìm thấy trong ti thể là:</item>
+        <item>[def]Loại bào quan có thể tìm thấy trong ti thể là:</item>
         <item>Ribôxom</item>
         <item>Lục lạp</item>
         <item>Bộ máy Gôngi</item>
         <item>Trung thể</item>
 
-        <item>Tế bào nào trong các tế bào sau đây có chứa nhiều ti thể nhất?</item>
+        <item>[def]Tế bào nào trong các tế bào sau đây có chứa nhiều ti thể nhất?</item>
         <item>Tế bào cơ tim</item>
         <item>Tế bào biểu bì</item>
         <item>Tế bào hồng cầu</item>
         <item>Tế bào xương</item>
 
-        <item>Sản phẩm chủ yếu được tạo ra từ hoạt động của ti thể là chất nào sau đây?</item>
+        <item>[def]Sản phẩm chủ yếu được tạo ra từ hoạt động của ti thể là chất nào sau đây?</item>
         <item>Năng lượng dự trữ</item>
         <item>Pôlisaccarit</item>
         <item>Axit nuclêic</item>
         <item>Các chất dự trữ</item>
 
-        <item>Điểm giống nhau về cấu tạo giữa lục lạp và ti thể trong tế bào là:</item>
+        <item>[def]Điểm giống nhau về cấu tạo giữa lục lạp và ti thể trong tế bào là:</item>
         <item>Được bao bọc bởi lớp màng kép</item>
         <item>Có chứa sắc tố quang hợp</item>
         <item>Có chứa nhiều loại enzim hô hấp</item>
         <item>Có chứa nhiều phân tử ATP</item>
 
-        <item>Phát biểu nào dưới đây đúng khi nói về lục lạp?</item>
+        <item>[def]Phát biểu nào dưới đây đúng khi nói về lục lạp?</item>
         <item>Có chứa sắc tố diệp lục tạo màu xanh ở lá cây</item>
         <item>Có chứa nhiều trong các tế bào động vật</item>
         <item>Có thể không có trong tế bào của cây xanh</item>
         <item>Là loại bào quan nhỏ bé nhất</item>
 
-        <item>Tên gọi strôma để chỉ cấu trúc nào sau đây?</item>
+        <item>[def]Tên gọi strôma để chỉ cấu trúc nào sau đây?</item>
         <item>Chất nền của lục lạp</item>
         <item>Màng ngoài của lục lạp</item>
         <item>Màng trong của lục lạp</item>
         <item>Enzim quang hợp của lục lạp</item>
 
-        <item>Sắc tố diệp lục có chứa nhiều trong cấu trúc nào sau đây?</item>
+        <item>[def]Sắc tố diệp lục có chứa nhiều trong cấu trúc nào sau đây?</item>
         <item>Các túi tilacôit</item>
         <item>Chất nền</item>
         <item>Màng ngoài lục lạp</item>
         <item>Màng trong lục lạp</item>
 
-        <item>Trong lục lạp, ngoài diệp lục tố và enzim quang hợp, còn có chứa</item>
+        <item>[def]Trong lục lạp, ngoài diệp lục tố và enzim quang hợp, còn có chứa</item>
         <item>ADN và ribôxôm</item>
         <item>ARN và nhiễm sắc thể</item>
         <item>Không bào</item>
         <item>Photpholipit</item>
 
-        <item>Cấu trúc trong tế bào bao gồm các ống và xoang dẹt thông với nhau được gọi là:</item>
+        <item>[def]Cấu trúc trong tế bào bao gồm các ống và xoang dẹt thông với nhau được gọi là:</item>
         <item>Lưới nội chất</item>
         <item>Chất nhiễm sắc</item>
         <item>Khung tế bào</item>
         <item>Màng sinh chất</item>
 
-        <item>Màng của lưới nội chất được tạo bởi các thành phần hoá học nào dưới đây?</item>
+        <item>[def]Màng của lưới nội chất được tạo bởi các thành phần hoá học nào dưới đây?</item>
         <item>Prôtêin và photpholipit</item>
         <item>Photpholipit và pôlisaccarit</item>
         <item>ADN, ARN và Photpholipit</item>
         <item>Gluxit, prôtêin và chất nhiễm sắc</item>
 
-        <item>Trên màng lưới nội chất hạt có:</item>
+        <item>[def]Trên màng lưới nội chất hạt có:</item>
         <item>Các ribôxôm gắn vào</item>
         <item>Nhiều hạt có khả năng nhuộm màu bằng dung dịch kiềm</item>
         <item>Nhiều hạt có thể nhuộm bằng dung dịch axít</item>
         <item>Các hạt protein</item>
 
-        <item>Trên màng lưới nội chất trơn có chứa nhiều loại chất nào sau đây:</item>
+        <item>[def]Trên màng lưới nội chất trơn có chứa nhiều loại chất nào sau đây:</item>
         <item>Enzim</item>
         <item>Hoocmon</item>
         <item>Kháng thể</item>
         <item>Pôlisaccarit</item>
 
-        <item>Hoạt động nào sau đây xảy ra trên lưới nội chất hạt?</item>
+        <item>[def]Hoạt động nào sau đây xảy ra trên lưới nội chất hạt?</item>
         <item>Tổng hợp Prôtênin</item>
         <item>Ôxi hoá chất hữu cơ tạo năng lượng cho tế bào</item>
         <item>Tổng hợp các chất bài tiềt</item>
         <item>Tổng hợpPôlisaccarit cho tế bào</item>
 
-        <item>Chức năng của lưới nội chất trơn là:\n\tI. Phân hủy các chất độc hại đối với cơ thể \n\tII. Tham gia chuyển hoá đường\n\tIII. Tổng hợp lipit</item>
+        <item>[def]Chức năng của lưới nội chất trơn là:\n\tI. Phân hủy các chất độc hại đối với cơ thể \n\tII. Tham gia chuyển hoá đường\n\tIII. Tổng hợp lipit</item>
         <item>I, II, III</item>
         <item>I, II</item>
         <item>II, III</item>
         <item>I, III</item>
 
-        <item>Cấu tạo bộ máy Gôngi bao gồm:</item>
+        <item>[def]Cấu tạo bộ máy Gôngi bao gồm:</item>
         <item>chồng túi màng dẹp xếp cạnh nhau nhưng tách biệt nhau</item>
         <item>các ống rãnh xếp chồng lên nhau và gắn liền nhau</item>
         <item>các cấu trúc dạng hạt tập hợp lại</item>
         <item>các thể hình cầu có màng kép bao bọc</item>
 
-        <item>Chức năng của bộ máy Gôngi trong tế bào là:\n\tI. Thu nhận Prôtêin, lipit, đường rồi lắp ráp thành những sản phẩm cuối cùng\n\tII. Phân phối các sản phẩm tổng hợp được đến các nơi trong tế bào.\n\tIII. Tạo chất và bài tiết ra khỏi tế bào</item>
+        <item>[def]Chức năng của bộ máy Gôngi trong tế bào là:\n\tI. Thu nhận Prôtêin, lipit, đường rồi lắp ráp thành những sản phẩm cuối cùng\n\tII. Phân phối các sản phẩm tổng hợp được đến các nơi trong tế bào.\n\tIII. Tạo chất và bài tiết ra khỏi tế bào</item>
         <item>I, II, III</item>
         <item>I, II</item>
         <item>I, III</item>
         <item>II, III</item>
 
-        <item>Trong tế bào thực vật, bộ máy Gôngi còn thực hiện chức năng nào sau đây?</item>
+        <item>[def]Trong tế bào thực vật, bộ máy Gôngi còn thực hiện chức năng nào sau đây?</item>
         <item>Tham gia quá trình tổng hợp thành xenlulôzơ</item>
         <item>Tạo ra các hợp chất ATP</item>
         <item>Tổng hợp Prôtêin từ axít amin</item>
         <item>Tổng hợp các enzim cho tế bào</item>
 
-        <item>Loại bào quan nào dưới đây chỉ được bao bọc bởi 1 lớp màng đơn là:</item>
+        <item>[def]Loại bào quan nào dưới đây chỉ được bao bọc bởi 1 lớp màng đơn là:</item>
         <item>Lizôxôm</item>
         <item>Ti thể</item>
         <item>Lục lạp</item>
         <item>Bộ máy Gôngi</item>
 
-        <item>Hoạt động dưới đây không phải chức năng của Lizôxôm?</item>
+        <item>[def]Hoạt động dưới đây không phải chức năng của Lizôxôm?</item>
         <item>Tổng hợp các chất bài tiết cho tế bào</item>
         <item>Phân hủy các tế bào cũng như các bào quan già</item>
         <item>Phân hủy các tế bào bị tổn thương không có khả năng phục hồi</item>
         <item>Phân hủy thức ăn do có nhiều enzim thuỷ phân</item>
 
-        <item>Hoạt động nào sau đây của Lizôxôm cần phải kết hợp với không bào tiêu hoá?</item>
+        <item>[def]Hoạt động nào sau đây của Lizôxôm cần phải kết hợp với không bào tiêu hoá?</item>
         <item>Phân hủy thức ăn</item>
         <item>Phân hủy tế bào già</item>
         <item>Phân hủy các bào quan đã hết thời gian sử dụng</item>
         <item>Tất cả các hoạt động trên</item>
 
-        <item>Loại tế bào sau đây có chứa nhiều Lizôxôm nhất là:</item>
+        <item>[def]Loại tế bào sau đây có chứa nhiều Lizôxôm nhất là:</item>
         <item>Tế bào bạch cầu</item>
         <item>Tế bào cơ</item>
         <item>Tế bào hồng cầu</item>
         <item>Tế bào thần kinh</item>
 
-        <item>Điều nào sau đây đúng khi nói về không bào là:\n\tI. là bào quan có màng kép bao bọc\n\tII. Có chứa nhiều trong tất cả tế bào động vật\n\tIII. Không có ở các tế bào thực vật còn non</item>
+        <item>[def]Điều nào sau đây đúng khi nói về không bào là:\n\tI. là bào quan có màng kép bao bọc\n\tII. Có chứa nhiều trong tất cả tế bào động vật\n\tIII. Không có ở các tế bào thực vật còn non</item>
         <item>I, II, III</item>
         <item>I, II</item>
         <item>II, III</item>
         <item>I, III</item>
 
-        <item>Điểm giống nhau về cấu tạo giữa Lizôxôm và không bào là:</item>
+        <item>[def]Điểm giống nhau về cấu tạo giữa Lizôxôm và không bào là:</item>
         <item>Được bao bọc chỉ bởi một lớp màng đơn</item>
         <item>Bào quan có lớp màng kép bao bọc</item>
         <item>Đều có kích thước rất lớn</item>
         <item>Đều có trong tế bào của thực vật và động vật</item>
 
-        <item>Ở thực vật, không bào thực hiện chức năng nào sau đây?</item>
+        <item>[def]Ở thực vật, không bào thực hiện chức năng nào sau đây?</item>
         <item>Bảo vệ, chứa các chất dự trữ và sắc tố tạo màu cho hoa</item>
         <item>Bảo vệ và hô hấp</item>
         <item>Chứa chất dự trữ và quang hợp.</item>
         <item>Hô hấp và quang hợp</item>
 
-        <item>Hai nhà khoa học đã đưa ra mô hình cấu tạo màng sinh chất vào năm 1972 là:</item>
+        <item>[def]Hai nhà khoa học đã đưa ra mô hình cấu tạo màng sinh chất vào năm 1972 là:</item>
         <item>Singer và Nicolson</item>
         <item>Campbell và Singer</item>
         <item>Nicolson và Reece</item>
         <item>Reece và Campbell</item>
 
-        <item>Nội dung nào sau đây đúng khi nói về thành phần hoá học chính của màng sinh chất?</item>
+        <item>[def]Nội dung nào sau đây đúng khi nói về thành phần hoá học chính của màng sinh chất?</item>
         <item>Hai lớp photpholipit và các phân tử prôtêin</item>
         <item>Một lớp photphorit và các phân tử prôtêin</item>
         <item>Một lớp photphorit và không có prôtêin</item>
         <item>Hai lớp photphorit và không có prôtêin</item>
 
-        <item>Trong thành phần của màng sinh chất, ngoài lipit và prôtêin còn có những phần tử nào sau đây?</item>
+        <item>[def]Trong thành phần của màng sinh chất, ngoài lipit và prôtêin còn có những phần tử nào sau đây?</item>
         <item>Cacbohyđrat</item>
         <item>Axit ribônuclêic</item>
         <item>Axit đêôxiribônuclêic</item>
         <item>Axitphophoric</item>
 
-        <item>Ở tế bào động vật, trên màng sinh chất có thêm nhiều phân tử côlesteron có tác dụng</item>
+        <item>[def]Ở tế bào động vật, trên màng sinh chất có thêm nhiều phân tử côlesteron có tác dụng</item>
         <item>Tăng sự ổn định của màng</item>
         <item>Làm tăng độ ẩm của màng sinh chất</item>
         <item>Bảo vệ màng</item>
         <item>Dễ liên kết với tế bào khác</item>
 
-        <item>Bên ngoài màng sinh chất còn có một lớp thành tế bào bao bọc, cấu tạo này có ở loại tế bào nào sau đây?</item>
+        <item>[def]Bên ngoài màng sinh chất còn có một lớp thành tế bào bao bọc, cấu tạo này có ở loại tế bào nào sau đây?</item>
         <item>Nấm và thực vật</item>
         <item>Thực vật và động vật</item>
         <item>Động vật và nấm</item>
         <item>Động vật và vi khuẩn</item>
 
-        <item>Thành tế bào thực vật có thành phần hoá học chủ yếu bằng chất:</item>
+        <item>[def]Thành tế bào thực vật có thành phần hoá học chủ yếu bằng chất:</item>
         <item>Xenlulôzơ</item>
         <item>Côlesteron</item>
         <item>Phôtpholipit</item>
         <item>Axit nuclêic</item>
 
-        <item>Tính vững chắc của thành tế bào nấm có được nhờ vào chất nào dưới đây?</item>
+        <item>[def]Tính vững chắc của thành tế bào nấm có được nhờ vào chất nào dưới đây?</item>
         <item>Kitin</item>
         <item>Cacbonhidrat</item>
         <item>Trigliêric</item>
         <item>Protêin</item>
 
-        <item>Điều đưới đây đúng khi nói về sự vận chuyển thụ động các chất qua màng tế bào là:</item>
+        <item>[def]Điều đưới đây đúng khi nói về sự vận chuyển thụ động các chất qua màng tế bào là:</item>
         <item>Tuân thủ theo qui luật khuếch tán</item>
         <item>Cần có năng lượng cung cấp cho quá trình vận chuển</item>
         <item>Chất được chuyển từ nơi có nồng độ thấp sang nơi có nồng độ cao</item>
         <item>Chỉ xảy ra ở động vật không xảy ra ở thực vật</item>
 
-        <item>Vật chất được vận chuyển qua màng tế bào thường ở dạng nào sau đây?</item>
+        <item>[def]Vật chất được vận chuyển qua màng tế bào thường ở dạng nào sau đây?</item>
         <item>Hoà tan trong dung môi</item>
         <item>Dạng tinh thể rắn</item>
         <item>Dạng khí</item>
         <item>Dạng tinh thể rắn và khí</item>
 
-        <item>Đặc điểm của sự vận chuyển chất qua màng tế bào bằng sự khuếch tán là:</item>
+        <item>[def]Đặc điểm của sự vận chuyển chất qua màng tế bào bằng sự khuếch tán là:</item>
         <item>Dựa vào sự chênh lệch nồng độ các chất ở trong và ngoài màng</item>
         <item>Chỉ xảy ra với những phân tử có đường kính lớn hơn đường kính của lỗ màng</item>
         <item>Chất luôn vận chuyển từ nơi nhược trương sang nơi ưu trương</item>
         <item>Là hình thức vận chuyển chỉ có ở tế bào thực vật</item>
 
-        <item>Sự thẩm thấu là:</item>
+        <item>[def]Sự thẩm thấu là:</item>
         <item>Sự khuếch tán của các phân tử nước qua màng</item>
         <item>Sự di chuyển của các phân tử chất tan qua màng</item>
         <item>Sự khuếch tán của các phân tử đường qua màng</item>
         <item>Sự di chuyển của các ion qua màng</item>
 
-        <item>Câu có nội dung đúng sau đây là:</item>
+        <item>[def]Câu có nội dung đúng sau đây là:</item>
         <item>Sự vận chuyển chủ động trong tế bào cần được cung cấp năng lượng</item>
         <item>Vật chất trong cơ thể luôn đi từ nơi có nồng độ thấp đến nơi có nồng độ rất cao.</item>
         <item>Sự khuyếch tán là 1 hình thức vận chuyển chủ động</item>
         <item>Vận chuyển tích cực là sự thẩm thấu</item>
 
-        <item>Nguồn năng lượng nào sau đây trực tiếp cung cấp cho quá trình vận chuyển chất chủ động trong cơ thể sống?</item>
+        <item>[def]Nguồn năng lượng nào sau đây trực tiếp cung cấp cho quá trình vận chuyển chất chủ động trong cơ thể sống?</item>
         <item>ATP</item>
         <item>ADP</item>
         <item>AMP</item>
         <item>Cả 3 chất trên</item>
 
-        <item>Sự vận chuyển chất dinh dưỡng sau quá trình tiêu hoá qua lông ruột vào máu ở người theo cách nào sau đây?</item>
+        <item>[def]Sự vận chuyển chất dinh dưỡng sau quá trình tiêu hoá qua lông ruột vào máu ở người theo cách nào sau đây?</item>
         <item>Vận chuyển thụ động và vận chuyển chủ động</item>
         <item>Vận chuyển khuếch tán</item>
         <item>Vận chuyển thụ động</item>
         <item>Vận chuyển tích cực</item>
 
-        <item>Vận chuyển chất qua màng từ nơi có nồng độ thấp sang nơi có nồng độ cao là cơ chế:</item>
+        <item>[def]Vận chuyển chất qua màng từ nơi có nồng độ thấp sang nơi có nồng độ cao là cơ chế:</item>
         <item>Chủ động</item>
         <item>Thẩm thấu</item>
         <item>Khuếch tán</item>
         <item>Thụ động</item>
 
-        <item>Hình thức vận chuyển chất dưới đây có sự biến dạng của màng sinh chất là:</item>
+        <item>[def]Hình thức vận chuyển chất dưới đây có sự biến dạng của màng sinh chất là:</item>
         <item>Thực bào</item>
         <item>Khuếch tán</item>
         <item>Thụ động</item>
         <item>Tích cực</item>
 
-        <item>Có hai dạng năng lượng được phân chia dựa trên trạng thái tồn tại của chúng là:</item>
+        <item>[def]Có hai dạng năng lượng được phân chia dựa trên trạng thái tồn tại của chúng là:</item>
         <item>Động năng và thế năng</item>
         <item>Hoá năng và điện năng</item>
         <item>Điện năng và thế năng</item>
         <item>Động năng và hoá năng</item>
 
-        <item>Thế năng là:</item>
+        <item>[def]Thế năng là:</item>
         <item>Năng lượng ở trạng thái tiềm ẩn</item>
         <item>Năng lượng giải phòng khi phân giải chất hữu cơ</item>
         <item>Năng lượng mặt trời</item>
         <item>Năng lượng cơ học</item>
 
-        <item>Năng lượng tích luỹ trong các liên kết hoá học của các chất hữu cơ trong tế bào được gọi là:</item>
+        <item>[def]Năng lượng tích luỹ trong các liên kết hoá học của các chất hữu cơ trong tế bào được gọi là:</item>
         <item>Hoá năng</item>
         <item>Nhiệt năng</item>
         <item>Điện năng</item>
         <item>Động năng</item>
 
-        <item>Ađênôzin triphotphat là tên đầy đủ của hợp chất nào sau đây?</item>
+        <item>[def]Ađênôzin triphotphat là tên đầy đủ của hợp chất nào sau đây?</item>
         <item>ATP</item>
         <item>ADP</item>
         <item>AMP</item>
         <item>Cả 3 trường hợp trên</item>
 
-        <item>Yếu tố nào sau đây không có trong thành phần của phân tử ATP?</item>
+        <item>[def]Yếu tố nào sau đây không có trong thành phần của phân tử ATP?</item>
         <item>Prôtêin</item>
         <item>Bazơnitric</item>
         <item>Đường</item>
         <item>Nhóm photphat</item>
 
-        <item>Loại đường cấu tạo nên phân tử ATP là:</item>
+        <item>[def]Loại đường cấu tạo nên phân tử ATP là:</item>
         <item>Ribôzơ</item>
         <item>Đêôxiribôzơ</item>
         <item>Xenlulôzơ</item>
         <item>Saccarôzơ</item>
 
-        <item>Ngoài bazơ nitric có trong phân tử còn lại của phân tử ATP là:</item>
+        <item>[def]Ngoài bazơ nitric có trong phân tử còn lại của phân tử ATP là:</item>
         <item>1 phân tử đường ribô và 3 nhóm phôtphat</item>
         <item>3 phân tử đường ribô và 1 nhóm phôtphat</item>
         <item>3 phân tử đường đêôxiribô và 1 nhóm phôtphat</item>
         <item>1 phân tử đường đêôxiribô và 3 nhóm phôtphat</item>
 
-        <item>Năng lượng của ATP tích luỹ ở:</item>
+        <item>[def]Năng lượng của ATP tích luỹ ở:</item>
         <item>Hai liên kết phôtphat ở ngoài cùng</item>
         <item>Cả 3 nhóm phôtphat</item>
         <item>Hai liên kết phôtphat gần phân tử đường</item>
         <item>Chỉ một liên kết phôtphat ngoài cùng</item>
 
-        <item>Quang năng là:</item>
+        <item>[def]Quang năng là:</item>
         <item>Năng lượng sản sinh từ phân hủy ATP</item>
         <item>Năng lượng của ánh sáng</item>
         <item>Năng lượng trong các liên kết phôtphat của ATP</item>
         <item>Năng lượng được sản sinh từ ôxi hoá của ti thể</item>
 
-        <item>Để tiến hành quang tổng hợp, cây xanh đã hấp thụ năng lượng nào sau đây?</item>
+        <item>[def]Để tiến hành quang tổng hợp, cây xanh đã hấp thụ năng lượng nào sau đây?</item>
         <item>Quang năng</item>
         <item>Điện năng</item>
         <item>Hoá năng</item>
         <item>Nhiệt năng</item>
 
-        <item>Hoạt động nào sau đây có thể không cần năng lượng cung cấp từ ATP?</item>
+        <item>[def]Hoạt động nào sau đây có thể không cần năng lượng cung cấp từ ATP?</item>
         <item>Sự khuếch tán vật chất qua màng tế bào</item>
         <item>Sinh trưởng ở cây xanh</item>
         <item>Sự co cơ ở động vật</item>
         <item>Sự vận chuyển ôxi của hồng cầu ở người</item>
 
-        <item>Qua quang hợp tạo chất đường, cây xanh đã thực hiện quá trình chuyển hoá năng lượng nào sau đây?</item>
+        <item>[def]Qua quang hợp tạo chất đường, cây xanh đã thực hiện quá trình chuyển hoá năng lượng nào sau đây?</item>
         <item>Từ hoá năng sang quang năng</item>
         <item>Từ hoá năng sang quang năng</item>
         <item>Từ quang năng sang hoá năng</item>
         <item>Từ hoá năng sang nhiệt năng</item>
 
-        <item>Hoạt động nào sau đây là của enzim?</item>
+        <item>[def]Hoạt động nào sau đây là của enzim?</item>
         <item>Xúc tác các phản ứng trao đổi chất</item>
         <item>Tham gia vào thành phần của các chất được tổng hợp</item>
         <item>Điều hoà các hoạt động sống của cơ thế</item>
         <item>Cấu tạo tế bào</item>
 
-        <item>Chất nào dưới đây là enzim?\n\tI. Saccaraza\n\tII. Prôteaza\n\tIII. Nuclêôtiđaza\n\tIV. Lipaza</item>
+        <item>[def]Chất nào dưới đây là enzim?\n\tI. Saccaraza\n\tII. Prôteaza\n\tIII. Nuclêôtiđaza\n\tIV. Lipaza</item>
         <item>I, II, III, IV</item>
         <item>I, II</item>
         <item>II, III</item>
         <item>II, III, IV</item>
 
-        <item>Enzim có bản chất là:</item>
+        <item>[def]Enzim có bản chất là:</item>
         <item>Prôtêin</item>
         <item>Pôlisaccarit</item>
         <item>Mônôsaccrit</item>
         <item>Photpholipit</item>
 
-        <item>Phát biểu sau đây có nội dung đúng là:</item>
+        <item>[def]Phát biểu sau đây có nội dung đúng là:</item>
         <item>Enzim là một chất xúc tác sinh học</item>
         <item>Enzim được cấu tạo từ các đisaccrit</item>
         <item>Enzim sẽ lại biến đổi khi tham gia vào phản ứng</item>
         <item>Ở động vật, enzim do các tuyến nội tiết tiết ra</item>
 
-        <item>Cơ chất là:</item>
+        <item>[def]Cơ chất là:</item>
         <item>Chất tham gia phản ứng do enzim xúc tác</item>
         <item>Chất tham gia cấu tạo enzim</item>
         <item>Sản phẩm tạo ra từ các phản ứng do enzim xúc tác</item>
         <item>Chất tạo ra do nhiều enzim liên kết lại</item>
 
-        <item>Giai đoạn đầu tiên trong cơ chế tác dụng của enzim lên các phản ứng là:</item>
+        <item>[def]Giai đoạn đầu tiên trong cơ chế tác dụng của enzim lên các phản ứng là:</item>
         <item>Tạo ra Enzim --- cơ chất</item>
         <item>Tạo các sản phẩm trung gian</item>
         <item>Tạo sản phẩm cuối cùng</item>
         <item>Giải phóng Enzim khỏi cơ chất</item>
 
-        <item>Enzim có đặc tính nào sau đây?</item>
+        <item>[def]Enzim có đặc tính nào sau đây?</item>
         <item>Tính chuyên hoá</item>
         <item>Tính đa dạng</item>
         <item>Hoạt tính yếu</item>
         <item>Tính bền với nhiệt độ cao</item>
 
-        <item>Enzim sau đây hoạt động trong môi trường axít</item>
+        <item>[def]Enzim sau đây hoạt động trong môi trường axít</item>
         <item>Pepsin</item>
         <item>Amilaza</item>
         <item>Saccaraza</item>
         <item>Mantaza</item>
 
-        <item>Khoảng nhiệt độ cho hoạt động của enzim trong cơ thể người là:</item>
+        <item>[def]Khoảng nhiệt độ cho hoạt động của enzim trong cơ thể người là:</item>
         <item>350C--- 400C</item>
         <item>150C--- 200C</item>
         <item>200C--- 350C</item>
         <item>200C--- 250C</item>
 
-        <item>Trong ảnh hưởng của nhiệt độ lên hoạt động của enzim, thì nhiệt độ tối ưu của môi trường là giá trị nhiệt độ mà ở đó:</item>
+        <item>[def]Trong ảnh hưởng của nhiệt độ lên hoạt động của enzim, thì nhiệt độ tối ưu của môi trường là giá trị nhiệt độ mà ở đó:</item>
         <item>Enzim có hoạt tính cao nhất</item>
         <item>Enzim bắt đầu hoạt động</item>
         <item>Enzim ngừng hoạt động</item>
         <item>Enzim có hoạt tính thấp nhất</item>
 
-        <item>Khi môi trường có nhiệt độ thấp hơn nhiệt độ tối ưu của enzim, thì điều nào sau đây đúng?</item>
+        <item>[def]Khi môi trường có nhiệt độ thấp hơn nhiệt độ tối ưu của enzim, thì điều nào sau đây đúng?</item>
         <item>Hoạt tính enzim tăng theo sự gia tăng nhiệt độ</item>
         <item>Sự giảm nhiệt độ làm tăng hoạt tính enzim</item>
         <item>Hoạt tính enzim giảm khi nhiệt độ tăng lên</item>
         <item>Nhiệt độ tăng lên không làm thay đổi hoạt tính enzim</item>
 
-        <item>Hậu quả sau đây sẽ xảy ra khi nhiệt độ môi trường vượt quá nhiệt độ tối ưu của enzim là:</item>
+        <item>[def]Hậu quả sau đây sẽ xảy ra khi nhiệt độ môi trường vượt quá nhiệt độ tối ưu của enzim là:</item>
         <item>Hoạt tính enzim giảm dần và có thể mất hoàn toàn</item>
         <item>Hoạt tính enzim tăng lên</item>
         <item>Enzim không thay đổi hoạt tính</item>
         <item>Phản ứng luôn dừng lại</item>
 
-        <item>Phần lớn enzim trong cơ thể có hoạt tính cao nhất ở khoảng giá trị của độ pH nào sau đây?</item>
+        <item>[def]Phần lớn enzim trong cơ thể có hoạt tính cao nhất ở khoảng giá trị của độ pH nào sau đây?</item>
         <item>Từ 6 đến 8</item>
         <item>Từ 2 đến 3</item>
         <item>Từ 4 đến 5</item>
         <item>Trên 8</item>
 
-        <item>Yếu tố nào sau đây có ảnh hưởng đến hoạt tính của enzim?\n\tI. Nhiệt độ\n\tII. Độ pH của môi trường\n\tIII. Nồng độ cơ chất và nồng độ Enzim</item>
+        <item>[def]Yếu tố nào sau đây có ảnh hưởng đến hoạt tính của enzim?\n\tI. Nhiệt độ\n\tII. Độ pH của môi trường\n\tIII. Nồng độ cơ chất và nồng độ Enzim</item>
         <item>I, II, III</item>
         <item>I, II</item>
         <item>I, III</item>
         <item>II, III</item>
 
-        <item>Enzim xúc tác quá trình phân giải đường saccrôzơ là:</item>
+        <item>[def]Enzim xúc tác quá trình phân giải đường saccrôzơ là:</item>
         <item>Saccaraza</item>
         <item>Lactaza</item>
         <item>Urêaza</item>
         <item>Enterôkinaza</item>
 
-        <item>Enzim Prôtêaza có tác dụng xúc tác quá trình nào sau đây?</item>
+        <item>[def]Enzim Prôtêaza có tác dụng xúc tác quá trình nào sau đây?</item>
         <item>Phân giải prôtêin</item>
         <item>Phân giải lipit thành axit béo và glixêin</item>
         <item>Phân giải đường đisaccarit thành mônôsaccarit</item>
         <item>Phân giải đường lactôzơ</item>
 
-        <item>Quá trình phân giải axit nuclêic thành nuclêôtit được xúc tác bởi enzim</item>
+        <item>[def]Quá trình phân giải axit nuclêic thành nuclêôtit được xúc tác bởi enzim</item>
         <item>Nuclêaza</item>
         <item>Nuclêôtiđaza</item>
         <item>Peptidaza</item>

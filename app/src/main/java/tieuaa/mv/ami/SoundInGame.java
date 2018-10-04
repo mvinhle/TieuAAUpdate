@@ -2,6 +2,7 @@ package tieuaa.mv.ami;
 
 import android.content.Context;
 import android.media.MediaPlayer;
+import android.util.Log;
 
 public class SoundInGame {
     private static MediaPlayer mediaPlayer;
@@ -10,42 +11,19 @@ public class SoundInGame {
             if (mediaPlayer.isPlaying()) mediaPlayer.stop();
         }
         catch (Exception e){
-            e.getMessage();
+            Log.d(KeyAA.KEY_LOG, "SoundInGame: "+e.getMessage());
         }
         mediaPlayer = MediaPlayer.create(context, i);
         mediaPlayer.start();
+        Log.d(KeyAA.KEY_LOG, "SoundInGame: Đã phát id: "+i+", tại context: "+context);
     }
-//    public void playMain(){
-//        if (mediaPlayerHome.isPlaying()){
-//            mediaPlayerHome.pause();
-//        }
-//        if (mediaPlayerClass.isPlaying()){
-//            mediaPlayerClass.pause();
-//        }
-//        mediaPlayerMain.reset();
-//        mediaPlayerMain.start();
-//        Log.d(KeyAA.KEY_LOG, "bật nhạc nền main");
-//    }
-//    public void playHome(){
-//        if (mediaPlayerHome.isPlaying()){
-//            mediaPlayerHome.pause();
-//        }
-//        if (mediaPlayerClass.isPlaying()){
-//            mediaPlayerClass.pause();
-//        }
-//        mediaPlayerHome.reset();
-//        mediaPlayerHome.start();
-//        Log.d(KeyAA.KEY_LOG, "bật nhạc nền home");
-//    }
-//    public void playClass(){
-//        if (mediaPlayerMain.isPlaying()){
-//            mediaPlayerMain.pause();
-//        }
-//        if (mediaPlayerHome.isPlaying()){
-//            mediaPlayerHome.pause();
-//        }
-//        mediaPlayerClass.reset();
-//        mediaPlayerClass.start();
-//        Log.d(KeyAA.KEY_LOG, "bật nhạc nền class");
-//    }
+
+    public void pauseSound(){
+        mediaPlayer.pause();
+        Log.d(KeyAA.KEY_LOG, "SoundInGame: Đã dừng");
+    }
+    public void continueSound(){
+        mediaPlayer.start();
+        Log.d(KeyAA.KEY_LOG, "SoundInGame: Đã Tiếp tục");
+    }
 }

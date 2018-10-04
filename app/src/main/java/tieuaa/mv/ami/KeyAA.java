@@ -8,7 +8,7 @@ public class KeyAA {
     public static String KEY_SEX_INFORMATION  = "SEX_OF_USER";
     public static String KEY_POINT_TRUST      = "POINT_TRUST";
 
-    public static String KEY_LOG = "LeMV";
+    public static String KEY_LOG = "LeMinhVinh";
 
     public static String KEY_FIX_BUG_INFORMARTION = " sanPhamDuocPhatTrienBoiLeMinhVinh15092018 ";
 

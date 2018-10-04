@@ -13,12 +13,23 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     SaveAndLoadData saveAndLoadData;
+    SoundInGame soundInGame;
     byte clickDeleteData = 0;
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        SoundInGame soundInGame = new SoundInGame(this,R.raw.rawmain);
+        soundInGame = new SoundInGame(this,R.raw.rawmain);
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        soundInGame.continueSound();
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        soundInGame.pauseSound();
     }
 
     @Override
@@ -28,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle(getResources().getString(R.string.titleMain));
 
         saveAndLoadData = new SaveAndLoadData(MainActivity.this);
-        SoundInGame soundInGame = new SoundInGame(this,R.raw.rawmain);
+        soundInGame = new SoundInGame(this,R.raw.rawmain);
 
         Button buttonYes = findViewById(R.id.ButtonYes);
         buttonYes.setOnClickListener(new View.OnClickListener() {
@@ -56,8 +67,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        Toast.makeText(this, getResources().getString(R.string.messengerExit), Toast.LENGTH_LONG).show();
         super.onDestroy();
+        soundInGame.pauseSound();
+        Toast.makeText(this, getResources().getString(R.string.messengerExit), Toast.LENGTH_LONG).show();
     }
 
     @Override

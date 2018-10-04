@@ -1,34 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="ami_test_code">
-        <item>[fun][vui] kết quả: \"dong 0\"</item>
-        <item>dong 0</item>
+        <item>[fun]Theo [you], tổ chức sống nào có cấp thấp nhất ?</item>
+        <item>cơ thể</item>
 
-        <item>[fun][vui] kết quả: \"dong 1\"</item>
-        <item>dong 1</item>
+        <item>[fun][you], cấp tổ chức cao nhất và lớn nhất của hệ sống:</item>
+        <item>sinh quyển</item>
 
-        <item>[fun][vui] kết quả: \"dong 2\"</item>
-        <item>dong 2</item>
+        <item>[fun][you] ơi, tập hợp nhiều tế bào cùng loại và cùng thực hiện một chức năng nhất định tạo thành gọi là gì nhỉ?</item>
+        <item>mô</item>
 
-        <item>[fun][vui] kết quả: \"dong 3\"</item>
-        <item>dong 3</item>
+        <item>[def]Theo [you], bào quan ribôxôm có chức năng là một cấu trúc của tế bào tham gia tổng hợp chất gì ?</item>
+        <item>protein</item>
 
-        <item>[fun][vui] kết quả: \"dong 5\"</item>
-        <item>dong 5</item>
+        <item>[fun]Trong tự nhiên người ta phân loại sinh vật thành các nhóm khác nhau. Các nhóm ấy được gọi là ?</item>
+        <item>loài</item>
 
-        <item>[fun][vui] kết quả: \"dong 6\"</item>
-        <item>dong 6</item>
+        <item>[fun]Theo [you] Trong các tế bào sống, các tế bào thực hiên trao đổi chất, cảm ứng và sinh trưởng, sinh trưởng và phát triển,.. đúng hay sai ?</item>
+        <item>đúng</item>
 
-        <item>[fun][vui] kết quả: \"dong 7\"</item>
-        <item>dong 7</item>
+        <item>[fun][you], Các tế bào được cấu tạo từ các phân tử, đại phân tử và bào quan. Là đơn vị cơ bản của ___\n\tTheo [you] từ điền vào \"___\" là gì ?</item>
+        <item>sự sống</item>
 
-        <item>[fun][vui] kết quả: \"dong\"8\"</item>
-        <item>dong\"8</item>
+        <item>[fun][you] giúp [i] điền từ vào \"___\" nhé!\n\tHệ cơ quan là tập hợp các \"___\", bộ phận của cơ thể cùng thực hiện một chức năng.</item>
+        <item>cơ quan</item>
 
-        <item>[fun][vui] kết quả: \"dong\"9\"</item>
-        <item>dong\"9</item>
+        <item>[sad][i] lại quên mất từ còn thiếu rồi, [you] giúp [i] nhé:\n\tHệ thống các nhóm mô được sắp xếp để thực hiện một loại chức năng thành lập nên cơ quan và nhiều cơ quan tạo thành ___.</item>
+        <item>hệ cơ quan</item>
 
-        <item>[fun][vui] kết quả: \"dong\"10\"</item>
-        <item>dong\"10</item>
+        <item>[fun][you] ơi, đặc điểm chung của trùng roi, a mip, vi khuẩn là động vật đơn bào và cấu tạo của cơ thể là gì..?</item>
+        <item>đơn bào</item>
+
+        <item>[fun]theo [you] thì tập hợp các cá thể cùng loài, cùng sống trong một vùng địa lý nhất định ở một thời điểm xác định và cơ quan hệ sinh sản với nhau được gọi là gì vậy [you] ?</item>
+        <item>quần thể</item>
+
+        <item>[fun][you]! một hệ thống tương đối hoàn chỉnh bao gồm quần xã sinh vật và môi trường sống của nó được gọi là gì?</item>
+        <item>hệ sinh thái</item>
+
+        <item>[fun][you] giúp [i] sắp xếp các cấp độ tổ chức sau đâu từ thấp đến cao với:\n\t\"Cơ thể, hệ sinh thái, quần xã, quần thể\"\n\t(dùng dấu \",\" thay vì dùng dấu \"bé\" [you] nhé!)</item>
+        <item>Cơ thể, quần thể, quần xã, hệ sinh thái</item>
+
+        <item>[fun][you] tìm giúp [i] đơn vị nào dùng để chỉ đến các quần thể sinh vật khác loài trong 1 khu vực sống nhé!</item>
+        <item>quần xã</item>
+
+        <item>[sad][you] ơi, tập hợp các sinh vật và hệ sinh thái trên trái đất người ta gọi là gì vậy T_T</item>
+        <item>sinh quyển</item>
+
+        <item>[sad][you]! Cái gì là một hệ thống mở, có khả năng tự điều chỉnh, thường xuyên trao đổi chất với môi trường, được tổ chức theo nguyên tắc thứ bậc?? [i] quên mất rồi.</item>
+        <item>hệ thống sống</item>
+
+        <item>[def][you] ơi, bậc phân loại cao nhất trong các đơn vị phân loại sinh vật là gì ạ?</item>
+        <item>giới</item>
+
+        <item>[fun][you] ơi trong các đơn vị phân loại sinh vật họ, loài, lớp, bộ thì đơn vị thấp nhất so với các đơn vị còn lại là gì nhỉ?</item>
+        <item>loài</item>
+
+        <item>[fun]Câu này dể nè [you], theo [you] thì sinh vật thuộc giới khởi sinh có tế bào nhân gì vậy\n\t(nhân sơ hay nhân thực?).</item>
+        <item>nhân sơ</item>
+
+        <item>[fun][you] ơi~, sinh vật thuộc giới khởi sinh có đặc điểm cấu tạo khác hẳn so với giới nấm, động vật, thực vật là đúng hay sai vậy?</item>
+        <item>đúng</item>
+
+        <item>[sad][i] không thích vi khuẩn lắm mặc dù vi khuẩn có loại tốt, có loại xấu. Theo [you] thì vi khuẩn được xếp vào giới nào?</item>
+        <item>giới khởi sinh</item>
+
+        <item>[fun][you] giúp [i] câu này nhé:\n\tĐiểm giống nhau của các sinh vật thuộc giới Nguyên sinh, giới thực vật và giới động vật là tế bào cơ thể đều có nhân gì?</item>
+        <item>nhân thực</item>
+
+        <item>[sad][you] ơi, các sinh vật thuộc giới nấm và giới thực vật đều sống nào vậy?</item>
+        <item>hoại sinh</item>
+
+        <item>[sud][you] ơi! [i] đột nhiên quên mất động vật nguyên sinh có cấu tạo cơ thể đơn bào và có nhân gì rồi. [you] cho [i] biết động vật nguyên sinh có cấu tạo cơ thể đơn bào và có nhân gì giúp [i] nhé.</item>
+        <item>nhân thực</item>
+
+        <item>[fun][you]~ Thực vật, nấm, động vật là những giới sinh vật có đặc điểm cấu tạo cơ thể đa bào và đều có nhân gì vậy?</item>
+        <item>nhân thực</item>
+
+        <item>[fun][you], đặc điểm của động vật khác xa so với thực vật là: chúng có phương thức sống___. \n\tTheo [you] thì từ điền vào \"___\" là gì nè.</item>
+        <item>dị dưỡng</item>
+
+        <item>[fun][you] ơi~, Giới nào là những sinh vật đa bào, cấu tạo tế bào có chứa nhân thực và sống dị dưỡng theo lối hoại sinh?</item>
+        <item>giới nấm</item>
+
+        <item>[fun][ni] có phải là tên của [i] không?\n\t(trả lời cho [i] là:\"phải/không\")</item>
+        <item>phải</item>
+
+        <item>[fun]Thực vật và tảo sống tự dưỡng quang hợp phải không [you]?\n\t(trả lời cho [i] là:\"phải/không\")</item>
+        <item>phải</item>
+
+        <item>[sad]Động vật nguyên sinh có cấu tạo cơ thể đơn bào phải không [you]?. hôm qua [i] bị bệnh nên không đến lớp được,..T_T</item>
+        <item>phải</item>
+
+        <item>[sud][you]~ Tên của [you] là gì?</item>
+        <item>[you]</item>
     </string-array>
 </resources>

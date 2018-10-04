@@ -33,10 +33,12 @@ public class InformationActivity extends AppCompatActivity {
 
         saveAndLoadData = new SaveAndLoadData(this);
         editTextName = findViewById(R.id.editText_InformationName);
-        buttonOk = findViewById(R.id.button_Sign_up);
+        buttonOk     = findViewById(R.id.button_Sign_up);
         radioGroupBoyAndGirl = findViewById(R.id.radioGroup_BoyAndGirl);
         radioButtonBoy       = findViewById(R.id.radioButton_Boy);
         radioButtonGirl      = findViewById(R.id.radioButton_Girl);
+
+        saveAndLoadData.restartUser();
 
         if (saveAndLoadData.getNameUser().equals(KeyAA.KEY_FIX_BUG_INFORMARTION)){
             buttonOk.setText(getResources().getString(R.string.ok));
@@ -44,10 +46,14 @@ public class InformationActivity extends AppCompatActivity {
         else {
             editTextName.setText(saveAndLoadData.getNameUser());
             if (saveAndLoadData.getSexUser()){
+                radioButtonGirl.setChecked(false);
                 radioButtonBoy.setChecked(true);
+                sexUserIsBoy = true;
             }
             else {
+                radioButtonBoy.setChecked(false);
                 radioButtonGirl.setChecked(true);
+                sexUserIsBoy = false;
             }
             buttonOk.setText(getResources().getString(R.string.restartOk));
         }

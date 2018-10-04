@@ -67,11 +67,12 @@ public class AmiActivity extends AppCompatActivity {
     final int TEST_CODE_ABOUT   = 10; // chia cho 2
     final int CHAT_WIN          = 10;
     final int TEST_WIN          = 100;
-    final int TEST_LOST         = -70;
+    final int TEST_LOST         = -50;
     final int TOUCH_ABOUT       = 7;
     final int TL_CLOTHES        = 500;
-    final int TL_CHAT           = 200;
-    final int TL_TEST           = 60; // nhân cho 5
+    final int TL_CHAT           = 75;
+    final int TL_TEST           = 30; // nhân cho 5
+    final int TL_TEST_CODE      = 75; // nhân cho 2
     final int TL_HELLO_WORLD    = 1000;
     final int TL_TOUCH          = 1500;
 
@@ -106,10 +107,10 @@ public class AmiActivity extends AppCompatActivity {
         buttonTestCode();
         buttonChatToAmi();
     }
-
+//    các hàm có công dụng như tên (chỉ nên dùng 1 lần khi vào activity)
     private void amiHelloWorld(){
         final String textAmiHelloWorld[] = getResources().getStringArray(R.array.ami_HelloWorld);
-        textViewAmiChat.setText(chatWithAmi(textAmiHelloWorld[helpData.randomLine(TL_HELLO_WORLD, textAmiHelloWorld.length, HELLO_WORLD_ABOUT)]));
+        textViewAmiChat.setText(textAmiChat(textAmiHelloWorld[helpData.randomLine(TL_HELLO_WORLD, textAmiHelloWorld.length, HELLO_WORLD_ABOUT)]));
     }
     private void buttonChat(){
         buttonChat = findViewById(R.id.button_chat);
@@ -118,7 +119,7 @@ public class AmiActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (changeHomeAndClass(true)){
-                    textViewAmiChat.setText(chatWithAmi(textAmiChat[helpData.randomLine(TL_CHAT, textAmiChat.length, CHAT_ABOUT)]));
+                    textViewAmiChat.setText(textAmiChat(textAmiChat[helpData.randomLine(TL_CHAT, textAmiChat.length, CHAT_ABOUT)]));
                     saveAndLoadData.addPointTrust(CHAT_WIN);
                 }
             }
@@ -138,14 +139,14 @@ public class AmiActivity extends AppCompatActivity {
                     changeChatAndTest(false);
                     int line = helpData.randomLine(TL_TEST, textAmiTest.length, TEST_ABOUT);
                     int question = (int) (line - (line % 5));
-                    String textTest = chatWithAmi("<^> " + textAmiTest[question]).concat("\n\n");
+                    String textTest = textAmiChat("<^> " + textAmiTest[question]).concat("\n\n");
                     Integer nT[] = {2, 3, 4};
                     ArrayList<Integer> NT = new ArrayList<>(Arrays.asList(nT));
                     Collections.shuffle(NT);
-                    String N0 = textAmiTest[question + 1];
-                    String N1 = textAmiTest[question + NT.get(0)];
-                    String N2 = textAmiTest[question + NT.get(1)];
-                    String N3 = textAmiTest[question + NT.get(2)];
+                    String N0 = textAmiChat(textAmiTest[question + 1]);
+                    String N1 = textAmiChat(textAmiTest[question + NT.get(0)]);
+                    String N2 = textAmiChat(textAmiTest[question + NT.get(1)]);
+                    String N3 = textAmiChat(textAmiTest[question + NT.get(2)]);
                     String testR[][] = {
                             {getResources().getString(R.string.A).concat(": ").concat(N0),
                                     getResources().getString(R.string.B).concat(": ").concat(N1),
@@ -220,34 +221,34 @@ public class AmiActivity extends AppCompatActivity {
         buttonTouchHair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textViewAmiChat.setText(chatWithAmi(textTouchHair[helpData.randomLine(TL_TOUCH, textTouchHair.length, TOUCH_ABOUT)]));
-                saveAndLoadData.addPointTrust(TEST_WIN/2);
+                textViewAmiChat.setText(textAmiChat(textTouchHair[helpData.randomLine(TL_TOUCH, textTouchHair.length, TOUCH_ABOUT)]));
+                saveAndLoadData.addPointTrust(CHAT_WIN);
             }
         });
         buttonTouchFace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textViewAmiChat.setText(chatWithAmi(textTouchFace[helpData.randomLine(TL_TOUCH,textTouchFace.length, TOUCH_ABOUT)]));
-                saveAndLoadData.addPointTrust(CHAT_WIN/2);
+                textViewAmiChat.setText(textAmiChat(textTouchFace[helpData.randomLine(TL_TOUCH,textTouchFace.length, TOUCH_ABOUT)]));
+                saveAndLoadData.addPointTrust(CHAT_WIN);
             }
         });
         buttonTouchShoulder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textViewAmiChat.setText(chatWithAmi(textTouchShoulder[helpData.randomLine(TL_TOUCH,textTouchShoulder.length, TOUCH_ABOUT)]));
-                saveAndLoadData.addPointTrust(CHAT_WIN/2);
+                textViewAmiChat.setText(textAmiChat(textTouchShoulder[helpData.randomLine(TL_TOUCH,textTouchShoulder.length, TOUCH_ABOUT)]));
+                saveAndLoadData.addPointTrust(CHAT_WIN);
             }
         });
         buttonTouchBody.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (saveAndLoadData.getSexUser()) {
-                    textViewAmiChat.setText(chatWithAmi(textTouchBodyB[helpData.randomLine(TL_TOUCH,textTouchBodyB.length, TOUCH_ABOUT)]));
+                    textViewAmiChat.setText(textAmiChat(textTouchBodyB[helpData.randomLine(TL_TOUCH,textTouchBodyB.length, TOUCH_ABOUT)]));
                 }
                 else {
-                    textViewAmiChat.setText(chatWithAmi(textTouchBodyG[helpData.randomLine(TL_TOUCH,textTouchBodyG.length, TOUCH_ABOUT)]));
+                    textViewAmiChat.setText(textAmiChat(textTouchBodyG[helpData.randomLine(TL_TOUCH,textTouchBodyG.length, TOUCH_ABOUT)]));
                 }
-                saveAndLoadData.addPointTrust(CHAT_WIN/2);
+                saveAndLoadData.addPointTrust(CHAT_WIN);
             }
         });
     }
@@ -259,17 +260,17 @@ public class AmiActivity extends AppCompatActivity {
         buttonChatToAmi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String textResult = helpData.removeSubString(editTextChatToAmi.getText().toString(), " ");
+                String textResult = editTextChatToAmi.getText().toString().trim();
                 editTextChatToAmi.setText(null);
-                if (textResult.equalsIgnoreCase(helpData.removeSubString(testResult, " "))){
-                    textViewAmiChat.setText(chatWithAmi(textAmiWin[helpData.randomRange(textAmiWin.length)]));
+                if (textResult.equalsIgnoreCase(testResult.trim())){
+                    textViewAmiChat.setText(textAmiChat(textAmiWin[helpData.randomRange(textAmiWin.length)]));
                     saveAndLoadData.addPointTrust(TEST_WIN * 2);
                 }
                 else {
-                    textViewAmiChat.setText(chatWithAmi(textAmiLost[helpData.randomRange(textAmiLost.length)].replace("[result]", testResult)));
+                    textViewAmiChat.setText(textAmiChat(textAmiLost[helpData.randomRange(textAmiLost.length)].replace("[result]", testResult)));
                     saveAndLoadData.addPointTrust(TEST_LOST * 2);
                 }
-                changeChatToAmiAndAmiChat(false);
+                changeTestCodeAndChat(false);
             }
         });
     }
@@ -279,15 +280,15 @@ public class AmiActivity extends AppCompatActivity {
         buttonTestCode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                changeChatToAmiAndAmiChat(true);
-                int ran = helpData.randomLine(TL_TOUCH, textAmiTestCode.length, TEST_CODE_ABOUT);
+                changeTestCodeAndChat(true);
+                int ran = helpData.randomLine(TL_TEST_CODE, textAmiTestCode.length, TEST_CODE_ABOUT);
                 int rand = (int) ran - (ran % 2);
-                textViewAmiChat.setText(chatWithAmi(textAmiTestCode[rand]));
-                testResult = textAmiTestCode[rand+1];
+                textViewAmiChat.setText(textAmiChat(textAmiTestCode[rand]));
+                testResult = textAmiChat(textAmiTestCode[rand+1]);
             }
         });
     }
-    // set index and image ami default
+//    hàm dùng dể nhận id ảnh mặt định tại vị trí lớp hoặc nhà (tốt nhất chỉ dùng 1 lần tại 1 ngữ cảnh)
     private void setIndexDefault(boolean sglass){
         String body[]       = getResources().getStringArray(R.array.body);
         String hair[]       = getResources().getStringArray(R.array.hair); 	// intdex array hair = body
@@ -316,7 +317,7 @@ public class AmiActivity extends AppCompatActivity {
         clothesDefault = idImageFromName(clothes[helpData.randomLine(TL_CLOTHES, clothes.length)]);
         setImageAmi("Default");
     }
-    // set image ami (Fun, Angry, Suddent, Sad, Default)
+//    hàm để truyền hình ảnh vào layout. cũng như thể hiện cảm xúc
     private void setImageAmi(String type){
         String eye[]     = getResources().getStringArray(R.array.eye);
         String eyebrow[] = getResources().getStringArray(R.array.eyebrow);
@@ -375,14 +376,14 @@ public class AmiActivity extends AppCompatActivity {
                 break;
         }
     }
-
+//    dùng để đổi từ name ảnh sang id
     private int idImageFromName(String nameImage){
         int idResource = getResources().getIdentifier(nameImage, "drawable", getPackageName());
         Log.d(KeyAA.KEY_LOG, "Chuyển tấm ảnh: "+nameImage+", thành id: "+idResource);
         return idResource;
     }
-
-    private String chatWithAmi(String text){
+//    hàm thay đổi văn bản và chạy hàm thể hiện cảm xúc
+    private String textAmiChat(String text){
         if(text.contains("[fun]")){setImageAmi("Fun");     text = helpData.removeSubString(text, "[fun]");}
         if(text.contains("[ang]")){setImageAmi("Angry");   text = helpData.removeSubString(text, "[ang]");}
         if(text.contains("[sad]")){setImageAmi("Sad");     text = helpData.removeSubString(text, "[sad]");}
@@ -395,7 +396,7 @@ public class AmiActivity extends AppCompatActivity {
                 .replace(KeyAA.KEY_NAME_AA, saveAndLoadData.getNameAA());
         return string;
     }
-
+//    hàm true để bật chế độ chat và ẩn phím abcd
     private void changeChatAndTest(boolean chatTrue){
         if (chatTrue){
             linearLayoutChat.setVisibility(View.VISIBLE);
@@ -414,7 +415,7 @@ public class AmiActivity extends AppCompatActivity {
             buttonTouchHair.setVisibility(View.INVISIBLE);
         }
     }
-
+//    hàm kiểm tra vị trí nhà và trường và thay đổi ngữ cảnh (true để xác nhận nhận dữ liệu từ button chat)
     private boolean changeHomeAndClass(boolean buttonChat){
         if (buttonChat && !atHome){
             if (changeRoom > CHANGE_ROOM){
@@ -423,7 +424,7 @@ public class AmiActivity extends AppCompatActivity {
                 setIndexDefault(false);
                 buttonTestCode.setVisibility(View.GONE);
                 final String[] textAmiMoveHome = getResources().getStringArray(R.array.move_home);
-                textViewAmiChat.setText(chatWithAmi(textAmiMoveHome[helpData.randomRange(textAmiMoveHome.length)]));
+                textViewAmiChat.setText(textAmiChat(textAmiMoveHome[helpData.randomRange(textAmiMoveHome.length)]));
 
                 soundInGame = new SoundInGame(this,R.raw.rawhome);
 
@@ -441,7 +442,7 @@ public class AmiActivity extends AppCompatActivity {
                 setIndexDefault(true);
                 buttonTestCode.setVisibility(View.VISIBLE);
                 final String[] textAmiMoveClass = getResources().getStringArray(R.array.move_class);
-                textViewAmiChat.setText(chatWithAmi(textAmiMoveClass[helpData.randomRange(textAmiMoveClass.length)]));
+                textViewAmiChat.setText(textAmiChat(textAmiMoveClass[helpData.randomRange(textAmiMoveClass.length)]));
 
                 soundInGame = new SoundInGame(this,R.raw.rawclass);
 
@@ -454,8 +455,8 @@ public class AmiActivity extends AppCompatActivity {
         }
         return true;
     }
-
-    private void changeChatToAmiAndAmiChat(boolean chatToAmi){
+//    hàm true để bật mọi thứ cần thiết khi testCode
+    private void changeTestCodeAndChat(boolean chatToAmi){
         if (chatToAmi){
             editTextChatToAmi.setVisibility(View.VISIBLE);
             buttonChatToAmi.setVisibility(View.VISIBLE);
@@ -479,16 +480,28 @@ public class AmiActivity extends AppCompatActivity {
             buttonTestCode.setEnabled(true);
         }
     }
-
+//    hàm dùng để kiểm tra câu trả lời test có đúng không
     private void clickTest(String[] win,String[] lost, int indexResult){
         changeChatAndTest(true);
         if (this.result == indexResult){
-            textViewAmiChat.setText(chatWithAmi(win[helpData.randomRange(win.length)]));
+            textViewAmiChat.setText(textAmiChat(win[helpData.randomRange(win.length)]));
             saveAndLoadData.addPointTrust(TEST_WIN);
         }
         else {
-            textViewAmiChat.setText(chatWithAmi(lost[helpData.randomRange(lost.length)].replace("[result]", testResult)));
+            textViewAmiChat.setText(textAmiChat(lost[helpData.randomRange(lost.length)].replace("[result]", testResult)));
             saveAndLoadData.addPointTrust(TEST_LOST);
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        soundInGame.continueSound();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        soundInGame.pauseSound();
     }
 }
