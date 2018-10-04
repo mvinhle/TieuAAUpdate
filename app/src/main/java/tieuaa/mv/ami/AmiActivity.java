@@ -41,12 +41,12 @@ public class AmiActivity extends AppCompatActivity {
     LinearLayout linearLayoutChat, linearLayoutTest, linearLayoutBackground;
     Button buttonTouchHair, buttonTouchFace, buttonTouchShoulder, buttonTouchBody;
     EditText editTextChatToAmi;
-    Button buttonChatToAmi;
+    Button buttonOkTestCode;
     Button buttonTestCode;
 
-    final int BODY_DEFAULT      = 1; // body.length;		// HAIR DEFAULT = BODY DEFAULT = 1
+    final int BODY_DEFAULT      = 1; // body.length;	// HAIR DEFAULT = BODY DEFAULT = 1
     final int EYE_TINY          = 2;
-    final int EYE_BIG           = EYE_TINY + 4; 	    	// [indexTinyDefault,5] = 6 (4 is number of eyeBig)
+    final int EYE_BIG           = EYE_TINY + 4; 	    // [indexTinyDefault,5] = 6 (4 is number of eyeBig)
     final int EYE_FUN           = EYE_BIG + 3; 	    	// [indexTinyBig, 9] = 10
     final int EYEBROW_DEFAULT   = 1;
     final int EYEBROW_ANGRY     = EYEBROW_DEFAULT + 1; 	// [EYEBORW_DEFAULT, 1] = 2
@@ -57,24 +57,247 @@ public class AmiActivity extends AppCompatActivity {
     final int FEATURE_SAD       = FEATURE_ANGRY + 2; 	    // [FEATURE_FUN, 19] = 20
     final int MOUTH_DEFAULT     = 8;
     final int MOUTH_FUN         = MOUTH_DEFAULT + 31; 	// [MOUTH_DEFAULT, 38] = 39
-    final int MOUTH_ANGRY       = MOUTH_FUN + 6; 		    // [MOUTH_FUN, 44] = 45
+    final int MOUTH_ANGRY       = MOUTH_FUN + 6; 		// [MOUTH_FUN, 44] = 45
     final int MOUTH_SAD         = MOUTH_ANGRY + 6; 	    // [MOUTH_ANGRY, 50] = 51
-    final int MOUTH_SUDDENT     = MOUTH_SAD + 6; 		    // [MOUTH_SAD, 56] = 57
+    final int MOUTH_SUDDENT     = MOUTH_SAD + 6; 		// [MOUTH_SAD, 56] = 57
     final int CHANGE_ROOM       = 4;
-    final int CHAT_ABOUT        = 5;
+    final int CHAT_ABOUT        = 7;
     final int HELLO_WORLD_ABOUT = 3;
     final int TEST_ABOUT        = 25; // chia cho 5
     final int TEST_CODE_ABOUT   = 10; // chia cho 2
     final int CHAT_WIN          = 10;
     final int TEST_WIN          = 100;
     final int TEST_LOST         = -50;
-    final int TOUCH_ABOUT       = 7;
     final int TL_CLOTHES        = 500;
-    final int TL_CHAT           = 75;
+    final int TL_CHAT           = 150;
     final int TL_TEST           = 30; // nhân cho 5
     final int TL_TEST_CODE      = 75; // nhân cho 2
     final int TL_HELLO_WORLD    = 1000;
     final int TL_TOUCH          = 1500;
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        soundInGame.continueSound();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        soundInGame.pauseSound();
+    }
+
+    //    dùng để đổi từ name ảnh sang id
+    private int idImageFromName(String nameImage){
+        int idResource = getResources().getIdentifier(nameImage, "drawable", getPackageName());
+        Log.d(KeyAA.KEY_LOG, "Chuyển tấm ảnh: "+nameImage+", thành id: "+idResource);
+        return idResource;
+    }
+
+    //    hàm dùng dể nhận id ảnh mặt định tại vị trí lớp hoặc nhà (tốt nhất chỉ dùng 1 lần tại 1 ngữ cảnh)
+    private void setIndexDefault(boolean sglass){
+        String body[]       = getResources().getStringArray(R.array.body);
+        String hair[]       = getResources().getStringArray(R.array.hair); 	// intdex array hair = body
+        String eye[]        = getResources().getStringArray(R.array.eye);
+        String eyebrow[]    = getResources().getStringArray(R.array.eyebrow);
+        String clothes[]    = getResources().getStringArray(R.array.clothes);
+        String glass[]      = getResources().getStringArray(R.array.glass);
+        //String feature[]    = getResources().getStringArray(R.array.feature); // no feature default and feature don't change.
+        String mouth[]      = getResources().getStringArray(R.array.mouth);
+
+        int indexBodyAndHair    = helpData.randomRange(BODY_DEFAULT);
+        bodyDefault     = idImageFromName(body[indexBodyAndHair]);
+        hairDefault     = idImageFromName(hair[indexBodyAndHair]); // index body = index hair
+        eyeDefault      = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_DEFAULT)]);
+        eyebrowDeafault = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_DEFAULT)]);
+        mouthDefault    = idImageFromName(mouth[helpData.randomRange(MOUTH_DEFAULT)]);
+        featureDefault  = R.drawable.imagenull; //(NO FEATURE DEFAULT)
+        if (sglass){
+            eyeDefault   = idImageFromName(eye[helpData.randomRange(EYE_TINY)]);
+            glassDefault = idImageFromName(glass[helpData.randomRange(GLASS_DEFAULT)]);
+        }
+        else{
+            eyeDefault   = idImageFromName(eye[helpData.randomRange(EYE_TINY, EYE_BIG)]);
+            glassDefault = R.drawable.imagenull;
+        }
+        clothesDefault = idImageFromName(clothes[helpData.randomLine(TL_CLOTHES, clothes.length)]);
+        setImageAmi("Default");
+    }
+
+    //    hàm thay đổi văn bản và chạy hàm thể hiện cảm xúc
+    private String textAmiChat(String text){
+        if(text.contains("[fun]")){setImageAmi("Fun");     text = helpData.removeSubString(text, "[fun]");}
+        if(text.contains("[ang]")){setImageAmi("Angry");   text = helpData.removeSubString(text, "[ang]");}
+        if(text.contains("[sad]")){setImageAmi("Sad");     text = helpData.removeSubString(text, "[sad]");}
+        if(text.contains("[sud]")){setImageAmi("Suddent"); text = helpData.removeSubString(text, "[sud]");}
+        if(text.contains("[def]")){setImageAmi("Default"); text = helpData.removeSubString(text, "[def]");}
+        String string = text
+                .replace(KeyAA.KEY_ALIAS_USER, saveAndLoadData.getAliasUser())
+                .replace(KeyAA.KEY_NAME_USER, saveAndLoadData.getNameUser())
+                .replace(KeyAA.KEY_ALIAS_AA, saveAndLoadData.getAliasAA())
+                .replace(KeyAA.KEY_NAME_AA, saveAndLoadData.getNameAA());
+        return string;
+    }
+
+    //    hàm dùng để kiểm tra câu trả lời test có đúng không
+    private void clickTest(String[] win,String[] lost, int indexResult){
+        changeChatAndTest(true);
+        if (this.result == indexResult){
+            textViewAmiChat.setText(textAmiChat(win[helpData.randomRange(win.length)]));
+            saveAndLoadData.addPointTrust(TEST_WIN);
+        }
+        else {
+            textViewAmiChat.setText(textAmiChat(lost[helpData.randomRange(lost.length)].replace("[result]", testResult)));
+            saveAndLoadData.addPointTrust(TEST_LOST);
+        }
+    }
+
+    //    hàm để truyền hình ảnh vào layout. cũng như thể hiện cảm xúc
+    private void setImageAmi(String type){
+        String eye[]     = getResources().getStringArray(R.array.eye);
+        String eyebrow[] = getResources().getStringArray(R.array.eyebrow);
+        String feature[] = getResources().getStringArray(R.array.feature);
+        String mouth[]   = getResources().getStringArray(R.array.mouth);
+        switch (type){
+            case "Fun":
+                eyeChange       = idImageFromName(eye[helpData.randomRange(EYE_BIG,EYE_FUN)]);
+                mouthChange     = idImageFromName(mouth[helpData.randomRange(MOUTH_DEFAULT, MOUTH_FUN)]);
+                featureChange   = idImageFromName(feature[helpData.randomRange(FEATURE_FUN)]);
+                imageEye    .setImageResource(eyeChange);
+                imageMouth  .setImageResource(mouthChange);
+                imageFeature.setImageResource(featureChange);
+                imageEyebrow.setImageResource(eyebrowDeafault);
+                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: fun feeling");
+                break;
+            case "Angry":
+                featureChange = idImageFromName(feature[helpData.randomRange(FEATURE_FUN,FEATURE_ANGRY)]);
+                mouthChange   = idImageFromName(mouth[helpData.randomRange(MOUTH_FUN, MOUTH_ANGRY)]);
+                eyebrowChange = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_DEFAULT, EYEBROW_ANGRY)]);
+                imageFeature.setImageResource(featureChange);
+                imageMouth  .setImageResource(mouthChange);
+                imageEyebrow.setImageResource(eyebrowChange);
+                imageEye    .setImageResource(eyeDefault);
+                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: angry feeling");
+                break;
+            case "Sad":
+                mouthChange   = idImageFromName(mouth[helpData.randomRange(MOUTH_ANGRY, MOUTH_SAD)]);
+                eyebrowChange = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_ANGRY, EYEBROW_SAD)]);
+                featureChange = idImageFromName(feature[helpData.randomRange(FEATURE_ANGRY, FEATURE_SAD)]);
+                imageMouth  .setImageResource(mouthChange);
+                imageEyebrow.setImageResource(eyebrowChange);
+                imageFeature.setImageResource(featureChange);
+                imageEye    .setImageResource(eyeDefault);
+                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: sad feeling");
+                break;
+            case "Suddent":
+                mouthChange = idImageFromName(mouth[helpData.randomRange(MOUTH_SAD, MOUTH_SUDDENT)]);
+                imageMouth.setImageResource(mouthChange);
+                imageEye  .setImageResource(eyeDefault);
+                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: suddent feeling");
+                break;
+            case "Default":
+                imageBody   .setImageResource(bodyDefault);
+                imageHair   .setImageResource(hairDefault);
+                imageClothes.setImageResource(clothesDefault);
+                imageEye    .setImageResource(eyeDefault);
+                imageEyebrow.setImageResource(eyebrowDeafault);
+                imageGlass  .setImageResource(glassDefault);
+                imageFeature.setImageResource(featureDefault);
+                imageMouth  .setImageResource(mouthDefault);
+                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: Default feeling");
+                break;
+            default:
+                Log.d(KeyAA.KEY_LOG, "Ami Không nhận được trạng thái nhưng vẫn gửi vào hàm setAmiImage !!");
+                break;
+        }
+    }
+
+    //    hàm true để bật chế độ chat và ẩn phím abcd
+    private void changeChatAndTest(boolean chatTrue){
+        if (chatTrue){
+            linearLayoutChat.setVisibility(View.VISIBLE);
+            linearLayoutTest.setVisibility(View.INVISIBLE);
+            buttonTouchShoulder.setVisibility(View.VISIBLE);
+            buttonTouchBody.setVisibility(View.VISIBLE);
+            buttonTouchFace.setVisibility(View.VISIBLE);
+            buttonTouchHair.setVisibility(View.VISIBLE);
+        }
+        else {
+            linearLayoutTest.setVisibility(View.VISIBLE);
+            linearLayoutChat.setVisibility(View.INVISIBLE);
+            buttonTouchShoulder.setVisibility(View.INVISIBLE);
+            buttonTouchBody.setVisibility(View.INVISIBLE);
+            buttonTouchFace.setVisibility(View.INVISIBLE);
+            buttonTouchHair.setVisibility(View.INVISIBLE);
+        }
+    }
+
+    //    hàm kiểm tra vị trí nhà và trường và thay đổi ngữ cảnh (true để xác nhận nhận dữ liệu từ button chat)
+    private boolean changeHomeAndClass(boolean buttonChat){
+        if (buttonChat && !atHome){
+            if (changeRoom > CHANGE_ROOM){
+                linearLayoutBackground.setBackgroundResource(R.drawable.athome);
+                atHome = true;
+                setIndexDefault(false);
+                buttonTestCode.setVisibility(View.GONE);
+                final String[] textAmiMoveHome = getResources().getStringArray(R.array.move_home);
+                textViewAmiChat.setText(textAmiChat(textAmiMoveHome[helpData.randomRange(textAmiMoveHome.length)]));
+                textViewStt.setText(null);
+                soundInGame = new SoundInGame(this,R.raw.rawhome);
+                return false;
+            }
+            else {
+                changeRoom+=1;
+                if (changeRoom >= CHANGE_ROOM) textViewStt.setText(textAmiChat("[ni] đang muốn về nhà!"));
+                else textViewStt.setText(null);
+            }
+        }
+        else if (!buttonChat && atHome){
+            if (changeRoom < -CHANGE_ROOM){
+                linearLayoutBackground.setBackgroundResource(R.drawable.atclass);
+                atHome = false;
+                setIndexDefault(true);
+                buttonTestCode.setVisibility(View.VISIBLE);
+                final String[] textAmiMoveClass = getResources().getStringArray(R.array.move_class);
+                textViewAmiChat.setText(textAmiChat(textAmiMoveClass[helpData.randomRange(textAmiMoveClass.length)]));
+                textViewStt.setText(null);
+                soundInGame = new SoundInGame(this,R.raw.rawclass);
+                return false;
+            }
+            else {
+                changeRoom -= 1;
+                if (changeRoom <= -CHANGE_ROOM) textViewStt.setText(textAmiChat("[ni] đang muốn đến trường!"));
+                else textViewStt.setText(null);
+            }
+        }
+        return true;
+    }
+
+    //    hàm true để bật mọi thứ cần thiết khi testCode
+    private void changeTestCodeAndChat(boolean chatToAmi){
+        if (chatToAmi){
+            editTextChatToAmi.setVisibility(View.VISIBLE);
+            buttonOkTestCode.setVisibility(View.VISIBLE);
+            buttonTouchShoulder.setVisibility(View.INVISIBLE);
+            buttonTouchBody.setVisibility(View.INVISIBLE);
+            buttonTouchFace.setVisibility(View.INVISIBLE);
+            buttonTouchHair.setVisibility(View.INVISIBLE);
+            buttonChat.setEnabled(false);
+            buttonTest.setEnabled(false);
+            buttonTestCode.setEnabled(false);
+        }
+        else {
+            editTextChatToAmi.setVisibility(View.GONE);
+            buttonOkTestCode.setVisibility(View.GONE);
+            buttonTouchShoulder.setVisibility(View.VISIBLE);
+            buttonTouchBody.setVisibility(View.VISIBLE);
+            buttonTouchFace.setVisibility(View.VISIBLE);
+            buttonTouchHair.setVisibility(View.VISIBLE);
+            buttonChat.setEnabled(true);
+            buttonTest.setEnabled(true);
+            buttonTestCode.setEnabled(true);
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,9 +328,10 @@ public class AmiActivity extends AppCompatActivity {
         buttonChat();
         buttonTest();
         buttonTestCode();
-        buttonChatToAmi();
+        buttonOkTestCode();
     }
-//    các hàm có công dụng như tên (chỉ nên dùng 1 lần khi vào activity)
+
+    //    các hàm có công dụng như tên (chỉ nên dùng 1 lần khi vào activity)
     private void amiHelloWorld(){
         final String textAmiHelloWorld[] = getResources().getStringArray(R.array.ami_HelloWorld);
         textViewAmiChat.setText(textAmiChat(textAmiHelloWorld[helpData.randomLine(TL_HELLO_WORLD, textAmiHelloWorld.length, HELLO_WORLD_ABOUT)]));
@@ -214,50 +438,42 @@ public class AmiActivity extends AppCompatActivity {
 
         final String[] textTouchHair = getResources().getStringArray(R.array.stringTouchHair);
         final String[] textTouchFace = getResources().getStringArray(R.array.stringTouchFace);
-        final String[] textTouchBodyB = getResources().getStringArray(R.array.stringTouchBodyB);
-        final String[] textTouchBodyG = getResources().getStringArray(R.array.stringTouchBodyG);
         final String[] textTouchShoulder = getResources().getStringArray(R.array.stringTouchShoulder);
 
         buttonTouchHair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textViewAmiChat.setText(textAmiChat(textTouchHair[helpData.randomLine(TL_TOUCH, textTouchHair.length, TOUCH_ABOUT)]));
+                textViewAmiChat.setText(textAmiChat(textTouchHair[helpData.randomLine(TL_TOUCH, textTouchHair.length)]));
                 saveAndLoadData.addPointTrust(CHAT_WIN);
             }
         });
         buttonTouchFace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textViewAmiChat.setText(textAmiChat(textTouchFace[helpData.randomLine(TL_TOUCH,textTouchFace.length, TOUCH_ABOUT)]));
+                textViewAmiChat.setText(textAmiChat(textTouchFace[helpData.randomLine(TL_TOUCH,textTouchFace.length)]));
                 saveAndLoadData.addPointTrust(CHAT_WIN);
             }
         });
         buttonTouchShoulder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textViewAmiChat.setText(textAmiChat(textTouchShoulder[helpData.randomLine(TL_TOUCH,textTouchShoulder.length, TOUCH_ABOUT)]));
+                textViewAmiChat.setText(textAmiChat(textTouchShoulder[helpData.randomLine(TL_TOUCH,textTouchShoulder.length)]));
                 saveAndLoadData.addPointTrust(CHAT_WIN);
             }
         });
         buttonTouchBody.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (saveAndLoadData.getSexUser()) {
-                    textViewAmiChat.setText(textAmiChat(textTouchBodyB[helpData.randomLine(TL_TOUCH,textTouchBodyB.length, TOUCH_ABOUT)]));
-                }
-                else {
-                    textViewAmiChat.setText(textAmiChat(textTouchBodyG[helpData.randomLine(TL_TOUCH,textTouchBodyG.length, TOUCH_ABOUT)]));
-                }
-                saveAndLoadData.addPointTrust(CHAT_WIN);
+                textViewAmiChat.setText(textAmiChat(textTouchShoulder[helpData.randomLine(TL_TOUCH,textTouchShoulder.length)]));
             }
         });
     }
-    private void buttonChatToAmi(){
+    private void buttonOkTestCode(){
         editTextChatToAmi = findViewById(R.id.editText_Chat_To_Ami);
-        buttonChatToAmi   = findViewById(R.id.button_Chat_To_Ami);
+        buttonOkTestCode   = findViewById(R.id.button_Chat_To_Ami);
         final String textAmiWin[]  = getResources().getStringArray(R.array.ami_win);
         final String textAmiLost[] = getResources().getStringArray(R.array.ami_lost);
-        buttonChatToAmi.setOnClickListener(new View.OnClickListener() {
+        buttonOkTestCode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String textResult = editTextChatToAmi.getText().toString().trim();
@@ -268,7 +484,7 @@ public class AmiActivity extends AppCompatActivity {
                 }
                 else {
                     textViewAmiChat.setText(textAmiChat(textAmiLost[helpData.randomRange(textAmiLost.length)].replace("[result]", testResult)));
-                    saveAndLoadData.addPointTrust(TEST_LOST * 2);
+                    saveAndLoadData.addPointTrust(TEST_LOST);
                 }
                 changeTestCodeAndChat(false);
             }
@@ -287,221 +503,5 @@ public class AmiActivity extends AppCompatActivity {
                 testResult = textAmiChat(textAmiTestCode[rand+1]);
             }
         });
-    }
-//    hàm dùng dể nhận id ảnh mặt định tại vị trí lớp hoặc nhà (tốt nhất chỉ dùng 1 lần tại 1 ngữ cảnh)
-    private void setIndexDefault(boolean sglass){
-        String body[]       = getResources().getStringArray(R.array.body);
-        String hair[]       = getResources().getStringArray(R.array.hair); 	// intdex array hair = body
-        String eye[]        = getResources().getStringArray(R.array.eye);
-        String eyebrow[]    = getResources().getStringArray(R.array.eyebrow);
-        String clothes[]    = getResources().getStringArray(R.array.clothes);
-        String glass[]      = getResources().getStringArray(R.array.glass);
-        //String feature[]    = getResources().getStringArray(R.array.feature); // no feature default and feature don't change.
-        String mouth[]      = getResources().getStringArray(R.array.mouth);
-
-        int indexBodyAndHair    = helpData.randomRange(BODY_DEFAULT);
-        bodyDefault     = idImageFromName(body[indexBodyAndHair]);
-        hairDefault     = idImageFromName(hair[indexBodyAndHair]); // index body = index hair
-        eyeDefault      = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_DEFAULT)]);
-        eyebrowDeafault = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_DEFAULT)]);
-        mouthDefault    = idImageFromName(mouth[helpData.randomRange(MOUTH_DEFAULT)]);
-        featureDefault  = R.drawable.imagenull; //(NO FEATURE DEFAULT)
-        if (sglass){
-            eyeDefault   = idImageFromName(eye[helpData.randomRange(EYE_TINY)]);
-            glassDefault = idImageFromName(glass[helpData.randomRange(GLASS_DEFAULT)]);
-        }
-        else{
-            eyeDefault   = idImageFromName(eye[helpData.randomRange(EYE_TINY, EYE_BIG)]);
-            glassDefault = R.drawable.imagenull;
-        }
-        clothesDefault = idImageFromName(clothes[helpData.randomLine(TL_CLOTHES, clothes.length)]);
-        setImageAmi("Default");
-    }
-//    hàm để truyền hình ảnh vào layout. cũng như thể hiện cảm xúc
-    private void setImageAmi(String type){
-        String eye[]     = getResources().getStringArray(R.array.eye);
-        String eyebrow[] = getResources().getStringArray(R.array.eyebrow);
-        String feature[] = getResources().getStringArray(R.array.feature);
-        String mouth[]   = getResources().getStringArray(R.array.mouth);
-        switch (type){
-            case "Fun":
-                eyeChange       = idImageFromName(eye[helpData.randomRange(EYE_BIG,EYE_FUN)]);
-                mouthChange     = idImageFromName(mouth[helpData.randomRange(MOUTH_DEFAULT, MOUTH_FUN)]);
-                featureChange   = idImageFromName(feature[helpData.randomRange(FEATURE_FUN)]);
-                imageEye    .setImageResource(eyeChange);
-                imageMouth  .setImageResource(mouthChange);
-                imageFeature.setImageResource(featureChange);
-                imageEyebrow.setImageResource(eyebrowDeafault);
-                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: fun feeling");
-                break;
-            case "Angry":
-                featureChange = idImageFromName(feature[helpData.randomRange(FEATURE_FUN,FEATURE_ANGRY)]);
-                mouthChange   = idImageFromName(mouth[helpData.randomRange(MOUTH_FUN, MOUTH_ANGRY)]);
-                eyebrowChange = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_DEFAULT, EYEBROW_ANGRY)]);
-                imageFeature.setImageResource(featureChange);
-                imageMouth  .setImageResource(mouthChange);
-                imageEyebrow.setImageResource(eyebrowChange);
-                imageEye    .setImageResource(eyeDefault);
-                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: angry feeling");
-                break;
-            case "Sad":
-                mouthChange   = idImageFromName(mouth[helpData.randomRange(MOUTH_ANGRY, MOUTH_SAD)]);
-                eyebrowChange = idImageFromName(eyebrow[helpData.randomRange(EYEBROW_ANGRY, EYEBROW_SAD)]);
-                featureChange = idImageFromName(feature[helpData.randomRange(FEATURE_ANGRY, FEATURE_SAD)]);
-                imageMouth  .setImageResource(mouthChange);
-                imageEyebrow.setImageResource(eyebrowChange);
-                imageFeature.setImageResource(featureChange);
-                imageEye    .setImageResource(eyeDefault);
-                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: sad feeling");
-                break;
-            case "Suddent":
-                mouthChange = idImageFromName(mouth[helpData.randomRange(MOUTH_SAD, MOUTH_SUDDENT)]);
-                imageMouth.setImageResource(mouthChange);
-                imageEye  .setImageResource(eyeDefault);
-                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: suddent feeling");
-                break;
-            case "Default":
-                imageBody   .setImageResource(bodyDefault);
-                imageHair   .setImageResource(hairDefault);
-                imageClothes.setImageResource(clothesDefault);
-                imageEye    .setImageResource(eyeDefault);
-                imageEyebrow.setImageResource(eyebrowDeafault);
-                imageGlass  .setImageResource(glassDefault);
-                imageFeature.setImageResource(featureDefault);
-                imageMouth  .setImageResource(mouthDefault);
-                Log.d(KeyAA.KEY_LOG, "Ami đổi stt: Default feeling");
-                break;
-            default:
-                Log.d(KeyAA.KEY_LOG, "Ami Không nhận được trạng thái nhưng vẫn gửi vào hàm setAmiImage !!");
-                break;
-        }
-    }
-//    dùng để đổi từ name ảnh sang id
-    private int idImageFromName(String nameImage){
-        int idResource = getResources().getIdentifier(nameImage, "drawable", getPackageName());
-        Log.d(KeyAA.KEY_LOG, "Chuyển tấm ảnh: "+nameImage+", thành id: "+idResource);
-        return idResource;
-    }
-//    hàm thay đổi văn bản và chạy hàm thể hiện cảm xúc
-    private String textAmiChat(String text){
-        if(text.contains("[fun]")){setImageAmi("Fun");     text = helpData.removeSubString(text, "[fun]");}
-        if(text.contains("[ang]")){setImageAmi("Angry");   text = helpData.removeSubString(text, "[ang]");}
-        if(text.contains("[sad]")){setImageAmi("Sad");     text = helpData.removeSubString(text, "[sad]");}
-        if(text.contains("[sud]")){setImageAmi("Suddent"); text = helpData.removeSubString(text, "[sud]");}
-        if(text.contains("[def]")){setImageAmi("Default"); text = helpData.removeSubString(text, "[def]");}
-        String string = text
-                .replace(KeyAA.KEY_ALIAS_USER, saveAndLoadData.getAliasUser())
-                .replace(KeyAA.KEY_NAME_USER, saveAndLoadData.getNameUser())
-                .replace(KeyAA.KEY_ALIAS_AA, saveAndLoadData.getAliasAA())
-                .replace(KeyAA.KEY_NAME_AA, saveAndLoadData.getNameAA());
-        return string;
-    }
-//    hàm true để bật chế độ chat và ẩn phím abcd
-    private void changeChatAndTest(boolean chatTrue){
-        if (chatTrue){
-            linearLayoutChat.setVisibility(View.VISIBLE);
-            linearLayoutTest.setVisibility(View.INVISIBLE);
-            buttonTouchShoulder.setVisibility(View.VISIBLE);
-            buttonTouchBody.setVisibility(View.VISIBLE);
-            buttonTouchFace.setVisibility(View.VISIBLE);
-            buttonTouchHair.setVisibility(View.VISIBLE);
-        }
-        else {
-            linearLayoutTest.setVisibility(View.VISIBLE);
-            linearLayoutChat.setVisibility(View.INVISIBLE);
-            buttonTouchShoulder.setVisibility(View.INVISIBLE);
-            buttonTouchBody.setVisibility(View.INVISIBLE);
-            buttonTouchFace.setVisibility(View.INVISIBLE);
-            buttonTouchHair.setVisibility(View.INVISIBLE);
-        }
-    }
-//    hàm kiểm tra vị trí nhà và trường và thay đổi ngữ cảnh (true để xác nhận nhận dữ liệu từ button chat)
-    private boolean changeHomeAndClass(boolean buttonChat){
-        if (buttonChat && !atHome){
-            if (changeRoom > CHANGE_ROOM){
-                linearLayoutBackground.setBackgroundResource(R.drawable.athome);
-                atHome = true;
-                setIndexDefault(false);
-                buttonTestCode.setVisibility(View.GONE);
-                final String[] textAmiMoveHome = getResources().getStringArray(R.array.move_home);
-                textViewAmiChat.setText(textAmiChat(textAmiMoveHome[helpData.randomRange(textAmiMoveHome.length)]));
-
-                soundInGame = new SoundInGame(this,R.raw.rawhome);
-
-                return false;
-            }
-            else {
-                changeRoom+=1;
-                textViewStt.setText("Độ lười: ".concat(String.valueOf(changeRoom)));
-            }
-        }
-        else if (!buttonChat && atHome){
-            if (changeRoom < -CHANGE_ROOM){
-                linearLayoutBackground.setBackgroundResource(R.drawable.atclass);
-                atHome = false;
-                setIndexDefault(true);
-                buttonTestCode.setVisibility(View.VISIBLE);
-                final String[] textAmiMoveClass = getResources().getStringArray(R.array.move_class);
-                textViewAmiChat.setText(textAmiChat(textAmiMoveClass[helpData.randomRange(textAmiMoveClass.length)]));
-
-                soundInGame = new SoundInGame(this,R.raw.rawclass);
-
-                return false;
-            }
-            else {
-                changeRoom -= 1;
-                textViewStt.setText("Độ lười: ".concat(String.valueOf(changeRoom)));
-            }
-        }
-        return true;
-    }
-//    hàm true để bật mọi thứ cần thiết khi testCode
-    private void changeTestCodeAndChat(boolean chatToAmi){
-        if (chatToAmi){
-            editTextChatToAmi.setVisibility(View.VISIBLE);
-            buttonChatToAmi.setVisibility(View.VISIBLE);
-            buttonTouchShoulder.setVisibility(View.INVISIBLE);
-            buttonTouchBody.setVisibility(View.INVISIBLE);
-            buttonTouchFace.setVisibility(View.INVISIBLE);
-            buttonTouchHair.setVisibility(View.INVISIBLE);
-            buttonChat.setEnabled(false);
-            buttonTest.setEnabled(false);
-            buttonTestCode.setEnabled(false);
-        }
-        else {
-            editTextChatToAmi.setVisibility(View.GONE);
-            buttonChatToAmi.setVisibility(View.GONE);
-            buttonTouchShoulder.setVisibility(View.VISIBLE);
-            buttonTouchBody.setVisibility(View.VISIBLE);
-            buttonTouchFace.setVisibility(View.VISIBLE);
-            buttonTouchHair.setVisibility(View.VISIBLE);
-            buttonChat.setEnabled(true);
-            buttonTest.setEnabled(true);
-            buttonTestCode.setEnabled(true);
-        }
-    }
-//    hàm dùng để kiểm tra câu trả lời test có đúng không
-    private void clickTest(String[] win,String[] lost, int indexResult){
-        changeChatAndTest(true);
-        if (this.result == indexResult){
-            textViewAmiChat.setText(textAmiChat(win[helpData.randomRange(win.length)]));
-            saveAndLoadData.addPointTrust(TEST_WIN);
-        }
-        else {
-            textViewAmiChat.setText(textAmiChat(lost[helpData.randomRange(lost.length)].replace("[result]", testResult)));
-            saveAndLoadData.addPointTrust(TEST_LOST);
-        }
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        soundInGame.continueSound();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        soundInGame.pauseSound();
     }
 }

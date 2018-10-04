@@ -3,14 +3,17 @@
 
     <string name="titleMain">Tiểu AA - thông báo</string>
     <string name="noteAplication">
-        <b>QUAN TRỌNG, CẦN ĐỌC KĨ</b>\n
-        \tKhi bạn ấn vào nút \"Đồng ý\" nghĩa là bạn đã đồng ý với các điều khoản sau đây:\n
-        <b>Về sữ dụng dữ liệu:</b>\n
-        \tdòng 1\n
-        <b>Về phần mềm:</b>\n
-        \tdòng 2\n
-        <b>Liên hệ và hổ trợ:</b>\n
-        \tdòng 3</string>
+        <u><i><b>MỘT SỐ LƯU Ý NHỎ!</b></i></u>\n\n
+        \tĐây là phần mềm mang tên \"<b>Tiểu AA</b>\". Với phần mềm này hổ trợ các bạn học sinh học tốt hơn với các chức năng chính:\n
+        \t\t<b>Trò chuyện</b>: Khi ấn vào nút trò chuyện, cô bé Ami sẽ cung cấp cho bạn một số kiến thức cần thiết để thực hiện các chức năng tiếp theo của phần mềm như trả lời câu hỏi trắc nghiệm, tự luận hoặc Ami sẽ trò chuyện và đưa ra những mẹo vặt trong cuộc sống.\n
+        \t\t<b>Bài tập</b>: Khi ấn vào nút Bài tập, cô bé Ami hỏi một câu hỏi trắc nghiệm và bạn sẽ trả lời thông qua các phím A, B, C, D phía dưới màn hình\n
+        \t\t<b>Thực hành</b>: Chức năng chỉ xảy ra khi Ami và bạn ở \"trường học\" (Ami đến trường khi bạn trả lời 10 câu hỏi trắc nghiệm). Khi ấn vào phím tắt thực hành, Ami sẽ đưa ra một câu hỏi tự luận, bạn sẽ nhập trực tiếp văn bản vào khung văn bản (Vị trí ngay phía dưới câu hỏi) rồi ấn vào phím \"Đồng ý\" để trả lời câu hỏi.\n
+        \t\t<b>Lưu ý</b>: Bạn cũng có thể tương tác với với Ami bằng cách chạm vào Ami. Ami có hơn 60 Trang phục khác nhau. Trong suốt quá trình sử dụng phần mềm Ami sẽ điều chỉnh câu hỏi, trang phục, trò chuyện,.. tùy thuộc vào câu trả lời của bạn trong các bài tập.\n\n
+        \t<b>Nguồn tài liệu đang được sữ dụng hiện tại: Sinh học lớp 10.\n\n
+        \tSản phẩm được phát triển bởi: Lê Minh Vinh\n\n
+        \tphần mềm được hổ trợ bởi thầy Phạm Văn Đem và Nguồn tài liệu được lấy từ cô Trần Thị Bé Loan\n\n
+        \tHình ảnh trong phần mềm được lấy từ google và một số hình ảnh từ phần mềm làm ảnh hoạt hình Avatar Factory!\n
+    \t\t\t\t\tẤn \"đồng ý\" để tiếp tục, ấn \"Không đồng ý\" để thoát!</b></string>
     <string name="ClickYes">Đồng ý</string>
     <string name="ClickNo">Không đồng ý</string>
 

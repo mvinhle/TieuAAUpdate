@@ -25,6 +25,7 @@ public class SaveAndLoadData{
 //    hàm lưu trust vào sharedPrefeerences sau đó truyền dữ liệu vào static.
     public void addPointTrust(float f){
         pointTrust += (int) f;
+        if (pointTrust < -300) pointTrust = -300;
         SharedPreferences.Editor editor = trust.edit();
         editor.putLong(KeyAA.KEY_POINT_TRUST, pointTrust);
         editor.apply();
@@ -50,7 +51,7 @@ public class SaveAndLoadData{
         restartUser();
         Log.d(KeyAA.KEY_LOG, "setInformation: đã lưu information với: "+nameChange+sexUserIsBoy);
     }
-//    hàm truyền dữ liệu vào static (programer chỉ dùng khi có dũ liệu để tránh lỗi nhé)
+//    hàm truyền dữ liệu vào static (programer chỉ dùng khi có dũ liệu để tránh lỗi!)
     public void restartUser(){
         String nameUser = information.getString(KeyAA.KEY_NAME_INFORMATION, KeyAA.KEY_FIX_BUG_INFORMARTION);
         boolean sexUserIsBoy = information.getBoolean(KeyAA.KEY_SEX_INFORMATION, true);
@@ -62,6 +63,7 @@ public class SaveAndLoadData{
         else {
             SaveAndLoadData.aliasUser = KeyAA.ALIAS_GIRL;
         }
+        addPointTrust(0);
         Log.d(KeyAA.KEY_LOG, "restartUser: đưa TT vào static với: "+aliasUser+nameUser);
     }
 //    hàm xóa dữ liệu

@@ -19,26 +19,12 @@
         <item>[fun][you]~, nhột quá!!</item>
     </string-array>
     <string-array name="stringTouchShoulder">
-        <item>[ang][you], dừng lại, đừng chạm vào vai [i] như vậy.</item>
-        <item>[ang]A,.. đừng chạm vào vai [i] như vậy, [you]. </item>
+        <item>[ang][you], dừng lại, đừng chạm vào [i] như vậy.</item>
+        <item>[sud]A,.. đừng chạm vào người [i] như vậy, [you]. </item>
+        <item>[ang][you] [nyou]~, [nyou]~,.. [you] thật là...</item>
         <item>[ang][i] Không thích đâu</item>
         <item>[ang][i] thực sự không thích đâu</item>
-        <item>[ang][you] không biết rằng [i] là nữ à.</item>
-        <item>[ang][you]~ là đồ ngốc.</item>
-    </string-array>
-    <string-array name="stringTouchBodyB">
-        <item>[ang][you] là đồ biến thái.</item>
-        <item>[sad][you]~ dừng lại.</item>
-        <item>[sud][you] đang chạm vào đâu đó ??</item>
-        <item>[ang][i] có thể sẽ kiện [you] vì tội quấy rối đó.</item>
-        <item>[ang][you] dừng lại đi, không thôi [i] sẽ báo công an.</item>
-        <item>[sad][i] cũng có cảm giác nên [you] tốt nhất không nên làm như vậy.</item>
-    </string-array>
-    <string-array name="stringTouchBodyG">
-        <item>[fun]A~, dừng lại dừng lại [you] ơi</item>
-        <item>[sud]Dù [i] và [you] cùng là nữ nhưng mà như vậy không tốt đâu~</item>
-        <item>[sud][you] là yuri à, đùng làm vậy nữa</item>
-        <item>[ang][you] là đồ ngốc, ngốc, ngốc, ngốc</item>
-        <item>[fun][you] thật là,..</item>
+        <item>[sad][you]~, như vậy không tốt đâu!!</item>
+        <item>[fun][you]~ là đồ ngốc.</item>
     </string-array>
 </resources>
