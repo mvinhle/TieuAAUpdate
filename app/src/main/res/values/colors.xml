@@ -10,6 +10,6 @@
     <color name="black">#000000</color>
     <color name="background_layoutButton">#be000000</color>
     <color name="background_textView">#c8ffe5e5</color>
-    <color name="background_textViewMain">#d2e9abff</color>
+    <color name="background_textViewMain">#d2f0c7ff</color>
     <color name="mainBackground">#ccb0b0</color>
 </resources>

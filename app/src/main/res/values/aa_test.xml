@@ -3,7 +3,7 @@
     <!-- câu hỏi support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
     <!-- câu trả lời đừng dại mà sài càm xúc, sập project đó! -->
     <string-array name="ami_test">
-        <item>[def]Tổ chức sống nào sau đây có cấp thấp nhất so với các tổ chức còn lại ?</item>
+        <item>Tổ chức sống nào sau đây có cấp thấp nhất so với các tổ chức còn lại ?</item>
         <item>Cơ thể</item>
         <item>Quần thể</item>
         <item>Quần xã</item>
@@ -705,7 +705,7 @@
         <item>Cấu trúc của plasmit</item>
         <item>Số lượng nhiễm sắc thể trong nhân hay vùng nhân</item>
 
-        <item>[def]Cụm từ "tế bào nhân sơ" dùng để chỉ</item>
+        <item>[def]Cụm từ \"tế bào nhân sơ\" dùng để chỉ</item>
         <item>Tế bào chưa có màng ngăn cách giữa vùng nhân với tế bào chất</item>
         <item>Tế bào không có nhân</item>
         <item>Tế bào có nhân phân hoá</item>
