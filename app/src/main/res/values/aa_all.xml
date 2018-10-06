@@ -2,7 +2,7 @@
 <!-- support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
 <resources>
     <string-array name="ami_HelloWorld">
-        <item>[ang]hứ, tưởng ai đến, thì ra là [you], [i] không biêt [you] có điểm nào tốt nữa.</item>
+        <item>[sad]hmm, chào [you]</item>
         <item>[def]Chào [you]!!!</item>
         <item>[fun]Chào [you]!!!</item>
         <item>[def]Xin chào [you]</item>
@@ -27,7 +27,7 @@
 
     <string-array name="move_class">
         <item>[fun]Cứ ở nhà làm bài tập thì chán quá, [you] đến trường vào phòng thực hành với [i] đi.</item>
-        <item>[def][you] làm bài thực hành để quen với code đi [you]</item>
+        <item>[def][you] làm bài thực hành để quen với bài tập hơn đi [you]</item>
         <item>[fun][i] Thích làm bài tập ở trường hơn, ở nhà hoài chán lắm,..</item>
     </string-array>
 
@@ -41,17 +41,17 @@
         <item>[fun][you] hay quá, [you] trả lời đúng rồi</item>
         <item>[sud][i] không tin, câu hỏi khó đến vậy sao [you] trả lời đúng được chứ.</item>
         <item>[fun][i] hừm,.. [i] sẽ tìm câu hỏi khó hơn.</item>
-        <item>[sud][you] trả lời đúng rồi ?, tại sao vậy nhỉ. Câu hỏi khó vậy mà,..</item>
+        <item>[fun][you] trả lời đúng rồi ?, tại sao vậy nhỉ. Câu hỏi khó vậy mà,..</item>
         <item>[fun]cách [you] trả lời câu hỏi thật tuyệt vời.</item>
 
         <item>[fun][you] tiếp tục trả lời đúng chắc [i] sẽ yêu [you] mất.</item>
-        <item>[def][you] luôn giỏi làm [i] hết bất ngờ khi [you] trả lời đúng luôn rồi.</item>
+        <item>[fun][you] luôn giỏi làm [i] hết bất ngờ khi [you] trả lời đúng luôn rồi.</item>
         <item>[fun]woaa, [you] lại trả lời đúng nữa rồi.</item>
-        <item>[ang][i] phải kiếm câu hỏi khó hơn mới được, không thể để [you] lên mặt được.</item>
+        <item>[fun][i] phải kiếm câu hỏi khó hơn mới được, không thể để [you] lên mặt được.</item>
         <item>[sud]câu hỏi này [i] cũng không rỏ nhưng [you] lại trả lời đúng ??, [you] có ăn gian không vậy ?</item>
 
-        <item>[def]Mỗi ngày đến trường là những niềm vui,.. nhưng mà thật ra thấy [you] trả lời đúng, [i] cảm thấy rất vui.</item>
-        <item>[def]binnh bonnn, [you] trả lời đúng rồi.</item>
+        <item>[fun]Mỗi ngày đến trường là những niềm vui,.. nhưng mà thật ra thấy [you] trả lời đúng, [i] cảm thấy rất vui.</item>
+        <item>[fun]binnh bonnn, [you] trả lời đúng rồi.</item>
         <item>[fun]Từ giờ [i] có thể tự hào khoe rằng [i] đang giúp đỡ một [you] tên là [nyou], [you] ấy rất giỏi, rất rất giỏi.</item>
         <item>[def][you] nói đúng rồi.. nếu [you] trả lời đúng thêm câu nữa thì [i] sẽ không thể quên được tài năng của [you],..</item>
     </string-array>

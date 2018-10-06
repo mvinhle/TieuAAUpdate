@@ -6,7 +6,7 @@
         <item>[ang]dừng,.. dừng lại.</item>
         <item>[fun][you]~</item>
         <item>[fun][you] đừng xoa đầu [i] như vậy, [i] ngại lắm.</item>
-        <item>[fun][i] hình như bắt đầu thích việt này.</item>
+        <item>[fun][i] hmm~</item>
     </string-array>
     <string-array name="stringTouchFace">
         <item>[sud]Mặt [i] có dính gì à [you]</item>
@@ -21,9 +21,9 @@
     <string-array name="stringTouchShoulder">
         <item>[ang][you], dừng lại, đừng chạm vào [i] như vậy.</item>
         <item>[sud]A,.. đừng chạm vào người [i] như vậy, [you]. </item>
-        <item>[ang][you] [nyou]~, [nyou]~,.. [you] thật là...</item>
+        <item>[ftn][you] [nyou]~, [nyou]~,.. [you] thật là...</item>
         <item>[ang][i] Không thích đâu</item>
-        <item>[ang][i] thực sự không thích đâu</item>
+        <item>[sad][i] thực sự không thích đâu</item>
         <item>[sad][you]~, như vậy không tốt đâu!!</item>
         <item>[fun][you]~ là đồ ngốc.</item>
     </string-array>

@@ -15,7 +15,7 @@ import java.util.Collections;
 
 public class AmiActivity extends AppCompatActivity {
 
-    int changeRoom = 4;
+    int changeRoom = 3;
     boolean atHome = true;
     int eyeChange,  eyebrowChange, featureChange,   mouthChange;
     int result = 0;
@@ -60,7 +60,7 @@ public class AmiActivity extends AppCompatActivity {
     final int MOUTH_ANGRY       = MOUTH_FUN + 6; 		// [MOUTH_FUN, 44] = 45
     final int MOUTH_SAD         = MOUTH_ANGRY + 6; 	    // [MOUTH_ANGRY, 50] = 51
     final int MOUTH_SUDDENT     = MOUTH_SAD + 6; 		// [MOUTH_SAD, 56] = 57
-    final int CHANGE_ROOM       = 4;
+    final int CHANGE_ROOM       = 3;
     final int CHAT_ABOUT        = 7;
     final int HELLO_WORLD_ABOUT = 3;
     final int TEST_ABOUT        = 25; // chia cho 5
@@ -73,7 +73,7 @@ public class AmiActivity extends AppCompatActivity {
     final int TL_TEST           = 30; // nhân cho 5
     final int TL_TEST_CODE      = 75; // nhân cho 2
     final int TL_HELLO_WORLD    = 1000;
-    final int TL_TOUCH          = 1500;
+    final int TL_TOUCH          = 1000;
 
     @Override
     protected void onResume() {
@@ -499,7 +499,7 @@ public class AmiActivity extends AppCompatActivity {
                 changeTestCodeAndChat(true);
                 int ran = helpData.randomLine(TL_TEST_CODE, textAmiTestCode.length, TEST_CODE_ABOUT);
                 int rand = (int) ran - (ran % 2);
-                textViewAmiChat.setText(textAmiChat(textAmiTestCode[rand]));
+                textViewAmiChat.setText("<^>".concat(textAmiChat(textAmiTestCode[rand])));
                 testResult = textAmiChat(textAmiTestCode[rand+1]);
             }
         });
