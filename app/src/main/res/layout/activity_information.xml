@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:layout_width="325dp"
+        android:layout_width="450dp"
         android:layout_height="0dp"
         android:layout_margin="7dp"
         android:background="@color/backgroundInformation"
@@ -107,34 +107,36 @@
             </RadioGroup>
         </LinearLayout>
 
-        <!--<LinearLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginLeft="5dp"-->
-            <!--android:layout_marginRight="5dp"-->
-            <!--android:orientation="horizontal"-->
-            <!--android:paddingTop="3dp"-->
-            <!--android:paddingBottom="3dp"-->
-            <!--android:weightSum="10">-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:weightSum="10">
 
-            <!--<TextView-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_weight="3"-->
-                <!--android:padding="2dp"-->
-                <!--android:text="@string/subjectLearning"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="20sp" />-->
-            <!--<Button-->
-                <!--android:id="@+id/button_subject_learning"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_weight="7"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="5dp"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:text="@string/titleInformartion"-->
-                <!--android:textSize="18dp"/>-->
-        <!--</LinearLayout>-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="2dp"
+                android:text="@string/subjectLearning"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/button_subject_learning"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/nullSubject"
+                android:textSize="17dp"
+                android:gravity="left"
+                android:textColor="@color/blu"/>
+        </LinearLayout>
 
         <Button
             android:id="@+id/button_Sign_up"
@@ -146,7 +148,6 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:text="@string/ok"
-            android:textColor="@color/red"
             android:textSize="22sp" />
     </LinearLayout>
 </ScrollView>

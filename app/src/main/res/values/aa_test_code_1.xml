@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aa_test_code_1">
+        <item>[fun]Theo [you], tổ chức sống nào có cấp thấp nhất ?</item>
+        <item>cơ thể</item>
+
+        <item>[fun][you], cấp tổ chức cao nhất và lớn nhất của hệ sống:</item>
+        <item>sinh quyển</item>
+
+        <item>[fun][you] ơi, tập hợp nhiều tế bào cùng loại và cùng thực hiện một chức năng nhất định tạo thành gọi là gì nhỉ?</item>
+        <item>mô</item>
+
+        <item>[def]Theo [you], bào quan ribôxôm có chức năng là một cấu trúc của tế bào tham gia tổng hợp chất gì ?</item>
+        <item>protein</item>
+
+        <item>[fun]Trong tự nhiên người ta phân loại sinh vật thành các nhóm khác nhau. Các nhóm ấy được gọi là ?</item>
+        <item>loài</item>
+
+        <item>[fun]Theo [you] Trong các tế bào sống, các tế bào thực hiên trao đổi chất, cảm ứng và sinh trưởng, sinh trưởng và phát triển,.. đúng hay sai ?</item>
+        <item>đúng</item>
+
+        <item>[fun][you], Các tế bào được cấu tạo từ các phân tử, đại phân tử và bào quan. Là đơn vị cơ bản của ___\n\tTheo [you] từ điền vào \"___\" là gì ?</item>
+        <item>sự sống</item>
+
+        <item>[fun][you] giúp [i] điền từ vào \"___\" nhé!\n\tHệ cơ quan là tập hợp các \"___\", bộ phận của cơ thể cùng thực hiện một chức năng.</item>
+        <item>cơ quan</item>
+
+        <item>[sad][i] lại quên mất từ còn thiếu rồi, [you] giúp [i] nhé:\n\tHệ thống các nhóm mô được sắp xếp để thực hiện một loại chức năng thành lập nên cơ quan và nhiều cơ quan tạo thành ___.</item>
+        <item>hệ cơ quan</item>
+
+        <item>[fun][you] ơi, đặc điểm chung của trùng roi, a mip, vi khuẩn là động vật đơn bào và cấu tạo của cơ thể là gì..?</item>
+        <item>đơn bào</item>
+
+        <item>[fun]theo [you] thì tập hợp các cá thể cùng loài, cùng sống trong một vùng địa lý nhất định ở một thời điểm xác định và cơ quan hệ sinh sản với nhau được gọi là gì vậy [you] ?</item>
+        <item>quần thể</item>
+
+        <item>[fun][you]! một hệ thống tương đối hoàn chỉnh bao gồm quần xã sinh vật và môi trường sống của nó được gọi là gì?</item>
+        <item>hệ sinh thái</item>
+
+        <item>[fun][you] giúp [i] sắp xếp các cấp độ tổ chức sau đâu từ thấp đến cao với:\n\t\"Cơ thể, hệ sinh thái, quần xã, quần thể\"\n\t(dùng dấu \",\" thay vì dùng dấu \"bé\" [you] nhé!)</item>
+        <item>Cơ thể, quần thể, quần xã, hệ sinh thái</item>
+
+        <item>[fun][you] tìm giúp [i] đơn vị nào dùng để chỉ đến các quần thể sinh vật khác loài trong 1 khu vực sống nhé!</item>
+        <item>quần xã</item>
+
+        <item>[sad][you] ơi, tập hợp các sinh vật và hệ sinh thái trên trái đất người ta gọi là gì vậy T_T</item>
+        <item>sinh quyển</item>
+
+        <item>[sad][you]! Cái gì là một hệ thống mở, có khả năng tự điều chỉnh, thường xuyên trao đổi chất với môi trường, được tổ chức theo nguyên tắc thứ bậc?? [i] quên mất rồi.</item>
+        <item>hệ thống sống</item>
+
+        <item>[def][you] ơi, bậc phân loại cao nhất trong các đơn vị phân loại sinh vật là gì ạ?</item>
+        <item>giới</item>
+
+        <item>[fun][you] ơi trong các đơn vị phân loại sinh vật họ, loài, lớp, bộ thì đơn vị thấp nhất so với các đơn vị còn lại là gì nhỉ?</item>
+        <item>loài</item>
+
+        <item>[fun]Câu này dể nè [you], theo [you] thì sinh vật thuộc giới khởi sinh có tế bào nhân gì vậy\n\t(nhân sơ hay nhân thực?).</item>
+        <item>nhân sơ</item>
+
+        <item>[fun][you] ơi~, sinh vật thuộc giới khởi sinh có đặc điểm cấu tạo khác hẳn so với giới nấm, động vật, thực vật là đúng hay sai vậy?</item>
+        <item>đúng</item>
+
+        <item>[sad][i] không thích vi khuẩn lắm mặc dù vi khuẩn có loại tốt, có loại xấu. Theo [you] thì vi khuẩn được xếp vào giới nào?</item>
+        <item>giới khởi sinh</item>
+
+        <item>[fun][you] giúp [i] câu này nhé:\n\tĐiểm giống nhau của các sinh vật thuộc giới Nguyên sinh, giới thực vật và giới động vật là tế bào cơ thể đều có nhân gì?</item>
+        <item>nhân thực</item>
+
+        <item>[sad][you] ơi, các sinh vật thuộc giới nấm và giới thực vật đều sống nào vậy?</item>
+        <item>hoại sinh</item>
+
+        <item>[sud][you] ơi! [i] đột nhiên quên mất động vật nguyên sinh có cấu tạo cơ thể đơn bào và có nhân gì rồi. [you] cho [i] biết động vật nguyên sinh có cấu tạo cơ thể đơn bào và có nhân gì giúp [i] nhé.</item>
+        <item>nhân thực</item>
+
+        <item>[fun][you]~ Thực vật, nấm, động vật là những giới sinh vật có đặc điểm cấu tạo cơ thể đa bào và đều có nhân gì vậy?</item>
+        <item>nhân thực</item>
+
+        <item>[fun][you], đặc điểm của động vật khác xa so với thực vật là: chúng có phương thức sống___. \n\tTheo [you] thì từ điền vào \"___\" là gì nè.</item>
+        <item>dị dưỡng</item>
+
+        <item>[fun][you] ơi~, Giới nào là những sinh vật đa bào, cấu tạo tế bào có chứa nhân thực và sống dị dưỡng theo lối hoại sinh?</item>
+        <item>giới nấm</item>
+
+        <item>[fun][ni] có phải là tên của [i] không?\n\t(trả lời cho [i] là:\"phải/không\")</item>
+        <item>phải</item>
+
+        <item>[fun]Thực vật và tảo sống tự dưỡng quang hợp phải không [you]?\n\t(trả lời cho [i] là:\"phải/không\")</item>
+        <item>phải</item>
+
+        <item>[sad]Động vật nguyên sinh có cấu tạo cơ thể đơn bào phải không [you]?. hôm qua [i] bị bệnh nên không đến lớp được,..T_T</item>
+        <item>phải</item>
+
+        <item>[sud][you]~ Tên của [you] là gì?</item>
+        <item>[you]</item>
+
+        <item>[fun]Giới nguyên sinh có cơ thể đa bào hay đơn bào [you] nhỉ?</item>
+        <item>đa bào</item>
+
+        <item>[fun]như [you] biết thì đặc điểm cấu tạo ở giới thực vật không giống giới nấm, ví dụ: Tế bào giới thực vật cò thành xenlulôzơ và chứa nhiều chất gì, mà giới nấm thì không như vậy?</item>
+        <item>lục lạp</item>
+
+        <item>[fun]Thực vật có lối sống dị dưỡng không [you]?</item>
+        <item>không</item>
+
+        <item>[fun][you] ơi! Động vật có lối sống gì mà thực vật thì không có?</item>
+        <item>dị dưỡng</item>
+
+        <item>[def]Thực vật phản ứng rất \"___\" với môi trường\n\t[you] giúp [i] điển vào \"___\" nhé!</item>
+        <item>chậm</item>
+
+        <item>[fun] theo [you] thì thực vật hay động vật có khả năng tự duy chuyển?</item>
+        <item>động vật</item>
+
+        <item>[sud][you]! động vật có lối sống gì đặc trưng nhỉ?</item>
+        <item>dị dưởng</item>
+
+        <item>[fun]Nhóm các nguyên tố nào sau đây không phải là nhóm nguyên tố chính cấu tạo nên chất sống\n\t\"C, H, O, N, H2SO4\"</item>
+        <item>H2SO4</item>
+
+        <item>[fun]Các nguyên tố hoá học chiếm lượng lớn trong khối lượng khô của cơ thể được gọi là gì vậy [you]?</item>
+        <item>nguyên tố đại lượng</item>
+
+        <item>[sud]Các nguyên tố đại lượng chiếm bao nhiêu phần trâm khối lượng khô của cây?.\n\t(dấu thập phân là dấu \",\". Không cần ghi dấu % [you] nhé!).</item>
+        <item>99,95</item>
+
+        <item>[fun][you] ơi Canxi, lưu huỳnh, photpho đều là nguyên tố đại lượng hay vi lượng vậy ạ?</item>
+        <item>đại lượng</item>
+
+        <item>[sad][you] ơi~, Nguyên tố hoá học đặc biệt quan trọng tham gia cấu tạo nên các đại phân tử hữu cơ là gì vậy ạ?</item>
+        <item>cacbon</item>
+
+        <item>[fun][you], Hêmôglôbin trong hồng cầu của động vật trong thành phần có chứa \"Fe\" hay hay không?</item>
+        <item>có</item>
+
+        <item>[fun][you] Giúp [i] điền từ còn thiếu vào \"___\" nhé!\n\tTrong cơ thể sống, nước là thành phần ___ và rất quan trọng.</item>
+        <item>chủ yếu</item>
+
+        <item>[fun][you], Trong tế bào nước phân bố chủ yếu ở đâu?</item>
+        <item>chất nguyên sinh</item>
+
+        <item>[fun][i] tên là gì?</item>
+        <item>[ni]</item>
+
+        <item>[fun]Khi nhiệt độ môi trường tăng cao, có hiện tượng nước bốc hơi khỏi cơ thể thực vật, động vật,.. hiện tượng này xảy ra để làm gì?</item>
+        <item>làm mát</item>
+
+        <item>[fun]Cacbohiđrat là tên gọi dùng để chỉ nhóm chất gì [you] nhỉ?</item>
+        <item>đường</item>
+
+        <item>[fun]\"C, H, O\" là cấu tạo của nguyên tố hóa học nào?</item>
+        <item>cacbohidrat</item>
+
+        <item>[fun][you] có biêt Đường đơn, đường đa, đường đôi có thể dùng một thuật ngữ để  gọi là gì không nè?</item>
+        <item>cacbohidrat</item>
+
+        <item>[fun]Đường ribozo và deoxiribozo thuộc loại đường gì vậy [you] nè.</item>
+        <item>pentozo</item>
+
+        <item>[sud]Khác với đường Mantôzơ, đường Điaccarit hay đường hêxôzơ. Tinh bột thuộc loại đường nào [you] ạ</item>
+        <item>đường đa</item>
+
+        <item>[fun]Đường saccarôzơ không có cùng nhóm với 3 loại đường phentôzơ, glucôzơ, fructozơ hay không vậy [you]?</item>
+        <item>không</item>
+
+        <item>[fun][you] ơi, đường mía là sự kết hợp do 2 phân tử đường glucôzơ và đường nào vậy ạ?</item>
+        <item>fructozo</item>
+
+        <item>[fun]Nếu [you] phân giải 1 phân tử đường lactôzơ thì [you] có thể thu được một phân tử glucôzơ và một phân tử đường gì nữa ạ?</item>
+        <item>galactozo</item>
+
+        <item>[def]Fructôzơ, galactôzơ, glucôzơ là những chất chứa bao nhiêu nguyên tử cacbon?</item>
+        <item>6</item>
+
+        <item>[fun]Hôm qua [i] nghe người ta nói galactôzơ còn được được gọi là đường sữa,.. Không biết đúng thật vậy không [you]\n\t(Đúng hay sai vậy [you].</item>
+        <item>đúng</item>
+
+        <item>[sad][you]~ Trong cấu tạo tế bào, đường xenlulôzơ tập trung ở đâu?</item>
+        <item>thành tế bào</item>
+
+        <item>[fun]Chức năng chủ yếu của đường nào là cung cấp năng lượng cho hoạt động tế bào?</item>
+        <item>glucozo</item>
+
+        <item>[def][you], Lipit có đặc tính nào đặc trưng ạ.</item>
+        <item>không tan trong nước</item>
+
+        <item>[you]! Lipit có cấu tạo là glixêrol và axit gì ạ?</item>
+        <item>axit béo</item>
+
+        <item>[def]Trong mỡ có chứa rất nhiều axit gì ạ?</item>
+        <item>axit no</item>
+
+        <item>[fun]Chất gì là thành phần cấu tạo của màng tế bào [you] nhỉ?</item>
+        <item>photpholipit</item>
+
+        <item>[fun]Theo [you] thì chất tham gia cấu tạo hoocmôn là gì nè.</item>
+        <item>steroit</item>
+
+        <item>[fun][you] ơi, chất nào tồn tại ở nhiều dạng như côlestêron, hoocmon ostrôgen, sáp,..</item>
+        <item>lipit</item>
+
+        <item>[fun]Vitamin C có tan được trong nước không [you] ?</item>
+        <item>có</item>
+
+        <item>[fun]Đặc điểm chung của prôtêin và axit nuclêic là Đại phân tử của chúng có cấu trúc như thế nào ạ?</item>
+        <item>đa phân</item>
+
+        <item>[fun]Đơn phân cấu tạo của Protêin là gì vậy [you]. [you] đoán xem ^^.</item>
+        <item>axit amin</item>
+
+        <item>[fun][you], có bao nhiêu axit amin có ở cơ thể sinh vật ạ?</item>
+        <item>20</item>
+
+        <item>[def]Liên kết gì là liên kết hóa học chủ yếu giữa các đơn phân trong phân tử protêin?</item>
+        <item>peptit</item>
+
+        <item>[fun][you] ơi, [you] điền vào khoảng \"___\" giúp [i] nhé:\n\t[fun]Tính đa dạng và đặc thù của prôtêin được qui định bởi Thành phần, số lượng và trật tự ___ trong phân tử prôtêin.</item>
+        <item>axit amin</item>
+
+        <item>[fun][you], Cấu trúc của phân tử prôtêtin có thể bị biến tính bởi tác nhân nào?</item>
+        <item>nhiệt độ</item>
+
+        <item>[fun]Bậc 1 của cấu trúc prôtêtin ít bị ảnh hưởng nhất khi các liên kết hidrô trong prôtêin bị phá vỡ phải không ạ?</item>
+        <item>phải</item>
+
+        <item>[fun]Chuỗi pôlipeptit xoắn \"alpha\" hay gấp nếp \"beta\" là của cấu trúc prôtêin bậc mấy ?</item>
+        <item>2</item>
+
+        <item>[fun][you] ơi, điểm giống nhau của prôtêin bậc 1, prôtêin bậc 2 và prôtêin bậc 3 là chỉ có cấu trúc 1 chuỗi ___.\n\t(chuổi gì vậy [you]^^)</item>
+        <item>polipeptit</item>
+
+        <item>[fun][you] ơi, prôtêin có khả năng tự sao chép hay không?</item>
+        <item>không</item>
+
+        <item>[fun][you] ơi, [you] có thích [i] không nè. (nói không là [ni] giận đó!)</item>
+        <item>có</item>
+
+        <item>[sud]Prôtêin nào là loại protêin có chức năng điều hoà các quá trình trao đổi chất trong tế bào và cơ thể ạ!</item>
+        <item>Protein hoomon</item>
+
+        <item>[fun]Chất nào có chứa Prôtêin thực hiện chức năng vận chuyển các chất trong cơ thể?</item>
+        <item>Hemoglobin</item>
+
+        <item>[fun]Axit nuclêic bao gồm chất ADN và chất nào mà [i] hay bảo [you] nên chú ý?</item>
+        <item>ARN</item>
+
+        <item>[fun][you]~ ADN và ARN đều được cấu tạo theo nguyên tắt gì ạ?</item>
+        <item>đa phân</item>
+
+        <item>[fun]Nguyên phân cấu tạo của phân tử ADN là gì nè?</item>
+        <item>nucleotit</item>
+
+        <item>[fun]Thành phần cấu tạo của nucleotic có chứa đường, bazơ nitơ và axit nào?</item>
+        <item>axit photphoric</item>
+
+        <item>[sud]Đường tham gia cấu tạo phân tử ADN có tên là gì?</item>
+        <item>deoxiribozo</item>
+
+        <item>[def]4 đơn phân A, T, G, X là 4 đơn phân cấu tạo nên ARN hay ADN</item>
+        <item>ADN</item>
+
+        <item>[fun][you]~, 4 đơn phân A, T, G, X cấu tạo nên ADN trong đó A là viết tắt của từ nào?</item>
+        <item>adenin</item>
+
+        <item>[fun][you] ơi, ADN có bao nhiêu mạch?</item>
+        <item>2</item>
+
+        <item>[fun][you] ơi, giữa các Nuclêotit kế tiếp nhau trong cùng một mạch của ADN xuất hiện liên kết hoá học nối giữa đường và chất gì?</item>
+        <item>axit</item>
+
+        <item>[fun]truyền đạt thông tin di truyền là chức năng của___\n\t([you] đoán xem)</item>
+        <item>ADN</item>
+
+        <item>[fun][you] ơi, liên kết hidro giửa A-T là 2 liên kết vậy giửa G-X là mấy liên kết?</item>
+        <item>3</item>
+
+        <item>[fun][you] ơi, ARN có bao nhiêu mạch?</item>
+        <item>1</item>
+
+        <item>[fun][you]~, Tên đầu đủ của bazơnitơ chỉ có trong ARN mà không có trong ADN là gì nè?</item>
+        <item>uraxin</item>
+
+        <item>[fun][you] ơi Đơn phân cấu tạo của phân tử ARN có 3 thành phần chính là:\"đường 5C, axit phôtphorric và bazơ nitơ là đúng hay sai?</item>
+        <item>sai</item>
+
+        <item>Loại đường tham gia cấu tạo đơn phân của ARN công thức của nó là C5H10O5 có tên là gì?</item>
+        <item>ribozo</item>
+
+        <item>[sud]Có bao nhiêu loại ARN trong tế bào [you] nhỉ?</item>
+        <item>3</item>
+
+        <item>[sad]ARN ribôxôm có tên viết tắt là gì vậy [you]?</item>
+        <item>rARN</item>
+
+        <item>[fun]ARN có chức năng truyền thông tin di truyền từ ADN đến ribôxôm có tên viết tắt là gì?</item>
+        <item>mARN</item>
+
+        <item>[fun]ARN có Chức năng vận chuyển axit amin đến ribôxôm có tên viết tắt là gì?</item>
+        <item>tARN</item>
+
+        <item>[fun]Là thành phần cấu tạo của một loại bào quan là chức năng của ARN nào?\n\t(tên viết tắt của nó á [you])</item>
+        <item>rARN</item>
+
+        <item>[fun][you] ơi, trong các ARN không có chứa bazơ nitơ có tên đầy đủ là?</item>
+        <item>timin</item>
+
+        <item>[fun]Theo [you] thì Có cấu tạo từ các đơn phân ribônuclêôtit, Thực hiện các chức năng trong tế bào chất, Đều có vai trò trong tổng hợp prôtêin. là đặc điểm của,...([you] đoán xem^^)</item>
+        <item>ARN</item>
+
+        <item>[fun][you], tế bào nhân sơ hay nhân thực Có kích thước nhỏ, Không có các bào quan như bộ máy Gôngi, lưới nội chất, Không có chứa phân tử ADN</item>
+        <item>nhân sơ</item>
+
+        <item>[fun][you]tế bào nhân sơ có màn nhân không?</item>
+        <item>không</item>
+
+        <item>[sad]Vi khuẩn thuộc loại tế vào nhân sơ hay nhân thực?</item>
+        <item>nhân sơ</item>
+
+        <item>[fun]Tế bào nhân sơ được cấu tạo bởi 3 thành phần chính là màng sinh chất, tế bào chất, ___.\n\t([you] điền vào chổ \"___\" giúp [i] nhé!</item>
+        <item>vùng nhân</item>
+
+        <item>[fun][you] điền vào chổ \"___\" giúp [i] nhé\n\tThành phần cấu tạo của ___ vi khuẩn không có mạng lưới nội thất!</item>
+        <item>tế bào</item>
+
+        <item>[fun][you] ơi Cơ thể đơn bào, tế bào có nhân sơ, Bên ngòai tế bào có lớp vỏ nhày và có tác dụng bảo vệ, Trong tế bào chất có chứa ribôxôm là đặt điểm của sinh vật nào ạ, [i] cũng sợ sinh vật ấy nữa.</item>
+        <item>vi khuẩn</item>
+
+        <item>[def]Đối với tế bào vi khuẩn thì vật chất di truyền là ADN không kết hợp với prôtêin nào?</item>
+        <item>protein histon</item>
+
+        <item>[fun][you], Ở vi khuẩn, cấu trúc plasmit là phân tử ADN nằm trong tế bào chất, có dạng gì nhỉ.</item>
+        <item>dạng vòng</item>
+
+        <item>[def]Trong tế bào vi khuẩn, nguyên liệu di truyền là gì mà có ở tế bào chất và vùng nhân?</item>
+        <item>ADN</item>
+
+        <item>[def]Hình thái của vi khuẩn được ổn định nhờ cấu trúc của?</item>
+        <item>thành tế bào</item>
+
+        <item>[fun][you] ơi~ thành phần hoá học cấu tạo nên thành tế bào vi khuẩn là gì vậy?</item>
+        <item>Peptidoglican</item>
+
+        <item>người ta đã chia làm 2 loại vi khuẩn, vi khuẩn gram âm và vi khuẩn gì nè?</item>
+        <item>gram dương</item>
+
+        <item>[fun][you] ơi, so với Nấm, tảo, động vật nguyên sinh thì Vi khuẩn lam có cấu tạo tế bào nhân gì?</item>
+        <item>nhân sơ</item>
+
+        <item>[fun]Trong tế bào vi khuẩn thì ribôxôm có chức năng Tiến hành tổng hợp chất gì cho tế bào~~</item>
+        <item>protein</item>
+
+        <item>[fun]Chức năng di truyền ở vi khuẩn được thực hiện bởi vùng nào?</item>
+        <item>vùng nhân</item>
+
+        <item>[fun]Đặc điểm cấu tạo của tế bào nhân thực khác với tế bào nhân sơ là có các bào quan như bộ máy nào?</item>
+        <item>Gôngi</item>
+
+        <item>[fun][you] giúp [i] điền vào \"___\" nhé!\n\tThật ra Ở tế bào nhân thực, tế bào chất được xoang hoá là do có các bào quan có màng bọc phân cách với ___, [you]!</item>
+        <item>tế bào chất</item>
+
+        <item>[fun][you] ơi, Thành phần hoá học của chất nhiễm sắc trong nhân tế bào là ADN và chất gì ạ?</item>
+        <item>protein</item>
+
+        <item>[fun][you] ơi~, Trong dịch nhân có chứa Chất nhiễm sắc và nhân con là đúng hay sai?</item>
+        <item>đúng</item>
+
+        <item>[fun]Đường kính của nhân tế bào vào khoảng bao nhiêu micrômet?</item>
+        <item>5</item>
+
+        <item>[fun]Chất nhiễm sắc khi co xoắn lại sẽ hình thành cấu trúc gì?</item>
+        <item>nhiễm sắc thể</item>
+
+        <item>[fun]các đặc điểm Cấu trúc nằm trong dịch nhân của tế bào, Có chứa nhiều phân tử ARN, Thường chỉ có 1 trong mỗi nhân tế bào thuộc loại nhân nào?</item>
+        <item>nhân con</item>
+
+        <item>[fun][you] ơi~ chức năng của nhân tế bào là gì</item>
+        <item>chứa đựng thông tin duy truyền</item>
+
+        <item>[fun]Trong tế bào, ribôxôm có thể tìm thấy ở trạng thái tự do trong tế bào chất và liên kết trên đâu?</item>
+        <item>lưới nội chất</item>
+
+        <item>[fun][you]! prôtêin và ARN là thành phần hóa học của chất nào?</item>
+        <item>Riboxom</item>
+
+        <item>[fun][you] nhớ nè! Trong tế bào, hoạt động tổng hợp prôtêin xảy ra ở đâu ?</item>
+        <item>Ribôxôm</item>
+
+        <item>[fun]Ti thể là Cấu trúc có ở tế bào động vật hay thực vật?</item>
+        <item>động vật</item>
+
+        <item>[fun]Một loại bào quan nằm ở gần nhân, chỉ có ở tế bào động vật và tế bào thực vật bậc thấp là?</item>
+        <item>trung thể</item>
+
+        <item>[fun]Ở tế bào động vật số lượng trung tử có trong bào quan trung thể là mấy?</item>
+        <item>2</item>
+
+        <item>[fun][you], trong tế bào trung thể có chức năng tham gia hình thành thoi vô sắc khi tế bào làm gì?</item>
+        <item>phân chia</item>
+
+        <item>[fun][you] ơi, ở lớp màng trong của tí thể có chua71 nhiều chất enzim nào?</item>
+        <item>enzim hô hấp</item>
+
+        <item>[fun]Chất được chứa tại lớp màng đôi của ti thể được gọi là chất gì?</item>
+        <item>chất nền</item>
+
+        <item>[fun]Trong thành phần của ti thể không có chứa chất axit đêôxiriboonicleic không?</item>
+        <item>không</item>
+
+        <item>[fun]Bào quan có thể tìm thấy trong ti thể là ribôxôm [you] nhé. Trong ti thể không hề có lục lạp, bộ máy gôngi hay trung thể là đúng hay sai</item>
+        <item>đúng</item>
+
+        <item>[fun]Tế bào cơ tim có chứa rất nhiều chất gì?</item>
+        <item>ti thể</item>
+    </string-array>
+</resources>

@@ -95,19 +95,19 @@ public class AmiActivity extends AppCompatActivity {
 
     private void setText(int i){
         switch (i){
-            case 0:
-                Toast.makeText(this,"Lỗi không nhận được môn học đã đăng kí!", Toast.LENGTH_LONG).show();
-                finish();
-                break;
             case 1:
-                textAmiChat = getResources().getStringArray(R.array.ami_chat);
-                textAmiTest = getResources().getStringArray(R.array.ami_test);
-                textAmiTestCode = getResources().getStringArray(R.array.ami_test_code);
+                textAmiChat = getResources().getStringArray(R.array.aa_chat_1);
+                textAmiTest = getResources().getStringArray(R.array.aa_test_1);
+                textAmiTestCode = getResources().getStringArray(R.array.aa_test_code_1);
                 break;
             case 2:
-                textAmiChat = getResources().getStringArray(R.array.ami_chat);
-                textAmiTest = getResources().getStringArray(R.array.ami_test);
-                textAmiTestCode = getResources().getStringArray(R.array.ami_test_code);
+                textAmiChat = getResources().getStringArray(R.array.aa_chat_2);
+                textAmiTest = getResources().getStringArray(R.array.aa_test_2);
+                textAmiTestCode = getResources().getStringArray(R.array.aa_test_code_2);
+                break;
+            default:
+                Toast.makeText(this,"Lỗi không nhận được môn học đã đăng kí!", Toast.LENGTH_LONG).show();
+                finish();
                 break;
         }
     }

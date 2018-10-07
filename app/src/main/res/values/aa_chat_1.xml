@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- support: [fun][sad][sud][ang][def][i][ni][you][nyou] -->
+    <string-array name="aa_chat_1">
+        <item>﻿[fun]Theo [i] được biết thì tổ chức sống có cấp thấp nhất là Cơ thể.</item>
+
+        <item>[fun][you] biết không, cấp tổ chức cao nhất và lớn nhất của hệ sống chính là sinh quyển.</item>
+
+        <item>[fun]Tập hợp nhiều tế bào cùng loại và cùng thực hiện một chức năng nhất định tạo thành gọi là mô nhé [you], sau này [i] sẽ hỏi lại [you] nhé.</item>
+
+        <item>[fun]Khi [i] và [you] nói đến protein thì không thể không nói về bào quan Ribôxôm (Ribosome). Ribôxôm là một bộ máy phân tử lớn và phức tạp, có mặt trong tất cả các tế bào sống, nơi xảy ra quá trình sinh tổng hợp protein, bào quan ribôxôm có chức năng là một cấu trúc của tế bào tham gia tổng hợp protein.</item>
+
+        <item>[fun][you], trong tự nhiên người ta phân loại sinh vật thành các nhóm khác nhau, và các nhóm ấy có đơn vị là \"loài\"!!</item>
+
+        <item>[fun][i] nghe nói rằng trong các tế bào sống, các tế bào thực hiên trao đổi chất, cảm ứng và sinh trưởng, sinh trưởng và phát triển,.. và,.. còn gì nữa không [you].</item>
+
+        <item>[fun]Các tế bào được cấu tạo từ các phân tử, đại phân tử và bào quan. Là đơn vị cơ bản của sự sống. Là đơn vị chức năng của tế bào sống nhưng các tế bào \"Không phải\" được cấu tạo từ các mô nhé [you].</item>
+
+        <item>[fun]Hệ cơ quan là tập hợp các cơ quan, bộ phận của cơ thể cùng thực hiện một chức năng. Như vậy [you] nghĩ hệ cơ quan của [i] là gì nè ^^.</item>
+
+        <item>[fun]Hệ thống các nhóm mô được sắp xếp để thực hiện một loại chức năng thành lập nên cơ quan và nhiều cơ quan tạo thành hệ cơ quan. [i] sẽ hỏi [you] câu này trong tương lai. ^^.</item>
+
+        <item>[sud]Đặc điểm chung của trùng roi, a mip, vi khuẩn là động vật đơn bào và chúng đều có cấu tạo đơn bào !!!. Người ta còn định nghĩa rằng sinh vật đơn bào là các sinh vật mà cơ thể chỉ được cấu tạo từ một tế bào. Tế bào này có thể là sinh vật nhân sơ hoặc sinh vật nhân chuẩn. Một số sinh vật đơn bào có thể hợp tác với nhau để phát triển thành tập đoàn.\n\t[you] có thấy lạ không.</item>
+
+        <item>[fun]Tập hợp các cá thể cùng loài, cùng sống trong một vùng địa lý nhất định ở một thời điểm xác định và cơ quan hệ sinh sản với nhau được gọi là quần thể. [you] nghe thấy có rắc rối không, thực chất mình có thể thấy quần thể ở mọi nơi, ví dụ: đàn gà, đàn trâu rừng, đàn linh dương, đàn voi, đàn hổ.. ^^, [you] thấy đó đôi khi mọi thứ rất dể nhưng mình thường cho là khó.</item>
+
+        <item>[fun]Hệ sinh thái là một hệ thống tương đối hoàn chỉnh bao gồm quần xã sinh vật và môi trường sống của nó.\n\tĐể [i] ví dụ cho [you] dể hình dung về hệ sinh thái: \n\tVí dụ hệ sinh thái trên cạn: Hệ sinh thái rừng nhiệt đới\n\t\tThành phần vô sinh: đất, đá, nước, thảm mục,…\n\t\tSinh vật sản xuất: các cây gỗ to, vừa, nhỏ, cây bụi, cây leo,…\n\t\tSinh vật tiêu thụ: chim, khỉ, trâu, bò, hươu, nai, hổ, báo,…\n\t\tSinh vật phân giải: Giun đất, sâu bọ, vi khuẩn, nấm, địa y.</item>
+
+        <item>[sud]Sao?, [you] muốn sắp xếp các cấp độ tổ chức sống từ thấp đến cao?, đó là: Cơ thể, quần thể, quần xã, hệ sinh thái. Có việc gì không ạ.</item>
+
+        <item>[fun]Đơn vị quần xã chỉ đơn giản là muốn chỉ đến các quần thể sinh vật khác loài trong 1 khu vực sống, vậy mà lúc trước [i] cứ nghĩ là gì đó phức tạp lắm,..</item>
+
+        <item>[fun][you] ơi, tập hợp các sinh vật và hệ sinh thái trên trái đất người ta gọi là sinh quyển.</item>
+
+        <item>[fun][you] ơi, đối với sinh vật thì hệ thống sống là một hệ thống mở, có khả năng tự điều chỉnh, thường xuyên trao đổi chất với môi trường, được tổ chức theo nguyên tắc thứ bậc.</item>
+
+        <item>[fun]Bậc phân loại cao nhất trong các đơn vị phân loại sinh vật là giới, [you] nhớ nhé!</item>
+
+        <item>[fun]Trong các đơn vị phân loại sinh vật họ, loài, lớp, bộ thì đơn vị thấp nhất so với các đơn vị còn lại là loài, vậy mà [i] hôm qua master hỏi [i], [i] không trả lời được.</item>
+
+        <item>[fun]Chắc là [you] biết rồi nhưng sinh vật thuộc giới khởi sinh là tế bào nhân sơ!</item>
+
+        <item>[fun][you] biết đó, sinh vật thuộc giới khởi sinh có đặc điểm cấu tạo khác hẳn so với giới nấm, động vật, thực vật. Khi [i] tìm kiếm thông tin về giới khởi sinh thì [i] nhận được kết quả là: Giới Khởi sinh (Monera) là một giới đã lỗi thời trong hệ thống năm giới của phân loại sinh học. Nó là những sinh vật nhỏ bé có kích thước hiển vi (từ 1-3μm) cấu tạo bởi các tế bào nhân sơ, là những sinh vật cổ sơ nhất xuất hiện khoảng 3,5 tỷ năm trước đây. Chúng sống khắp nơi, trong đất, nước, không khí; phương thức dinh dưỡng rất đa dạng: hoá tự dưỡng, hoá dị dưỡng, quang tự dưỡng và quang dị dưỡng. Nhiều vi khuẩn sống ký sinh trong các cơ thể khác. Vi khuẩn có chứa nhiều sắc tố quang hợp trong đó có diệp lục như vi khuẩn lam có khả năng tự dưỡng quang hợp như thực vật.</item>
+
+        <item>[sud]Vi khuẩn?, à,.. Vi khuẩn được xếp vào giới khởi sinh. [you] có thể thấy vi khuẩn ở mọi nơi nhưng không phải vi khuẩn nào cũng gây hại!!</item>
+
+        <item>[fun][you], Điểm giống nhau của các sinh vật thuộc giới Nguyên sinh, giới thực vật và giới động vật là tế bào cơ thể đều có nhân thực.</item>
+
+        <item>[fun][you] ơi, các sinh vật thuộc giới nấm và giới thực vật đều sống hoại sinh. Sống hoại sinh là sống dựa trên xác sinh vật đã chết và cũng lấy chất hửu cơ có sẳn để sống.</item>
+
+        <item>[fun]Động vật nguyên sinh có cấu tạo cơ thể đơn bào và có nhân thực.</item>
+
+        <item>[fun]Thực vật, nấm, động vật là những giới sinh vật có đặc điểm cấu tạo cơ thể đa bào và đều nhân thực.</item>
+
+        <item>[fun][you], đặc điểm của động vật khác xa so với thực vật là: chúng có phương thức sống dị dưỡng. ^^ Lạ quá [you] nhỉ.</item>
+
+        <item>[fun]Giới Nấm là những sinh vật đa bào, cấu tạo tế bào có chứa nhân thực và sống dị dưỡng theo lối hoại sinh.</item>
+
+        <item>[fun]Giới động vật gồm các cơ thể đa bào và cùng có cơ thể đơn bào,.. Mấy câu hỏi nhỏ như thế này mà cũng không biết thì [i] buồn lắm ấy.</item>
+
+        <item>[fun]Thực vật và tảo sống tự dưỡng quang hợp. [ni] thường rất hay nhầm lẫn tảo vì tảo dù thuộc giới thực vật nhưng tảo lại có những khác biệt.</item>
+
+        <item>[sad]Động vật nguyên sinh có cấu tạo cơ thể đơn bào phải không [you]?. hôm qua [i] bị bệnh nên không đến lớp được,.. nhưng hình như [i] nghe nói động vật nguyên sinh có cấu tạo cơ thể đơn bào,..</item>
+
+        <item>[sad]Vi khuẩn sinh sôi rất nhanh, chúng có thể tự nhân đôi vì vậy sau một thời gian chúng có thể nhiều đến mức lũy thừa. Dù tốt hay xấu thì [ni] cũng không thích vi khuẩn tí nào.</item>
+
+        <item>[fun]Giới nguyên sinh có cơ thể đa bào,..</item>
+
+        <item>[fun]Đặc điểm cấu tạo ở giới thực vật không giống giới nấm, ví dụ: Tế bào giới thực vật cò thành xenlulôzơ và chứa nhiều lục lạp, còn giới nấm thì không như vậy. [you]!</item>
+
+        <item>[sud]Thực vật có lối sống dị dưỡng không?, Không hề, không hề. Theo [i] được biết thì thực vật không có lối sống dị dưỡng</item>
+
+        <item>[sud]Động vật có lối sống dị dưỡng nhưng thực vật thì không!, Nhưng,.. sống dị dưỡng là gì nhỉ. [you] thử dùng google giúp [i] với ^^</item>
+
+        <item>[fun]Tốc độ phản ứng với môi trường của [i] rất nhanh ^^, Nếu so với [i] thì Thực vật phản ứng rất chậm với môi trường.</item>
+
+        <item>[sud]Động vật có thể tự tổng hợp chất hửu cơ??,.. hôm qua đi học cô nói với [i] như vậy á,. [i] cứ nghĩ mọi vật thì phải nạp năng lượng bằng điện chứ ^^</item>
+
+        <item>[fun]Để phân biệt giửa động vật và thực vật thì [you] chú ý những đặc điểm của động vật này nè: Khả năng tự di chuyển. Thường ko có thành tế bào nếu có thì là thành glycocalyx,ko có thành xenlulôzơ, có các điểm nhận biết (glicôprôtêin) trên màng. Khả năng tự tổng hợp chất hữu cơ</item>
+
+        <item>[fun]Động vật có lối sống dị dưởng, [you] chú ý không nhầm lẫn điều này nhé!!</item>
+
+        <item>[fun]Nhóm các nguyên tố nào sau đây là nhóm nguyên tố chính cấu tạo nên chất sống? - nếu [i] hỏi [you] như vậy thì [you] hãy trả lời là \"C, H, O, N\" nhé</item>
+
+        <item>[fun]Các nguyên tố hoá học chiếm lượng lớn trong khối lượng khô của cơ thể được gọi là nguyên tố đại lượng!!. Nguyên tố đại lượng là nguyên tố dinh dưỡng cần thiết cho cơ thể với số lượng lớn, bao gồm : C, H, O, N, S, P, K, Mg, Ca, Fe, Si, Na, Al,…Các nguyên tố này chiếm 99,95% khối lượng khô của cây. Vai trò chính của các nguyên tố đại lượng là tham gia trực tiếp vào các thành phần cấu trúc của tế bào, mô, cơ quan, cơ thể và tham gia vào các quá trình năng lượng.</item>
+
+        <item>[fun]Phốt pho cũng là nguyên tố đại lượng [you] nhé!!</item>
+
+        <item>[fun]Canxi, lưu huỳnh, photpho đều là nguyên tố đại lượng nhưng sắt thì không, sắt là nguyên tố vi lượng,.. đối với,.. [you] ^^, còn với [i] thì cả cơ thể đều bằng sắt.</item>
+
+        <item>[fun][you] ơi, Nguyên tố hoá học đặc biệt quan trọng tham gia cấu tạo nên các đại phân tử hữu cơ là gì nhỉ, chắc là cacbon nhỉ.</item>
+
+        <item>[fun][you], Hêmôglôbin trong hồng cầu của động vật trong thành phần có chứa \"Fe\" [you] nhé.</item>
+
+        <item>[fun]Trong cơ thể sống, nước là thành phần chủ yếu và rất quan trọng. Cũng như con người không thể sống mà không uống nước vậy.</item>
+
+        <item>[fun][you], Trong tế bào nước phân bố chủ yếu ở chất nguyên sinh [you] ạ</item>
+
+        <item>[fun][you] nhớ nha, nước có 4 vai trò sau đây:\n\t(1) Dung môi hoà tan của nhiều chất\n\t(2) Thành phần cấu tạo của tế bào\n\t(3) Là môi trường xảy ra các phản ứng sinh hoá của cơ thể\n\t(4) Tham gia vào các phản ứng sinh hóa</item>
+
+        <item>[sud]Khi nhiệt độ môi trường tăng cao, có hiện tượng nước bốc hơi khỏi cơ thể thực vật, động vật, [you] biết điều này có ý nghĩa gì ko?, điều đó giúp Tạo ra sự cân bằng nhiệt cho tế bào và cơ thể.</item>
+
+        <item>[fun]Cacbohiđrat là tên gọi dùng để chỉ nhóm chất \"đường\"</item>
+
+        <item>[fun]Các nguyên tố hóa học cấu tạo của cacbohidrat là \"C, H, O\" [you] nhé</item>
+
+        <item>[fun][you] có biêt Đường đơn, đường đa, đường đôi có thể dùng một thuật ngữ để  gọi là gì không nè?? - Người ta có thể gọi 3 loại đường ấy là \"cacbohidrat\"</item>
+
+        <item>[fun]Đường ribôzơ và đêôxiribôzơ thuộc loại đường pentôzơ [you] nhé.</item>
+
+        <item>[sud]Khác với đường Mantôzơ, đường Điaccarit hay đường hêxôzơ. Tinh bột thuộc loại đường đa [you] ạ</item>
+
+        <item>[fun]Đường saccarôzơ không cùng nhóm với 3 loại đường phentôzơ, glucôzơ, fructozơ [you] nhé</item>
+
+        <item>[fun][you] ơi, đường mía là sự kết hợp do 2 phân tử đường glucôzơ và fructôzơ [you] nhé</item>
+
+        <item>[fun]Nếu [you] phân giải 1 phân tử đường lactôzơ thì [you] có thể thu được một phân tử glucôzơ và một phân tử đường galactôzơ. Thật thủ vị phải không [you]</item>
+
+        <item>[def]Fructôzơ, galactôzơ, glucôzơ là những chất chứa 6 nguyên tử cacbon [you] nhé!</item>
+
+        <item>[fun]Hôm qua [i] nghe người ta nói galactôzơ còn được được gọi là đường sữa,.. Không biết đúng thật vậy không [you]?</item>
+
+        <item>[fun][you]~ Trong cấu tạo tế bào, đường xenlulôzơ tập trung ở thành tế bào!</item>
+
+        <item>[fun]Chức năng chủ yếu của đường glucôzơ là cung cấp năng lượng cho hoạt động tế bào. Vì vậy khi mệt [you] có thể ăn một quả chuối chín nó sẽ cung cấp cho [you] rất nhiều năng lượng.</item>
+
+        <item>[fun][you], Lipit có đặc tính là không tan trong nước [you] nhé.</item>
+
+        <item>[fun][you]! Lipit có cấu tạo là axit béo và glixêrol</item>
+
+        <item>[fun]Trong mỡ có chứa rất nhiều axit no, [you] tin không chứ đó là sự thật đó.</item>
+
+        <item>[fun]photpholipit là thành phần cấu tạo của màng tế bào.</item>
+
+        <item>[fun]Chất tham gia cấu tạo hoocmôn là stêroit.</item>
+
+        <item>[fun]Lipit tồn tại ở nhiều dạng lắm [you], lipit tồn tại ở dạng côlestêron, hoocmon ostrôgen, sáp,..</item>
+
+        <item>[fun]Vitamin C tan được trong nước.</item>
+
+        <item>[fun]Đặc điểm chung của prôtêin và axit nuclêic là Đại phân tử của chúng có cấu trúc đa phân</item>
+
+        <item>[fun]Đơn phân cấu tạo của Protêin là axit amin phải không [you],.. Đoán xem ^^.</item>
+
+        <item>[fun][you], có 20 axit amin có ở cơ thể sinh vật nha.</item>
+
+        <item>[fun]Liên kết peptit là liên kết hóa học chủ yếu giữa các đơn phân trong phân tử protêin nhé.</item>
+
+        <item>[fun]Tính đa dạng và đặc thù của prôtêin được qui định bởi Thành phần, số lượng và trật tự axit amin trong phân tử prôtêin</item>
+
+        <item>[fun][you], Cấu trúc của phân tử prôtêtin có thể bị biến tính bởi nhiệt độ</item>
+
+        <item>[def]Bậc 1 của cấu trúc prôtêtin ít bị ảnh hưởng nhất khi các liên kết hidrô trong prôtêin bị phá vỡ!</item>
+
+        <item>[fun]Chuỗi pôlipeptit xoắn \"alpha\" hay gấp nếp \"beta\" là của cấu trúc prôtêin bậc 2</item>
+
+        <item>[fun][you] ơi, Điểm giống nhau của prôtêin bậc 1, prôtêin bậc 2 và prôtêin bậc 3 là chỉ có cấu trúc 1 chuỗi pôlipeptit</item>
+
+        <item>[fun]Nếu [you] để ý thì [you] sẽ thấy prôtêin không có khả năng tự sao chép</item>
+
+        <item>[fun]Prôtêin thực hiện được chức năng của nó chủ yếu ở cấu trúc bậc 3 và bậc 4. [you]~</item>
+
+        <item>[fun]Prôtêin hoomôn là loại protêin có chức năng điều hoà các quá trình trao đổi chất trong tế bào và cơ thể ạ!</item>
+
+        <item>[fun]Prôtêin tham gia trong thành phần của enzim có chức năng xúc tác các phản ứng trao đổi chất ạ?. [i] mới biết đấy [you]~</item>
+
+        <item>[fun]Hêmôglôbin có chứa Prôtêin thực hiện chức năng vận chuyển các chất trong cơ thể.</item>
+
+        <item>[fun]Axit nuclêic bao gồm chất ADN và ARN. [you] chú ý nhé</item>
+
+        <item>[fun][you] biết đó ADN và ARN đều được cấu tạo theo nguyên tắt đa phân</item>
+
+        <item>[fun]Nguyên phân cấu tạo của phân tử ADN là nucleotit. Chuyện này có vẽ đơn giản nhưng khi hỏi [you] thường không biết ^^</item>
+
+        <item>[fun]Thành phần cấu tạo của nucleotic có chứa đường, bazơ nitơ và axit photphoric</item>
+
+        <item>[fun]Đường tham gia cấu tạo phân tử ADN là Đêôxiribôzơ [you] nhé!!</item>
+
+        <item>[fun]ADN được cấu tạo bởi 4 đơn phân A, T, G, X, nha [you]</item>
+
+        <item>[fun][you] biết đó ADN được cấu tạo bởi 4 đơn phân A, T, G, X. Trong đó A, T, G, X là viết tắt của: Ađênin, Timin, Xitôzin, Guanin</item>
+
+        <item>[fun][you], ADN có 2 mạch pôlinuclêôtit gồm mạch chính và mạch bổ xung,..~ ^^</item>
+
+        <item>[fun]Giữa các Nuclêotit kế tiếp nhau trong cùng một mạch của ADN xuất hiện liên kết hoá học nối giữa đường và axít. [i] sẽ hỏi lại [you] trong phần bài tập</item>
+
+        <item>[fun][you] ơi, Chức năng của ADN là bảo quản và truyền đạt thông tin di truyền. Chức năng này rất quan trọng, [you] không được quên đó,..</item>
+
+        <item>[def]Trong phân tử ADN, liên kết hiđrô có tác dụng liên kết 2 mạch polinuclêotit lại với nhau. Liên kết giửa A và T là 2 liên kết hidro còn liên kết giửa G và X là 3 liên kết hidro</item>
+
+        <item>[sud][you]!!!, ADN và ARN khác nhau như thế nào??. đó là ADN có 2 mạch còn ARN chỉ có 1 mạch.</item>
+
+        <item>[fun][you] ơi, tí nữa [i] hỏi [you], loại bazơ nitơ chỉ có trong trong ARN không có trong ADN thì [you] trả lời là: \"U (Uraxin)\" [you] nhé</item>
+
+        <item>[fun][you], Đơn phân cấu tạo của phân tử ARN có 3 thành phần chính là:\"đường 5C, axit phôtphorric và bazơ nitơ!!</item>
+
+        <item>[def]Loại đường tham gia cấu tạo đơn phân của ARN là Ribôzơ và công thức của nó là C5H10O5.</item>
+
+        <item>[fun][you] à, chỉ có 3 loại ARN trong tế bào thôi ạ. Đó là ARN thông tin, ARN vận chuyển, ARN ribôxôm.</item>
+
+        <item>[fun]Như [i] đã nói trước ARN thông tin, ARN vận chuyển, ARN ribôxôm có kí hiệu lần lược là: mARN, tARN và rARN</item>
+
+        <item>[fun]Như tên của nó, Chức năng của ARN thông tin là truyền thông tin di truyền từ ADN đến ribôxôm</item>
+
+        <item>[fun]Như tên của nó, Chức năng của ARN vận chuyển là vận chuyển axit amin đến ribôxôm</item>
+
+        <item>[fun]Là thành phần cấu tạo của một loại bào quan là chức năng của ARN ribôxôm~</item>
+
+        <item>[fun][you] chú ý nè, Trong các ARN không có chứa bazơ nitơ loại timin.</item>
+
+        <item>[fun][you] biết không, ADN và ARN đều là các đại phân tử, Trong tế bào có 2 loại axit nuclêic là ADN và ARN, Đơn phân của ADN và ARN đều gồm có đường, axit, bazơ nitơ</item>
+
+        <item>[fun]Thật ra khi nói đến ARN thì [i] và [you] phải biết những đặc điểm ARN: Có cấu tạo từ các đơn phân ribônuclêôtit, Thực hiện các chức năng trong tế bào chất, Đều có vai trò trong tổng hợp prôtêin</item>
+
+        <item>[fun]Đối với tế bào nhân sơ thì Có kích thước nhỏ, Không có các bào quan như bộ máy Gôngi, lưới nội chất, Không có chứa phân tử ADN</item>
+
+        <item>[sad]Tế bào nhân sơ chưa có màng nhân [you] ạ,.. hic hic,.. hôm qua [i] vừa cải nhau với cô giáo,..</item>
+
+        <item>[sad]Vi khuẩn thuộc loại tế bào nhân sơ [you] ạ,.. [i] không hiểu nổi, tại sao Vi khuẩn to như vậy mà lại thuộc vào tế bào nhân sơ nhỉ,.. hôm nào [i] bắt con vi khuẩn hỏi nó mới được</item>
+
+        <item>[fun]Tế bào nhân sơ được cấu tạo bởi 3 thành phần chính là màng sinh chất, tế bào chất, vùng nhân.</item>
+
+        <item>[fun][you] ơi, thành phần cấu tạo của tế bào vi khuẩn không có mạng lưới nội thất ạ</item>
+
+        <item>[fun][you], vi khuẩn có: Cơ thể đơn bào, tế bào có nhân sơ, Bên ngòai tế bào có lớp vỏ nhày và có tác dụng bảo vệ, Trong tế bào chất có chứa ribôxôm</item>
+
+        <item>[fun][you], Đối với tế bào vi khuẩn thì vật chất di truyền là ADN không kết hợp với prôtêin histon.</item>
+
+        <item>[fun][you], Ở vi khuẩn, cấu trúc plasmit là phân tử ADN nằm trong tế bào chất, có dạng vòng.</item>
+
+        <item>[def]Trong tế bào vi khuẩn, nguyên liệu di truyền là ADN có ở tế bào chất và vùng nhân</item>
+
+        <item>[def]Hình thái của vi khuẩn được ổn định nhờ cấu trúc của thành tế bào</item>
+
+        <item>[def]Thành phần hoá học cấu tạo nên thành tế bào vi khuẩn Peptiđôglican</item>
+
+        <item>[fun][you] ơi, người ta đã chia làm 2 loại vi khuẩn, vi khuẩn gram âm và vi khuẩn gram dương dựa vào cấu trúc và thành phần hoá học của thành tế bào. [you] nhớ nhé~</item>
+
+        <item>[fun][you] ơi, so với Nấm, tảo, động vật nguyên sinh thì Vi khuẩn lam có cấu tạo tế bào nhân sơ.</item>
+
+        <item>[fun]Trong tế bào vi khuẩn thì ribôxôm có chức năng Tiến hành tổng hợp prôtêin cho tế bào~~</item>
+
+        <item>[fun]Chức năng di truyền ở vi khuẩn được thực hiện bởi vùng nhân</item>
+
+        <item>[fun]Đặc điểm cấu tạo của tế bào nhân thực khác với tế bào nhân sơ là có các bào quan như bộ máy Gôngi, lưới nội chất, màng nhân</item>
+
+        <item>[fun]Thật ra Ở tế bào nhân thực, tế bào chất được xoang hoá là do có các bào quan có màng bọc phân cách với tế bào chất, [you]!</item>
+
+        <item>[fun]Đặc điểm của cấu trúc màng nhân là:\n\tI. Không có ở tế bào nhân sơ \n\tII. Có cấu tạo gồm 2 lớp\n\tIII. Có nhiều lỗ nhỏ giúp trao đổi chất giữa nhân và tế bào chất</item>
+
+        <item>[fun]Ở tế bào nhân thực, tế bào chất được xoang hoá là do có các bào quan có màng bọc phân cách với tế bào chất.</item>
+
+        <item>[def]Đặc điểm của cấu trúc màng nhân là:\n\tI. Không có ở tế bào nhân sơ \n\tII. Có cấu tạo gồm 2 lớp\n\tIII. Có nhiều lỗ nhỏ giúp trao đổi chất giữa nhân và tế bào chất\n[you] nhớ nha.</item>
+
+        <item>[sad]Cấu trúc dưới đây không có trong nhân của tế bào là Bộ máy Gôngi [you] ạ. Vậy là trước tới [i]] [i] nghĩ sai nhiều quá.</item>
+
+        <item>[fun][you] ơi, Thành phần hoá học của chất nhiễm sắc trong nhân tế bào là ADN và prôtêin</item>
+
+        <item>[fun][you], Trong dịch nhân có chứa Chất nhiễm sắc và nhân con.</item>
+
+        <item>[fun]Chất axit ribônuclêic có chứa nhiều trong thành phần của nhân con [you] nhé.</item>
+
+        <item>[fun]Đường kính của nhân tế bào vào khoảng 5 micrômet</item>
+
+        <item>[fun]Chất nhiễm sắc khi co xoắn lại sẽ hình thành cấu trúc nhiễm sắc thể</item>
+
+        <item>[fun]Nhân con có những đặc điểm: Cấu trúc nằm trong dịch nhân của tế bào, Có chứa nhiều phân tử ARN, Thường chỉ có 1 trong mỗi nhân tế bào. [you] nhớ nha</item>
+
+        <item>[sud][you] ơi, [you] ơi [you], chức năng của nhân tế bào là chứa đựng thông tin di truyền. [you] có thấy ngạc nhiên không?</item>
+
+        <item>[fun][you], Trong tế bào, ribôxôm có thể tìm thấy ở trạng thái tự do trong tế bào chất và liên kết trên lưới nội chất!</item>
+
+        <item>[fun][you]! prôtêin và ARN là thành phần hóa học của Ribôxôm</item>
+
+        <item>[fun][you]! Ribôxôm Là bào quan không có màng bọc, Gồm hai hạt: một to, một nhỏ và Được tạo bởi hai thành phần hoá học là prôtêin và ARN</item>
+
+        <item>[fun][you] nhớ nè! Trong tế bào, hoạt động tổng hợp prôtêin xảy ra ở Ribôxôm</item>
+
+        <item>[fun]Đặc điểm có ở tế bào thưc vật mà không có ở tế bào động vật là Có thành tế bào bằng chất xenlulôzơ</item>
+
+        <item>[fun]Ti thể là Cấu trúc có ở tế bào động vật!, Vấn đề nhỏ này có thể là [you] nhầm lẫn nên [you] chú ý nha.</item>
+
+        <item>[fun][you], có ở tế bào động vật lưới nội chất nha [you]</item>
+
+        <item>[fun]Một loại bào quan nằm ở gần nhân, chỉ có ở tế bào động vật và tế bào thực vật bậc thấp là,.. Trung thể~\n\t[you] nhớ nhen.</item>
+
+        <item>[fun]Ở tế bào động vật số lượng trung tử có trong bào quan trung thể là 2. [you]!</item>
+
+        <item>[fun][you], trong tế bào trung thể có chức năng tham gia hình thành thoi vô sắc khi tế bào phân chia [you] nhé!</item>
+
+        <item>[fun][you]!, bào quan có chức năng cung cấp năng lượng cho hoạt động tế bào là ti thể ^^.</item>
+
+        <item>[fun]Trong tế bào sinh vật, ti thể có thể tìm thấy ở nhiều hình dạng. Nó không cố định 1 hình duy nhất [you] nhé!</item>
+
+        <item>[fun]ở lớp màng trong của tí thể có chua71 nhiều chất enzim hô hấp, [you] nhớ nha.</item>
+
+        <item>[fun]Chất được chứa đựng torng lứp màng đôi của ti thể được gọi là chất nền, [you]~</item>
+
+        <item>[fun]Trong thành phần của ti thể không có chứa chất axit đêôxiriboonicleic [you] nhé.</item>
+
+        <item>[fun]Bào quan có thể tìm thấy trong ti thể là ribôxôm [you] nhé. Trong ti thể không hề có lục lạp, bộ máy gôngi hay trung thể đâu.</item>
+
+        <item>[fun]Tế bào cơ tim có chứa rất nhiều ti thể. Lạ quá [you] nhỉ</item>
+
+        <item>[fun]Năng lượng dự trữ là sản phẩm chủ yếu được tạo ra từ hoạt động của ti thể [you] nhé</item>
+
+        <item>[fun]Điểm giống nhau giửa lục lạp và ti thể trong tế báo là lục lạp được bao bọc bởi lớp màng kép ^^</item>
+
+        <item>[fun][you] biết rồi nhưng [i] vẫn nói ^^. Lục lạp có chứa nhiều Sắc tố dị6p lục tạo màu xanh ở lá cây..</item>
+
+        <item>[fun]Tên gọi strôma để chỉ cấu trúc chất nền của lục lạp, phải không [you] ?</item>
+
+        <item>[def]Sắc tố diệp lục có chứa nhiều trong cấu trúc các túi tilacôit</item>
+
+        <item>[fun][you], Trong lục lạp, ngoài diệp lục tố và enzim quang hợp, còn có chứa ADN và ribôxôm đó [you]</item>
+
+        <item>[fun]Cấu trúc trong tế bào bao gồm các ống và xoang dẹt thông với nhau được gọi là lưới nội chất đó [you]</item>
+
+        <item>[fun]Nếu [you] để ý nhìn thì [you] sẽ thấy ở trên màng lưới nội chất hạt có các ribôxôm gắn vào</item>
+
+        <item>[sud]Trên màng lưới nội chất trơn có chứa nhiều chất enzim lắm đó [you]</item>
+
+        <item>[fun][you], các tế bào tổng hợp protein trên lưới nội chất hạt. [you] chú ý để không bị nhầm nha.</item>
+
+        <item>[fun]Chức năng của lưới nội chất trơn là:\n\tI. Phân hủy các chất độc hại đối với cơ thể \n\tII. Tham gia chuyển hoá đường\n\tIII. Tổng hợp lipit</item>
+
+        <item>[fun][you] biết đó, Cấu tạo bộ máy Gôngi bao gồm các chồng túi màng dẹp xếp cạnh nhau nhưng tách biệt nhau..</item>
+
+        <item>[fun][you], Chức năng của bộ máy Gôngi trong tế bào là:\n\tI. Thu nhận Prôtêin, lipit, đường rồi lắp ráp thành những sản phẩm cuối cùng\n\tII. Phân phối các sản phẩm tổng hợp được đến các nơi trong tế bào.\n\tIII. Tạo chất và bài tiết ra khỏi tế bào</item>
+
+        <item>[fun]Trong tế bào thực vật, bộ máy Gôngi còn thực hiện tham gia quá trình tổng hợp thành xenlulôzơ.~</item>
+
+        <item>[fun]Bào quan Lizôxôm chỉ được bao bọc bởi 1 lớp màng đơn. [you] ạ!</item>
+
+        <item>[fun]Ribôxôm có các chức năng: phân hủy các tế bào cũng như các bào quan già, phân hủy các tế bào bị tổn thương không có khả năng phục hồi và phân hủy thức ăn do có nhiều enzim thuỷ phân</item>
+
+        <item>[fun]Lizôxôm cần phải kết hợp với không bào tiêu hoá Phân hủy thức ăn.</item>
+
+        <item>[fun]Loại tế bào sau đây có chứa nhiều Lizôxôm nhất là tế bào bạch cầu.</item>
+
+        <item>[fun]Điều nào sau đây đúng khi nói về không bào là:\n\tI. là bào quan có màng kép bao bọc\n\tII. Có chứa nhiều trong tất cả tế bào động vật\n\tIII. Không có ở các tế bào thực vật còn non</item>
+
+        <item>[fun]Điểm giống nhau về cấu tạo giữa Lizôxôm và không bào là: Được bao bọc chỉ bởi một lớp màng đơn</item>
+
+        <item>[fun]Ở thực vật, không bào thực hiện chức năng Bảo vệ, chứa các chất dự trữ và sắc tố tạo màu cho hoa</item>
+
+        <item>[fun]Hai nhà khoa học đã đưa ra mô hình cấu tạo màng sinh chất vào năm 1972 là Singer và Nicolson</item>
+
+        <item>[fun]Thành phần hoá học chính của màng sinh chất là hai lớp photpholipit và các phân tử prôtêin</item>
+
+        <item>[fun]Hai nhà khoa học đã đưa ra mô hình cấu tạo màng sinh chất vào năm 1972 là: Singer và Nicolson</item>
+
+        <item>[fun]Thành phần hoá học chính của màng sinh chất là hai lớp photpholipit và các phân tử prôtêin</item>
+
+        <item>[fun]Trong thành phần của màng sinh chất, ngoài lipit và prôtêin còn có những phần tử Cacbohyđrat</item>
+
+        <item>[fun]Ở tế bào động vật, trên màng sinh chất có thêm nhiều phân tử côlesteron có tác dụng tăng sự ổn định của màng</item>
+
+        <item>[fun]Bên ngoài màng sinh chất còn có một lớp thành tế bào bao bọc, cấu tạo này có ở tế bào nấm và thực vật!</item>
+
+        <item>[fun]Thành tế bào thực vật có thành phần hoá học chủ yếu bằng chất xenlulôzơ</item>
+
+        <item>[fun]Tính vững chắc của thành tế bào nấm có được nhờ vào chất Kitin</item>
+
+        <item>[fun]Sự vận chuyển thụ động các chất qua màng tế bào là tuân thủ theo qui luật khuếch tán nha [you]</item>
+
+        <item>[fun]Vật chất được vận chuyển qua màng tế bào thường ở dạng hoà tan trong dung môi.</item>
+
+        <item>[fun]Đặc điểm của sự vận chuyển chất qua màng tế bào bằng sự khuếch tán là dựa vào sự chênh lệch nồng độ các chất ở trong và ngoài màng. [you] chú ý nhé</item>
+
+        <item>[fun][you], Sự thẩm thấu là sự khuếch tán của các phân tử nước qua màng.</item>
+
+        <item>[fun][you] ơi, người ta định nghĩa rằng Sự vận chuyển chủ động trong tế bào cần được cung cấp năng lượng</item>
+
+        <item>[fun]Nguồn năng lượng trực tiếp cung cấp cho quá trình vận chuyển chất chủ động trong cơ thể sống là ATP</item>
+
+        <item>[fun]Sự vận chuyển chất dinh dưỡng sau quá trình tiêu hoá qua lông ruột vào máu ở người theo cách nào sau đây vận chuyển thụ động và vận chuyển chủ động</item>
+
+        <item>[fun][you], Vận chuyển chất qua màng từ nơi có nồng độ thấp sang nơi có nồng độ cao là cơ chế là vận chuyển Chủ động [you] nhé</item>
+
+        <item>[fun]Hình thức vận chuyển chất dưới đây có sự biến dạng của màng sinh chất là Thực bào</item>
+
+        <item>[fun][i] biết được Có hai dạng năng lượng được phân chia dựa trên trạng thái tồn tại của chúng là Động năng và thế năng, [you] còn biết thêm dạng nào nữa không?</item>
+
+        <item>[fun]Theo [i] nghĩa thì Thế năng là năng lượng ở trạng thái tiềm ẩn.</item>
+
+        <item>[fun]Năng lượng tích luỹ trong các liên kết hoá học của các chất hữu cơ trong tế bào người ta gọi nó là Hoá năng</item>
+
+        <item>[fun]Ađênôzin triphotphat là tên đầy đủ của hợp chất ATP [you] nhé!!</item>
+
+        <item>[fun]Yếu tố nàokhông có trong thành phần của phân tử ATP là Prôtêin [you] nhé</item>
+
+        <item>[fun]Loại đường cấu tạo nên phân tử ATP là Ribôzơ</item>
+
+        <item>[fun]Ngoài bazơ nitric có trong phân tử còn lại của phân tử ATP là 1 phân tử đường ribô và 3 nhóm phôtphat. [you]</item>
+
+        <item>[fun]Năng lượng của ATP tích luỹ ở Hai liên kết phôtphat ở ngoài cùng.</item>
+
+        <item>[fun][you], Quang năng là Năng lượng sản sinh từ phân hủy ATP</item>
+
+        <item>[fun]Để tiến hành quang tổng hợp, cây xanh đã hấp thụ năng lượng là Quang năng. [you] phải tra nát cái google mới biết được điều này đó, [you] nhớ cẩn thận nhé</item>
+
+        <item>[fun]Sự khuếch tán vật chất qua màng tế bào có thể không cần năng lượng cung cấp từ ATP mà vẫn có thể diển ra, [you] thấy vi diệu không.</item>
+
+        <item>[fun]Qua quang hợp tạo chất đường, cây xanh đã thực hiện quá trình chuyển hoá năng lượng từ hoá năng sang quang năng.</item>
+
+        <item>[fun][you], Hoạt động Xúc tác các phản ứng trao đổi chất là của enzim [you] nhé!</item>
+
+        <item>[fun]Chất nào dưới đây tất cả đều là enzim đó [you]\n\tI. Saccaraza\n\tII. Prôteaza\n\tIII. Nuclêôtiđaza\n\tIV. Lipaza\n[you] thấy thế nào ạ ?</item>
+
+        <item>[fun][you] ơi, thật ra Enzim cũng chỉ là Prôtêin. Hay chính xác hơn Enzim có bản chất là prôtêin</item>
+
+        <item>[fun]Nếu [you] nghe ai đó nói \"Enzim là một chất xúc tác sinh học\" thì điều đó là đúng nhé [you]</item>
+
+        <item>[fun]Theo [i] biết thì Cơ chất là chất tham gia phản ứng do enzim xúc tác.</item>
+
+        <item>[fun]Giai đoạn đầu tiên trong cơ chế tác dụng của enzim lên các phản ứng chính là tạo ra Enzim --- cơ chất. [you] quên là [i] không thích đâu.</item>
+
+        <item>[fun]Enzim có tính chuyên hoá. Tính chuyên hóa của enzim thể hiện ở chỗ: một enzim chỉ liên kết được với một cơ chất lớn hơn Mỗi enzim chỉ xúc tác một phản ứng sinh hóa nhất định.</item>
+
+        <item>[fun]Enzim Pepsin hoạt động trong môi trường axít [you] nhé. Các enzim khác như amilaza hay saccaraza hay mantaza thì không hoạt động torng môi trường axit đâu.</item>
+
+        <item>[fun]Khoảng nhiệt độ cho hoạt động của enzim trong cơ thể người là 350C--- 400C. [you] nghe xong có thấy lạ không ^^ vì làm gì có ai nóng tới mức hơn 40,50C  ^^ số 350-400 là khoảng nhiệt độ tiêu tốn dành cho enzim đó [you]</item>
+
+        <item>[fun]Trong ảnh hưởng của nhiệt độ lên hoạt động của enzim, thì nhiệt độ tối ưu của môi trường là giá trị nhiệt độ mà ở đó Enzim có hoạt tính cao nhất. Cũng dể hiểu phải không [you]</item>
+
+        <item>[fun][you] nhớ nè, khi môi trường có nhiệt độ thấp hơn nhiệt độ tối ưu của enzim thì Hoạt tính enzim tăng theo sự gia tăng nhiệt độ. [i] sẽ hỏi [you] trong bài kiểm tra sắp tới ^^</item>
+
+        <item>[sud][you] ơi, khi nhiệt độ vượt quá nhiệt độ tối ưu của enzim thì hoạt tính enzim giảm dần và có thể mất hoàn toàn</item>
+
+        <item>[fun][you] biết không, Phần lớn enzim trong cơ thể có hoạt tính cao nhất ở khoảng giá trị của độ pH 5 đến 8 [you] nhé</item>
+
+        <item>[fun]Yếu tố nào sau đây có ảnh hưởng đến hoạt tính của enzim là: \n\tI. Nhiệt độ\n\tII. Độ pH của môi trường\n\tIII. Nồng độ cơ chất và nồng độ Enzim\n\t\t[you] đừng quên nhé</item>
+
+        <item>[fun][you] ơi, Enzim xúc tác quá trình phân giải đường saccrôzơ là Saccaraza nha [you]</item>
+
+        <item>[fun]Có thể [you] không biết nhưng Enzim Prôtêaza có tác dụng xúc tác quá trình phân giải prôtêin!</item>
+
+        <item>[fun]Quá trình phân giải axit nuclêic thành nuclêôtit được xúc tác bởi enzim Nuclêaza, [you] nhé.</item>
+    </string-array>
+</resources>

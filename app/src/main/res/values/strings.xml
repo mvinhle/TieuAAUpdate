@@ -11,8 +11,9 @@
         \t\t<b>Lưu ý</b>: Bạn cũng có thể tương tác với với Ami bằng cách chạm vào Ami. Ami có hơn 60 Trang phục khác nhau. Trong suốt quá trình sử dụng phần mềm Ami sẽ điều chỉnh câu hỏi, trang phục, trò chuyện,.. tùy thuộc vào câu trả lời của bạn trong các bài tập.\n\n
         \t<b>Nguồn tài liệu đang được sữ dụng hiện tại: Sinh học lớp 10.\n\n
         \tSản phẩm được phát triển bởi: Lê Minh Vinh\n\n
-        \tphần mềm được hổ trợ bởi thầy Phạm Văn Đem và Nguồn tài liệu được lấy từ cô Trần Thị Bé Loan\n\n
-        \tHình ảnh trong phần mềm được lấy từ google và một số hình ảnh từ phần mềm làm ảnh Avatar Factory!\n\n
+        \tHổ trợ phần mềm và tài liệu tin học: thầy Phạm Văn Đem\n\n
+        \tTài liệu sinh học: cô Trần Thị Bé Loan\n\n
+        \tHình ảnh trong phần mềm được lấy từ phần mềm cung cấp ảnh \"Avatar for Factory\"!\n\n
         \t\t\t\t\tẤn \"đồng ý\" để tiếp tục, ấn \"Không đồng ý\" để thoát!</b>
     </string>
     <string name="ClickYes">Đồng ý</string>
@@ -27,11 +28,9 @@
     <string name="jobBoy">Nam</string>
     <string name="jobGirl">Nữ</string>
     <string name="subjectLearning">Môn học:</string>
-    <string-array name="subject">
-        <item>Chọn môn học</item>
-        <item>Sinh học</item>
-        <item>Tin học</item>
-    </string-array>
+    <string name="nullSubject">ấn và giữ để chọn môn học</string>
+    <string name="biology">Sinh học</string>
+    <string name="informatics">Tin học</string>
     <string name="ok">Đăng ký</string>
     <string name="restartOk">Đăng ký lại</string>
     <string name="noteInformationError">Vui lòng điền <u><b>đầy đủ</b></u> thông tin</string>
