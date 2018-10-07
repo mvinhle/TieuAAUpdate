@@ -13,29 +13,32 @@
         \tSản phẩm được phát triển bởi: Lê Minh Vinh\n\n
         \tphần mềm được hổ trợ bởi thầy Phạm Văn Đem và Nguồn tài liệu được lấy từ cô Trần Thị Bé Loan\n\n
         \tHình ảnh trong phần mềm được lấy từ google và một số hình ảnh từ phần mềm làm ảnh Avatar Factory!\n\n
-        \t\t\t\t\tẤn \"đồng ý\" để tiếp tục, ấn \"Không đồng ý\" để thoát!</b></string>
+        \t\t\t\t\tẤn \"đồng ý\" để tiếp tục, ấn \"Không đồng ý\" để thoát!</b>
+    </string>
     <string name="ClickYes">Đồng ý</string>
     <string name="ClickNo">Không đồng ý</string>
-
-    <string name="titleActivityInformation">Ami đang muốn biết một ít thông tin về bạn!</string>
     <string name="titleInformartion"><b>Thông tin cá nhân</b></string>
     <string name="noteInformation">
-        chú ý:\n\t\t>|-<u>Vui lòng điền đầy đủ thông tin.</u>\n
-        \t\t>|-Thông tin <u>có thể chỉnh sửa</u> trong tương lai.</string>
+        chú ý:\n\t\t>|-<u>Vui lòng điền đầy đủ thông tin.</u>
+    </string>
     <string name="name">Tên của bạn:</string>
     <string name="testName">vd: Vinh, Minh Vinh,..</string>
     <string name="job">Bạn là:</string>
     <string name="jobBoy">Nam</string>
     <string name="jobGirl">Nữ</string>
+    <string name="subjectLearning">Môn học:</string>
+    <string-array name="subject">
+        <item>Chọn môn học</item>
+        <item>Sinh học</item>
+        <item>Tin học</item>
+    </string-array>
     <string name="ok">Đăng ký</string>
     <string name="restartOk">Đăng ký lại</string>
     <string name="noteInformationError">Vui lòng điền <u><b>đầy đủ</b></u> thông tin</string>
     <string name="noteInformationComplete">Đăng ký thành công!!!\nChúc bạn có một thời gian học tập giải trí vui vẻ cùng Ami</string>
     <string name="errorSignName">
         chú ý:\n\t\t>|-<u>Vui lòng điền đầy đủ thông tin.</u>\n
-        \t\t>|-Thông tin <u>có thể chỉnh sửa</u> trong tương lai.\n
         \t\t>|-Tên vui lòng <u>không dùng</u> các kí tự đặc biệt</string>
-
     <string name="Chat">Trò chuyện</string>
     <string name="Test">Bài tập</string>
     <string name="TestCode">Thực hành</string>

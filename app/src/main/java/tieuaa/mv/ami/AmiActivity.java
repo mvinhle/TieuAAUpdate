@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -20,6 +22,10 @@ public class AmiActivity extends AppCompatActivity {
     int eyeChange,  eyebrowChange, featureChange,   mouthChange;
     int result = 0;
     String testResult = "";
+
+    private String[] textAmiTestCode;
+    private String[] textAmiChat;
+    private String[] textAmiTest;
 
     private int bodyDefault;
     private int hairDefault;
@@ -85,6 +91,59 @@ public class AmiActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         soundInGame.pauseSound();
+    }
+
+    private void setText(int i){
+        switch (i){
+            case 0:
+                Toast.makeText(this,"Lỗi không nhận được môn học đã đăng kí!", Toast.LENGTH_LONG).show();
+                finish();
+                break;
+            case 1:
+                textAmiChat = getResources().getStringArray(R.array.ami_chat);
+                textAmiTest = getResources().getStringArray(R.array.ami_test);
+                textAmiTestCode = getResources().getStringArray(R.array.ami_test_code);
+                break;
+            case 2:
+                textAmiChat = getResources().getStringArray(R.array.ami_chat);
+                textAmiTest = getResources().getStringArray(R.array.ami_test);
+                textAmiTestCode = getResources().getStringArray(R.array.ami_test_code);
+                break;
+        }
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ami);
+
+        saveAndLoadData = new SaveAndLoadData(this);
+        soundInGame = new SoundInGame(this,R.raw.rawhome);
+        setText(saveAndLoadData.getSubjectLearning());
+
+        helpData        = new HelpData();
+        imageBody       = findViewById(R.id.image_body);
+        imageHair       = findViewById(R.id.image_hair);
+        imageClothes    = findViewById(R.id.image_clothes);
+        imageEye        = findViewById(R.id.image_eye);
+        imageEyebrow    = findViewById(R.id.image_eyebrow);
+        imageFeature    = findViewById(R.id.image_feature);
+        imageGlass      = findViewById(R.id.image_glass);
+        imageMouth      = findViewById(R.id.image_mouth);
+        textViewAmiChat = findViewById(R.id.text_AmiChat);
+        setIndexDefault(false);
+        textViewStt = findViewById(R.id.textView_HomeAndClass);
+
+        linearLayoutChat  = findViewById(R.id.linearLayout_home);
+        linearLayoutTest = findViewById(R.id.linearLayout_class);
+        linearLayoutBackground = findViewById(R.id.linearLayout_BackgroundHomeAndClass);
+
+        amiHelloWorld();
+        buttonTouch();
+        buttonChat();
+        buttonTest();
+        buttonTestCode();
+        buttonOkTestCode();
     }
 
     //    dùng để đổi từ name ảnh sang id
@@ -299,38 +358,6 @@ public class AmiActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ami);
-
-        soundInGame = new SoundInGame(this,R.raw.rawhome);
-        helpData        = new HelpData();
-        saveAndLoadData = new SaveAndLoadData(this);
-        imageBody       = findViewById(R.id.image_body);
-        imageHair       = findViewById(R.id.image_hair);
-        imageClothes    = findViewById(R.id.image_clothes);
-        imageEye        = findViewById(R.id.image_eye);
-        imageEyebrow    = findViewById(R.id.image_eyebrow);
-        imageFeature    = findViewById(R.id.image_feature);
-        imageGlass      = findViewById(R.id.image_glass);
-        imageMouth      = findViewById(R.id.image_mouth);
-        textViewAmiChat = findViewById(R.id.text_AmiChat);
-        setIndexDefault(false);
-        textViewStt = findViewById(R.id.textView_HomeAndClass);
-
-        linearLayoutChat  = findViewById(R.id.linearLayout_home);
-        linearLayoutTest = findViewById(R.id.linearLayout_class);
-        linearLayoutBackground = findViewById(R.id.linearLayout_BackgroundHomeAndClass);
-
-        amiHelloWorld();
-        buttonTouch();
-        buttonChat();
-        buttonTest();
-        buttonTestCode();
-        buttonOkTestCode();
-    }
-
     //    các hàm có công dụng như tên (chỉ nên dùng 1 lần khi vào activity)
     private void amiHelloWorld(){
         final String textAmiHelloWorld[] = getResources().getStringArray(R.array.ami_HelloWorld);
@@ -338,7 +365,7 @@ public class AmiActivity extends AppCompatActivity {
     }
     private void buttonChat(){
         buttonChat = findViewById(R.id.button_chat);
-        final String textAmiChat[] = getResources().getStringArray(R.array.ami_chat);
+
         buttonChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -355,7 +382,6 @@ public class AmiActivity extends AppCompatActivity {
         button1    = findViewById(R.id.button_testB);
         button2    = findViewById(R.id.button_testC);
         button3    = findViewById(R.id.button_testD);
-        final String textAmiTest[] = getResources().getStringArray(R.array.ami_test);
         buttonTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -492,7 +518,6 @@ public class AmiActivity extends AppCompatActivity {
     }
     private void buttonTestCode(){
         buttonTestCode = findViewById(R.id.button_test_code);
-        final String[] textAmiTestCode = getResources().getStringArray(R.array.ami_test_code);
         buttonTestCode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

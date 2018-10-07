@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
         buttonYes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (saveAndLoadData.getNameUser().equals(KeyAA.KEY_FIX_BUG_INFORMARTION)){
+                if (saveAndLoadData.getNameUser().equals(KeyAA.KEY_FIX_BUG_INFORMARTION) ||
+                        (saveAndLoadData.getSubjectLearning() == 0)){
                     Intent intent = new Intent(MainActivity.this, InformationActivity.class);
                     startActivity(intent);
                 }

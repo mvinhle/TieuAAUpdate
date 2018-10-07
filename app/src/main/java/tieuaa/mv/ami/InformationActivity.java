@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -27,9 +28,10 @@ public class InformationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_information);
         this.setFinishOnTouchOutside(false);
-        setTitle(getResources().getString(R.string.titleActivityInformation));
 
         saveAndLoadData = new SaveAndLoadData(this);
         editTextName = findViewById(R.id.editText_InformationName);
@@ -96,7 +98,7 @@ public class InformationActivity extends AppCompatActivity {
                                     Toast.LENGTH_LONG).show();
                 }
                 else {
-                    saveAndLoadData.setInformation(nameUser, sexUserIsBoy);
+                    saveAndLoadData.setInformation(nameUser, sexUserIsBoy, 1);
                     Toast.makeText(
                             InformationActivity.this,
                                     getResources().getString(R.string.noteInformationComplete),
