@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="stringTouchHair">
-        <item>[ang][i] không thích để [you] xoa đầu như thế này đâu.</item>
+        <item>[sud][i] không thích để [you] xoa đầu như thế này đâu.</item>
         <item>[sud]Tóc của [i] có gì lạ lắm à ?</item>
         <item>[ang]dừng,.. dừng lại.</item>
         <item>[fun][you]~</item>
@@ -19,10 +19,10 @@
         <item>[fun][you]~, nhột quá!!</item>
     </string-array>
     <string-array name="stringTouchShoulder">
-        <item>[ang][you], dừng lại, đừng chạm vào [i] như vậy.</item>
+        <item>[sud][you], dừng lại, đừng chạm vào [i] như vậy.</item>
         <item>[sud]A,.. đừng chạm vào người [i] như vậy, [you]. </item>
-        <item>[ftn][you] [nyou]~, [nyou]~,.. [you] thật là...</item>
-        <item>[ang][i] Không thích đâu</item>
+        <item>[fun][you] [nyou]~, [nyou]~,.. [you] thật là...</item>
+        <item>[sad][i] Không thích đâu</item>
         <item>[sad][i] thực sự không thích đâu</item>
         <item>[sad][you]~, như vậy không tốt đâu!!</item>
         <item>[fun][you]~ là đồ ngốc.</item>

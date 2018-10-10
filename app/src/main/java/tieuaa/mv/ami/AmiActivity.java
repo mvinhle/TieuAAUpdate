@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -72,7 +71,7 @@ public class AmiActivity extends AppCompatActivity {
     final int TEST_ABOUT        = 25; // chia cho 5
     final int TEST_CODE_ABOUT   = 10; // chia cho 2
     final int CHAT_WIN          = 10;
-    final int TEST_WIN          = 100;
+    final int TEST_WIN          = 125;
     final int TEST_LOST         = -50;
     final int TL_CLOTHES        = 500;
     final int TL_CHAT           = 150;

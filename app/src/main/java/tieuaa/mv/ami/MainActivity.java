@@ -106,12 +106,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 clickDeleteData += 1;
-                if (clickDeleteData > 50){
+                if (clickDeleteData > 10){
                     saveAndLoadData.resetData();
                     Toast.makeText(MainActivity.this,getResources().getString(R.string.deleteDataComplete),Toast.LENGTH_SHORT).show();
                     dialog.cancel();
                 }
-                if (clickDeleteData % 10 == 0 && clickDeleteData > 0){
+                if (clickDeleteData % 5 == 0 && clickDeleteData > 0){
                     Toast.makeText(
                             MainActivity.this,
                             getResources().getString(R.string.deleteDataCompletess).replace("[n]",String.valueOf(clickDeleteData)),
