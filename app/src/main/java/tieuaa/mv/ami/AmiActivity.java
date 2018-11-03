@@ -251,6 +251,7 @@ public class AmiActivity extends AppCompatActivity {
                 mouthChange = idImageFromName(mouth[helpData.randomRange(MOUTH_SAD, MOUTH_SUDDENT)]);
                 imageMouth.setImageResource(mouthChange);
                 imageEye  .setImageResource(eyeDefault);
+                imageEyebrow.setImageResource(eyebrowDeafault);
                 Log.d(KeyAA.KEY_LOG, "Ami đổi stt: suddent feeling");
                 break;
             case "Default":
