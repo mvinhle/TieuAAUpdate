@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="stringTouchHair">
-        <item>[sud][i] không thích để [you] xoa đầu như thế này đâu.</item>
-        <item>[sud]Tóc của [i] có gì lạ lắm à ?</item>
-        <item>[ang]dừng,.. dừng lại.</item>
-        <item>[fun][you]~</item>
-        <item>[fun][you] đừng xoa đầu [i] như vậy, [i] ngại lắm.</item>
-        <item>[fun][i] hmm~</item>
+        <item>[im00][sud][i] không thích để [you] xoa đầu như thế này đâu.</item>
+        <item>[im01][sud]Tóc của [i] có gì lạ lắm à ?</item>
+        <item>[im02][ang]dừng,.. dừng lại.</item>
+        <item>[im03][fun][you]~</item>
+        <item>[im04][fun][you] đừng xoa đầu [i] như vậy, [i] ngại lắm.</item>
+        <item>[im05][fun][i] hmm~</item>
     </string-array>
     <string-array name="stringTouchFace">
-        <item>[sud]Mặt [i] có dính gì à [you]</item>
-        <item>[fun][you]~, nhột quá!!</item>
-        <item>[sad]Đừng nựng [i] như con nít nữa, [i] 16 tuổi rồi đó.</item>
-        <item>[fun]hihi</item>
-        <item>[def][you] thích chạm vào mặt [i] lắm ạ.</item>
-        <item>[fun][i] không biết nên nói gì nữa</item>
-        <item>[fun][you]~</item>
-        <item>[fun][you]~, nhột quá!!</item>
+        <item>[im00][sud]Mặt [i] có dính gì à [you]</item>
+        <item>[im06][fun][you]~, nhột quá!!</item>
+        <item>[im05][sad]Đừng nựng [i] như con nít nữa, [i] 16 tuổi rồi đó.</item>
+        <item>[im01][fun]hihi</item>
+        <item>[im02][def][you] thích chạm vào mặt [i] lắm ạ.</item>
+        <item>[im03][fun][i] không biết nên nói gì nữa</item>
+        <item>[im04][fun][you]~</item>
+        <item>[im07][fun][you]~, nhột quá!!</item>
     </string-array>
     <string-array name="stringTouchShoulder">
-        <item>[sud][you], dừng lại, đừng chạm vào [i] như vậy.</item>
-        <item>[sud]A,.. đừng chạm vào người [i] như vậy, [you]. </item>
-        <item>[fun][you] [nyou]~, [nyou]~,.. [you] thật là...</item>
-        <item>[sad][i] Không thích đâu</item>
-        <item>[sad][i] thực sự không thích đâu</item>
-        <item>[sad][you]~, như vậy không tốt đâu!!</item>
-        <item>[fun][you]~ là đồ ngốc.</item>
+        <item>[im08][sud][you], dừng lại, đừng chạm vào [i] như vậy.</item>
+        <item>[im07][sud]A,.. đừng chạm vào người [i] như vậy, [you]. </item>
+        <item>[im06][fun][you] [nyou]~, [nyou]~,.. [you] thật là...</item>
+        <item>[im05][sad][i] Không thích đâu</item>
+        <item>[im04][sad][i] thực sự không thích đâu</item>
+        <item>[im03][sad][you]~, như vậy không tốt đâu!!</item>
+        <item>[im02][fun][you]~ là đồ ngốc.</item>
     </string-array>
 </resources>

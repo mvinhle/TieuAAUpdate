@@ -37,4 +37,13 @@ public class HelpData {
         }
         return randomRange(result);
     }
+    public String StringCut(String string, String start, String end){
+        String stringCut = null;
+        if (string.contains(start)){
+            int indexStart = string.indexOf(start);
+            int indexEnd   = string.indexOf(end, indexStart) + end.length();
+            stringCut = string.substring(indexStart, indexEnd);
+        }
+        return stringCut;
+    }
 }

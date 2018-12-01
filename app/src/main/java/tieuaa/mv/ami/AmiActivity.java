@@ -42,6 +42,7 @@ public class AmiActivity extends AppCompatActivity {
     ImageView imageBody, imageHair, imageClothes, imageEye, imageGlass, imageEyebrow, imageMouth, imageFeature;
     TextView textViewAmiChat;
     TextView textViewStt;
+    ImageView imageViewAmiChat;
     Button buttonChat, buttonTest, button0, button1, button2, button3;
     LinearLayout linearLayoutChat, linearLayoutTest, linearLayoutBackground;
     Button buttonTouchHair, buttonTouchFace, buttonTouchShoulder, buttonTouchBody;
@@ -130,6 +131,7 @@ public class AmiActivity extends AppCompatActivity {
         imageGlass      = findViewById(R.id.image_glass);
         imageMouth      = findViewById(R.id.image_mouth);
         textViewAmiChat = findViewById(R.id.text_AmiChat);
+        imageViewAmiChat = findViewById(R.id.image_chat);
         setIndexDefault(false);
         textViewStt = findViewById(R.id.textView_HomeAndClass);
 
@@ -189,6 +191,19 @@ public class AmiActivity extends AppCompatActivity {
         if(text.contains("[sad]")){setImageAmi("Sad");     text = helpData.removeSubString(text, "[sad]");}
         if(text.contains("[sud]")){setImageAmi("Suddent"); text = helpData.removeSubString(text, "[sud]");}
         if(text.contains("[def]")){setImageAmi("Default"); text = helpData.removeSubString(text, "[def]");}
+        String startImage = "[im", endImage = "]";
+        if(text.contains(startImage)){
+            String nameImage = helpData.StringCut(text, startImage, endImage);
+            text = helpData.removeSubString(text, nameImage);
+            nameImage = helpData.removeSubString(nameImage, "[");
+            nameImage = helpData.removeSubString(nameImage, "]");
+            int idImage = idImageFromName(nameImage);
+            imageViewAmiChat.setVisibility(View.VISIBLE);
+            imageViewAmiChat.setImageResource(idImage);
+        }
+        else {
+            imageViewAmiChat.setVisibility(View.GONE);
+        }
         String string = text
                 .replace(KeyAA.KEY_ALIAS_USER, saveAndLoadData.getAliasUser())
                 .replace(KeyAA.KEY_NAME_USER, saveAndLoadData.getNameUser())

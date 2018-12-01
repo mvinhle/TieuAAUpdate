@@ -165,6 +165,15 @@
                     android:textSize="18sp"
                     android:padding="10dp"
                     android:background="@drawable/custom_textview_chat"/>
+                <ImageView
+                    android:id="@+id/image_chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginRight="75dp"
+                    android:visibility="gone"
+                    android:src="@drawable/ami"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
